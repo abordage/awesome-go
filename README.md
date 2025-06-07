@@ -3,14 +3,12 @@
 [![Last update](https://img.shields.io/github/last-commit/abordage/awesome-go?label=last%20update)](README.md)
 [![License](https://img.shields.io/github/license/abordage/awesome-go)](LICENSE)
 
-## About This List
-
 **Automated. Curated. Ranked.**
 
 This awesome list is automatically maintained with daily GitHub API updates.
 Projects are re-ranked daily based on current activity metrics.
 
-**Daily process:** Review community PRs → Check activity → Filter active projects → Recalculate rankings → Update list
+**Daily process:** Get community PRs → Check activity → Filter active projects → Recalculate rankings → Update list
 
 - [Actor Model](#actor-model)
 - [Artificial Intelligence](#artificial-intelligence)
