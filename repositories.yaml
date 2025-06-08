@@ -55,6 +55,7 @@ categories:
         - url: https://github.com/icza/session
         - url: https://github.com/jellydator/sessionup
         - url: https://github.com/brianvoe/sjwt
+        - url: https://github.com/cerbos/cerbos
     - name: Benchmarks
       repos:
         - url: https://github.com/mrLSD/go-benchmark-app
@@ -221,9 +222,11 @@ categories:
         - url: https://github.com/GoTestTools/gotestfmt
         - url: https://github.com/raviqqe/muffet
         - url: https://github.com/woodpecker-ci/woodpecker
+        - url: https://github.com/vladopajic/go-test-coverage
     - name: CSS Preprocessors
       repos:
         - url: https://github.com/wellington/go-libsass
+        - url: https://github.com/napsy/go-css
     - name: Data Integration Frameworks
       repos:
         - url: https://github.com/redpanda-data/connect
@@ -254,6 +257,7 @@ categories:
             - url: https://github.com/lrita/cmap
             - url: https://github.com/srfrog/dict
             - url: https://github.com/goradd/maps
+            - url: https://github.com/mhmtszr/concurrent-swiss-map
         - name: Miscellaneous Data Structures and Algorithms
           repos:
             - url: https://github.com/seiflotfy/count-min-log
@@ -272,6 +276,7 @@ categories:
             - url: https://github.com/hatchet-dev/hatchet
             - url: https://github.com/embano1/memlog
             - url: https://github.com/adrianbrad/queue
+            - url: https://github.com/mikestefanello/backlite
         - name: Sets
           repos:
             - url: https://github.com/deckarep/golang-set
@@ -381,6 +386,7 @@ categories:
             - url: https://github.com/pingcap/tidb
             - url: https://github.com/HouzuoGuo/tiedot
             - url: https://github.com/VictoriaMetrics/VictoriaMetrics
+            - url: https://github.com/authzed/spicedb
         - name: SQL Query Builders
           repos:
             - url: https://github.com/nullism/bqb
@@ -437,6 +443,7 @@ categories:
             - url: https://github.com/cvilsmeier/sqinn-go
             - url: https://github.com/surrealdb/surrealdb.go
             - url: https://github.com/ydb-platform/ydb-go-sdk
+            - url: https://github.com/rqlite/gorqlite
         - name: Search and Analytic Databases
           repos:
             - url: https://github.com/ClickHouse/clickhouse-go
@@ -682,6 +689,7 @@ categories:
         - url: https://github.com/iyashjayesh/monigo
         - url: https://github.com/becheran/roumon
         - url: https://github.com/dtgorski/typex
+        - url: https://github.com/safedep/vet
     - name: Goroutines
       repos:
         - url: https://github.com/panjf2000/ants
@@ -748,6 +756,7 @@ categories:
         - url: https://github.com/auyer/steganography
         - url: https://github.com/DimitarPetrov/stegify
         - url: https://github.com/Pixboost/transformimgs
+        - url: https://github.com/HugoSmits86/nativewebp
     - name: IoT (Internet of Things)
       repos:
         - url: https://github.com/lf-edge/ekuiper
@@ -868,6 +877,8 @@ categories:
         - url: https://github.com/IBM/sarama
         - url: https://github.com/ThreeDotsLabs/watermill
         - url: https://github.com/pebbe/zmq4
+        - url: https://github.com/lovoo/goka
+        - url: https://github.com/oagudo/outbox
     - name: Microsoft Office
       repos:
         - url: https://github.com/unidoc/unioffice
@@ -892,6 +903,7 @@ categories:
         - url: https://github.com/HereMobilityDevelopers/mediary
         - url: https://github.com/urfave/negroni
         - url: https://github.com/unrolled/render
+        - url: https://github.com/jub0bs/cors
     - name: Miscellaneous
       subcategories:
         - name: Dependency Injection
@@ -911,6 +923,7 @@ categories:
             - url: https://github.com/muir/nject
             - url: https://github.com/firasdarwish/ore
             - url: https://github.com/Fs02/wire
+            - url: https://github.com/matzefriedrich/parsley
         - name: Project Layout
           repos:
             - url: https://github.com/ardanlabs/service
@@ -1068,6 +1081,7 @@ categories:
             - url: https://github.com/go-resty/resty
             - url: https://github.com/dghubble/sling
             - url: https://github.com/bogdanfinn/tls-client
+            - url: https://github.com/lib4u/fake-useragent
     - name: OpenGL
       repos:
         - url: https://github.com/go-gl/gl
@@ -1597,6 +1611,11 @@ categories:
         - url: https://github.com/reugn/wifiqr
         - url: https://github.com/antham/yogo
         - url: https://github.com/chenquan/diskusage
+        - url: https://github.com/itbasis/go-hashtag
+        - url: https://github.com/cilium/ebpf
+        - url: https://github.com/gotranspile/cxgo
+        - url: https://github.com/webriots/rate
+        - url: https://github.com/goforj/godump
     - name: UUID
       repos:
         - url: https://github.com/twharmon/gouid
@@ -1665,6 +1684,10 @@ categories:
         - url: https://github.com/axzilla/templui
         - url: https://github.com/uadmin/uadmin
         - url: https://github.com/ankorstore/yokai
+        - url: https://github.com/SaiNageswarS/go-api-boot
+        - url: https://github.com/apache/dubbo-go
+        - url: https://github.com/yaitoo/xun
+        - url: https://github.com/go-spring/spring-core
     - name: WebAssembly
       repos:
         - url: https://github.com/extism/go-sdk
