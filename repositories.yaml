@@ -1596,6 +1596,7 @@ categories:
         - url: https://github.com/nikolaydubina/watchhttp
         - url: https://github.com/reugn/wifiqr
         - url: https://github.com/antham/yogo
+        - url: https://github.com/chenquan/diskusage
     - name: UUID
       repos:
         - url: https://github.com/twharmon/gouid
