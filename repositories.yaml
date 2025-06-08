@@ -222,7 +222,6 @@ categories:
         - url: https://github.com/GoTestTools/gotestfmt
         - url: https://github.com/raviqqe/muffet
         - url: https://github.com/woodpecker-ci/woodpecker
-        - url: https://github.com/vladopajic/go-test-coverage
     - name: CSS Preprocessors
       repos:
         - url: https://github.com/wellington/go-libsass
