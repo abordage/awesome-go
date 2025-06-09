@@ -386,6 +386,7 @@ categories:
             - url: https://github.com/HouzuoGuo/tiedot
             - url: https://github.com/VictoriaMetrics/VictoriaMetrics
             - url: https://github.com/authzed/spicedb
+            - url: https://github.com/marcboeker/go-duckdb
         - name: SQL Query Builders
           repos:
             - url: https://github.com/nullism/bqb
