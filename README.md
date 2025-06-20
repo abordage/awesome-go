@@ -171,7 +171,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [golang/oauth2](https://github.com/golang/oauth2) — Go OAuth2 ☆`5,629`
 - [ory/keto](https://github.com/ory/keto) — The most scalable and customizable permission server on the market. Fix your slow or broken permission system with Google's proven "Zanzibar" approach. Supports ACL, RBAC, and more. Written in Go, cloud native, headless, API-first. Available as a service on Ory Network and for self-hosters. ☆`5,044`
 - [volatiletech/authboss](https://github.com/volatiletech/authboss) — The boss of http auth. ☆`3,970`
-- [cerbos/cerbos](https://github.com/cerbos/cerbos) — Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policies for your application resources. ☆`3,896`
+- [cerbos/cerbos](https://github.com/cerbos/cerbos) — Cerbos is the open core, language-agnostic, scalable authorization solution that makes user permissions and authorization simple to implement and manage by writing context-aware access control policies for your application resources. ☆`3,899`
 - [openfga/openfga](https://github.com/openfga/openfga) — A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar ☆`3,719`
 - [alexedwards/scs](https://github.com/alexedwards/scs) — HTTP Session Management for Go ☆`2,350`
 - [lestrrat-go/jwx](https://github.com/lestrrat-go/jwx) — Complete implementation of JWx (Javascript Object Signing and Encryption/JOSE) technologies for Go ☆`2,118`
@@ -184,8 +184,8 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [abraithwaite/jeff](https://github.com/abraithwaite/jeff) — Jeff provides the simplest way to manage web sessions in Go. ☆`266`
 - [Kwynto/gosession](https://github.com/Kwynto/gosession) — This is quick session for net/http in golang. This package is perhaps the best implementation of the session mechanism, at least it tries to become one. ☆`261`
 - [leodip/goiabada](https://github.com/leodip/goiabada) — Goiabada is an OAuth2 / OpenID Connect server written in Go. ☆`154`
-- [jellydator/sessionup](https://github.com/jellydator/sessionup) — Straightforward HTTP session management ☆`125`
 - [RijulGulati/otpgen](https://github.com/RijulGulati/otpgen) — Library to generate TOTP/HOTP codes ☆`139`
+- [jellydator/sessionup](https://github.com/jellydator/sessionup) — Straightforward HTTP session management ☆`125`
 - [icza/session](https://github.com/icza/session) — Go session management for web servers (including support for Google App Engine - GAE). ☆`118`
 - [brianvoe/sjwt](https://github.com/brianvoe/sjwt) — Simple JWT Golang ☆`122`
 - [essentialkaos/branca](https://github.com/essentialkaos/branca) — Authenticated encrypted API tokens (IETF XChaCha20-Poly1305 AEAD) for Golang ☆`90`
@@ -291,8 +291,8 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [urfave/sflags](https://github.com/urfave/sflags) — Generate flags by parsing structures ☆`159`
 - [hedzr/cmdr](https://github.com/hedzr/cmdr) — POSIX-compliant command-line UI (CLI) parser and Hierarchical-configuration operations ☆`140`
 - [reeflective/readline](https://github.com/reeflective/readline) — Shell library with powerful and modern UI, large feature set, and `.inputrc` support ☆`117`
-- [codingconcepts/env](https://github.com/codingconcepts/env) — Tag-based environment configuration for structs ☆`120`
 - [cristalhq/acmd](https://github.com/cristalhq/acmd) — Simple, useful and opinionated CLI package in Go. ☆`123`
+- [codingconcepts/env](https://github.com/codingconcepts/env) — Tag-based environment configuration for structs ☆`120`
 - [reeflective/console](https://github.com/reeflective/console) — Closed-loop application library for Cobra commands (powerful, ready-to-run and easy to use) ☆`96`
 - [DavidGamba/go-getoptions](https://github.com/DavidGamba/go-getoptions) — Fully featured Go (golang) command line option parser with built-in auto-completion support. ☆`61`
 - [dixonwille/wlog](https://github.com/dixonwille/wlog) — A simple logging interface that supports cross-platform color and concurrency. ☆`67`
@@ -478,7 +478,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [DiceDB/dice](https://github.com/DiceDB/dice) — DiceDB is an open-source, fast, reactive, in-memory database optimized for modern hardware. ☆`10,547`
 - [etcd-io/bbolt](https://github.com/etcd-io/bbolt) — An embedded key/value database for Go. ☆`8,850`
 - [codenotary/immudb](https://github.com/codenotary/immudb) — immudb - immutable database based on zero trust, SQL/Key-Value/Document model, tamperproof, data change history ☆`8,755`
-- [authzed/spicedb](https://github.com/authzed/spicedb) — Open Source, Google Zanzibar-inspired database for scalably storing and querying fine-grained authorization data ☆`5,775`
+- [authzed/spicedb](https://github.com/authzed/spicedb) — Open Source, Google Zanzibar-inspired database for scalably storing and querying fine-grained authorization data ☆`5,780`
 - [cockroachdb/pebble](https://github.com/cockroachdb/pebble) — RocksDB/LevelDB inspired key-value database in Go ☆`5,348`
 - [rosedblabs/rosedb](https://github.com/rosedblabs/rosedb) — Lightweight, fast and reliable key/value storage engine based on Bitcask. ☆`4,813`
 - [tidwall/buntdb](https://github.com/tidwall/buntdb) — BuntDB is an embeddable, in-memory key/value database for Go with custom indexing and geospatial support ☆`4,716`
@@ -492,7 +492,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [securitybunker/databunker](https://github.com/securitybunker/databunker) — Secure Vault for Customer PII/PHI/PCI/KYC Records ☆`1,306`
 - [objectbox/objectbox-go](https://github.com/objectbox/objectbox-go) — Embedded Go Database, the fast alternative to SQLite, gorm, etc. ☆`1,229`
 - [couchbase/moss](https://github.com/couchbase/moss) — moss - a simple, fast, ordered, persistable, key-val storage library for golang ☆`1,004`
-- [marcboeker/go-duckdb](https://github.com/marcboeker/go-duckdb) — go-duckdb provides a database/sql driver for the DuckDB database engine. ☆`946`
+- [marcboeker/go-duckdb](https://github.com/marcboeker/go-duckdb) — go-duckdb provides a database/sql driver for the DuckDB database engine. ☆`948`
 - [amit-davidson/LibraDB](https://github.com/amit-davidson/LibraDB) — LibraDB is a simple, persistent key/value store written in pure Go in less than 1000 lines for learning purposes. ☆`187`
 - [xgzlucario/rotom](https://github.com/xgzlucario/rotom) — A tiny Redis server built with Golang, compatible with RESP protocols. ☆`39`
 ### SQL Query Builders
@@ -773,7 +773,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [go-swagger/go-swagger](https://github.com/go-swagger/go-swagger) — Swagger 2.0 implementation for go ☆`9,776`
 - [ondrajz/go-callvis](https://github.com/ondrajz/go-callvis) — Visualize call graph of a Go program using Graphviz ☆`6,292`
 - [Zxilly/go-size-analyzer](https://github.com/Zxilly/go-size-analyzer) — A tool for analyzing the size of compiled Go binaries, offering cross-platform support, detailed breakdowns, and multiple output formats. ☆`1,607`
-- [safedep/vet](https://github.com/safedep/vet) — Next Generation Software Composition Analysis (SCA) with Malicious Package Detection, Code Context & Policy as Code ☆`509`
+- [safedep/vet](https://github.com/safedep/vet) — Next Generation Software Composition Analysis (SCA) with Malicious Package Detection, Code Context & Policy as Code ☆`510`
 - [iyashjayesh/monigo](https://github.com/iyashjayesh/monigo) — MoniGo is a performance monitoring library for Go apps, offering real-time insights into service-level and function-level metrics. With an intuitive UI, it enables developers to track and optimize performance. Get your Go app's dashboard up in just 10 seconds! ☆`272`
 - [becheran/roumon](https://github.com/becheran/roumon) — Universal goroutine monitor using pprof and termui ☆`214`
 - [dtgorski/typex](https://github.com/dtgorski/typex) — [TOOL/CLI] - Filter and examine Go type structures, interfaces and their transitive dependencies and relationships. Export structural types as TypeScript value object or bare type representations. ☆`206`
@@ -833,7 +833,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [yeqown/go-qrcode](https://github.com/yeqown/go-qrcode) — To help gophers generate QR Codes with customized styles, such as color, block size, block shape, and icon. ☆`715`
 - [koyachi/go-nude](https://github.com/koyachi/go-nude) — Nudity detection with Go. ☆`419`
 - [auyer/steganography](https://github.com/auyer/steganography) — Pure Golang Library that allows LSB steganography on images using ZERO dependencies ☆`338`
-- [HugoSmits86/nativewebp](https://github.com/HugoSmits86/nativewebp) — Native webp encoder for Go ☆`294`
+- [HugoSmits86/nativewebp](https://github.com/HugoSmits86/nativewebp) — Native webp encoder for Go ☆`295`
 - [kolesa-team/go-webp](https://github.com/kolesa-team/go-webp) — Simple and fast webp library for golang ☆`262`
 - [Pixboost/transformimgs](https://github.com/Pixboost/transformimgs) — Open source image CDN. ☆`265`
 - [qmuntal/gltf](https://github.com/qmuntal/gltf) — Go library for encoding glTF 2.0 files ☆`258`
@@ -876,7 +876,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [iOliverNguyen/ujson](https://github.com/iOliverNguyen/ujson) — µjson - A fast and minimal JSON parser and transformer that works on unstructured JSON ☆`82`
 - [simonnilsson/ask](https://github.com/simonnilsson/ask) — A Go package that provides a simple way of accessing nested properties in maps and slices. ☆`53`
 - [neilotoole/jsoncolor](https://github.com/neilotoole/jsoncolor) — Colorized JSON output for Go ☆`47`
-- [limiu82214/gojmapr](https://github.com/limiu82214/gojmapr) — get simple struct from complex json ☆`22`
 - [ake-persson/mapslice-json](https://github.com/ake-persson/mapslice-json) — Go MapSlice for ordered marshal/ unmarshal of maps in JSON ☆`20`
 - [vtopc/epoch](https://github.com/vtopc/epoch) — Contains primitives for marshaling/unmarshaling Unix timestamp/epoch to/from built-in time.Time type in JSON ☆`16`
 ## Logging
@@ -1029,7 +1028,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [pioz/faker](https://github.com/pioz/faker) — Random fake data and struct generator for Go. ☆`99`
 - [aofei/sandid](https://github.com/aofei/sandid) — Every grain of sand on Earth has its own ID. ☆`47`
 - [osamingo/gosh](https://github.com/osamingo/gosh) — Provide Go Statistics Handler, Struct, Measure Method ☆`35`
-- [digitalcrab/browscap_go](https://github.com/digitalcrab/browscap_go) — GoLang Library for Browser Capabilities Project ☆`49`
 - [rkoesters/xdg](https://github.com/rkoesters/xdg) — FreeDesktop.org (xdg) Specs implemented in Go ☆`47`
 - [lrita/numa](https://github.com/lrita/numa) — NUMA is a utility library, which is written in go. It help us to write some NUMA-AWARED code. ☆`34`
 ## Natural Language Processing
@@ -1525,7 +1523,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [jmoiron/sqlx](https://github.com/jmoiron/sqlx) — general purpose extensions to golang's database/sql ☆`17,004`
 - [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) — Release engineering, simplified ☆`14,756`
 - [xo/usql](https://github.com/xo/usql) — Universal command-line interface for SQL databases ☆`9,401`
-- [cilium/ebpf](https://github.com/cilium/ebpf) — ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel. ☆`6,916`
+- [cilium/ebpf](https://github.com/cilium/ebpf) — ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel. ☆`6,918`
 - [duke-git/lancet](https://github.com/duke-git/lancet) — A comprehensive, efficient, and reusable util function library of Go. ☆`5,062`
 - [dropbox/godropbox](https://github.com/dropbox/godropbox) — Common libraries for writing Go services/applications. ☆`4,196`
 - [tdewolff/minify](https://github.com/tdewolff/minify) — Go minifiers for web formats ☆`3,895`
@@ -1542,7 +1540,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [rubyist/circuitbreaker](https://github.com/rubyist/circuitbreaker) — Circuit Breakers in Go ☆`1,146`
 - [joshmedeski/sesh](https://github.com/joshmedeski/sesh) — Smart session manager for the terminal ☆`1,079`
 - [owenthereal/upterm](https://github.com/owenthereal/upterm) — Instant Terminal Sharing ☆`929`
-- [goforj/godump](https://github.com/goforj/godump) — A minimal, developer-friendly pretty-printer and debug dumper for Go structs, inspired by Laravel’s dump() and Symfony’s VarDumper. ☆`904`
+- [goforj/godump](https://github.com/goforj/godump) — A minimal, developer-friendly pretty-printer and debug dumper for Go structs, inspired by Laravel’s dump() and Symfony’s VarDumper. ☆`906`
 - [immortal/immortal](https://github.com/immortal/immortal) — A *nix cross-platform (OS agnostic) supervisor ☆`816`
 - [cep21/circuit](https://github.com/cep21/circuit) — An efficient and feature complete Hystrix like Go implementation of the circuit breaker pattern. ☆`785`
 - [miniscruff/changie](https://github.com/miniscruff/changie) — Automated changelog tool for preparing releases with lots of customization options ☆`776`
