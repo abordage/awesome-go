@@ -1167,7 +1167,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [gorilla/mux](https://github.com/gorilla/mux) — Package gorilla/mux is a powerful HTTP router and URL matcher for building Go web servers with ☆`21,467`
 - [go-chi/chi](https://github.com/go-chi/chi) — lightweight, idiomatic and composable router for building Go HTTP services ☆`20,111`
 - [gowww/router](https://github.com/gowww/router) — A lightning fast HTTP router ☆`185`
-- [go-playground/pure](https://github.com/go-playground/pure) — Is a lightweight HTTP router that sticks to the std "net/http" implementation ☆`150`
 - [gernest/alien](https://github.com/gernest/alien) — A lightweight and fast http router from outer space ☆`134`
 - [bmf-san/goblin](https://github.com/bmf-san/goblin) — A golang http router based on trie tree. ☆`80`
 - [ngamux/ngamux](https://github.com/ngamux/ngamux) — Simple HTTP router for Go ☆`71`
