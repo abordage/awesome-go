@@ -15,6 +15,8 @@ categories:
         - url: https://github.com/mudler/LocalAI
         - url: https://github.com/ollama/ollama
         - url: https://github.com/presbrey/ollamafarm
+        - url: https://github.com/universal-tool-calling-protocol/go-utcp
+        - url: https://github.com/maximhq/bifrost
     - name: Audio and Music
       repos:
         - url: https://github.com/mewkiz/flac
@@ -97,6 +99,7 @@ categories:
         - url: https://github.com/goyek/goyek
         - url: https://github.com/go-task/task
         - url: https://github.com/joerdav/xc
+        - url: https://github.com/flowexec/flow
     - name: Code Analysis
       repos:
         - url: https://github.com/Checkmarx/chainjacking
@@ -211,6 +214,7 @@ categories:
         - url: https://github.com/adrg/xdg
         - url: https://github.com/romshark/yamagiconf
         - url: https://github.com/chaindead/zerocfg
+        - url: https://github.com/atelpis/enflag
     - name: Continuous Integration
       repos:
         - url: https://github.com/ovh/cds
@@ -316,6 +320,7 @@ categories:
             - url: https://github.com/Yiling-J/theine-go
             - url: https://github.com/zekroTJA/timedmap
             - url: https://github.com/jellydator/ttlcache
+            - url: https://github.com/samber/hot
         - name: Database Schema Migration
           repos:
             - url: https://github.com/ariga/atlas
@@ -405,6 +410,7 @@ categories:
             - url: https://github.com/elgris/sqrl
             - url: https://github.com/Masterminds/squirrel
             - url: https://github.com/xo/dbtpl
+            - url: https://github.com/jivegroup/fluentsql
     - name: Database Drivers
       subcategories:
         - name: Interfaces to Multiple Backends
@@ -585,6 +591,7 @@ categories:
         - url: https://github.com/pdfcpu/pdfcpu
         - url: https://github.com/1set/todotxt
         - url: https://github.com/C2FO/vfs
+        - url: https://github.com/charlievieth/fastwalk
     - name: Financial
       repos:
         - url: https://github.com/moov-io/ach
@@ -602,6 +609,8 @@ categories:
         - url: https://github.com/claygod/transaction
         - url: https://github.com/quagmt/udecimal
         - url: https://github.com/dannyvankooten/vat
+        - url: https://github.com/invopop/gobl
+        - url: https://github.com/jokruger/dec128
     - name: Forms
       repos:
         - url: https://github.com/cinar/checker
@@ -690,6 +699,7 @@ categories:
         - url: https://github.com/becheran/roumon
         - url: https://github.com/dtgorski/typex
         - url: https://github.com/safedep/vet
+        - url: https://github.com/ahmedakef/gotutor
     - name: Goroutines
       repos:
         - url: https://github.com/panjf2000/ants
@@ -777,6 +787,7 @@ categories:
         - url: https://github.com/adhocore/gronx
         - url: https://github.com/romshark/sched
         - url: https://github.com/madflojo/tasks
+        - url: https://github.com/pardnchiu/go-cron
     - name: JSON
       repos:
         - url: https://github.com/spyzhov/ajson
@@ -824,6 +835,7 @@ categories:
         - url: https://github.com/uber-go/zap
         - url: https://github.com/yuseferi/zax
         - url: https://github.com/rs/zerolog
+        - url: https://github.com/DeRuina/timberjack
     - name: Machine Learning
       repos:
         - url: https://github.com/jbrukh/bayesian
@@ -879,6 +891,8 @@ categories:
         - url: https://github.com/pebbe/zmq4
         - url: https://github.com/lovoo/goka
         - url: https://github.com/oagudo/outbox
+        - url: https://github.com/Raezil/GoEventBus
+        - url: https://github.com/goptics/varmq
     - name: Microsoft Office
       repos:
         - url: https://github.com/unidoc/unioffice
@@ -924,6 +938,7 @@ categories:
             - url: https://github.com/firasdarwish/ore
             - url: https://github.com/Fs02/wire
             - url: https://github.com/matzefriedrich/parsley
+            - url: https://github.com/junioryono/godi
         - name: Project Layout
           repos:
             - url: https://github.com/ardanlabs/service
@@ -1110,6 +1125,7 @@ categories:
         - url: https://github.com/nao1215/gup
         - url: https://github.com/anchore/syft
         - url: https://github.com/DamnWidget/VenGO
+        - url: https://github.com/chaindead/modup
     - name: Performance
       repos:
         - url: https://github.com/nikolaydubina/go-instrument
@@ -1286,6 +1302,8 @@ categories:
             - url: https://github.com/xitonix/trubka
             - url: https://github.com/ovh/utask
             - url: https://github.com/tsenart/vegeta
+            - url: https://github.com/thevxn/dish
+            - url: https://github.com/jkaninda/goma-gateway
         - name: Other Software
           repos:
             - url: https://github.com/0xERR0R/blocky
@@ -1333,6 +1351,8 @@ categories:
         - url: https://github.com/reugn/go-streams
         - url: https://github.com/primetalk/goio
         - url: https://github.com/whitaker-io/machine
+        - url: https://github.com/mariomac/gostream
+        - url: https://github.com/rulego/streamsql
     - name: Style Guides
       repos:
         - url: https://github.com/bahlo/go-styleguide
@@ -1371,6 +1391,7 @@ categories:
             - url: https://github.com/matryer/moq
             - url: https://github.com/pashagolub/pgxmock
             - url: https://github.com/xhd2015/xgo
+            - url: https://github.com/balinomad/go-mockfs
         - name: Selenium and browser control tools
           repos:
             - url: https://github.com/mafredri/cdp
@@ -1616,6 +1637,8 @@ categories:
         - url: https://github.com/gotranspile/cxgo
         - url: https://github.com/webriots/rate
         - url: https://github.com/goforj/godump
+        - url: https://github.com/floatdrop/debounce
+        - url: https://github.com/borovikovd/gomsort
     - name: UUID
       repos:
         - url: https://github.com/twharmon/gouid
@@ -1623,6 +1646,7 @@ categories:
         - url: https://github.com/gofrs/uuid
         - url: https://github.com/google/uuid
         - url: https://github.com/edwingeng/wuid
+        - url: https://github.com/sdrapkin/guid
     - name: Validation
       repos:
         - url: https://github.com/osamingo/checkdigit
@@ -1650,6 +1674,7 @@ categories:
         - url: https://github.com/adrg/libvlc-go
         - url: https://github.com/Eyevinn/mp4ff
         - url: https://github.com/korandiz/v4l
+        - url: https://github.com/Eyevinn/hls-m3u8
     - name: Web Frameworks
       repos:
         - url: https://github.com/savsgio/atreugo
@@ -1688,6 +1713,7 @@ categories:
         - url: https://github.com/apache/dubbo-go
         - url: https://github.com/yaitoo/xun
         - url: https://github.com/go-spring/spring-core
+        - url: https://github.com/jivegroup/gfly
     - name: WebAssembly
       repos:
         - url: https://github.com/extism/go-sdk
