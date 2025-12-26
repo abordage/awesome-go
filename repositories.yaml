@@ -514,6 +514,7 @@ categories:
           - url: https://github.com/bluele/gcache
             description: In-memory cache with eviction
           - url: https://github.com/elastic/go-freelru
+            description: GC-less, fast and generic LRU cache for Go
           - url: https://github.com/OrlovEvgeny/go-mcache
             description: Sharded in-memory KV cache
           - url: https://github.com/eko/gocache
@@ -1633,6 +1634,7 @@ categories:
           - url: https://github.com/viant/endly
           - url: https://github.com/HumanSecurity/envite
           - url: https://github.com/rekby/fixenv
+            description: Pytest-inspired fixture caching for Go tests
           - url: https://github.com/hedhyw/gherkingen
           - url: https://github.com/orlangure/gnomock
             description: Test with ephemeral Docker containers
