@@ -7,6 +7,7 @@ categories:
       - name: Artificial Intelligence
         repos:
           - url: https://github.com/philippgille/chromem-go
+            description: Embeddable vector database for Go
           - url: https://github.com/tmc/langchaingo
           - url: https://github.com/mudler/LocalAI
           - url: https://github.com/ollama/ollama
@@ -119,10 +120,13 @@ categories:
           - url: https://github.com/cossacklabs/acra
           - url: https://github.com/FiloSottile/age
           - url: https://github.com/andskur/argon2-hashing
+            description: Argon2 password hashing
           - url: https://github.com/mariocandela/beelzebub
+            description: AI-powered honeypot framework
           - url: https://github.com/anatol/booster
           - url: https://github.com/Ullaakut/cameradar
           - url: https://github.com/caddyserver/certmagic
+            description: Automatic HTTPS certificate management
           - url: https://github.com/corazawaf/coraza
           - url: https://github.com/dromara/dongle
           - url: https://github.com/tg123/go-htpasswd
@@ -155,59 +159,91 @@ categories:
       - name: Advanced Console UIs
         repos:
           - url: https://github.com/guptarohit/asciigraph
-            description: make lightweight ASCII line graph in command line apps with no other dependencies
+            description: ASCII line graphs in terminal
           - url: https://github.com/logrusorgru/aurora
+            description: ANSI colors for Printf
           - url: https://github.com/Delta456/box-cli-maker
           - url: https://github.com/Evertras/bubble-table
+            description: Table component for Bubble Tea
           - url: https://github.com/charmbracelet/bubbles
           - url: https://github.com/charmbracelet/bubbletea
           - url: https://github.com/antonmedv/fx
           - url: https://github.com/mattn/go-colorable
+            description: Colorable writer for Windows
           - url: https://github.com/mattn/go-isatty
+            description: Check if terminal is TTY
           - url: https://github.com/c-bata/go-prompt
           - url: https://github.com/jroimartin/gocui
           - url: https://github.com/gookit/color
-            description: Terminal color rendering library, support 8/16 colors, 256 colors, RGB color rendering output
+            description: Terminal color rendering
           - url: https://github.com/charmbracelet/lipgloss
           - url: https://github.com/cyucelen/marker
           - url: https://github.com/vbauerster/mpb
+            description: Multi progress bar
           - url: https://github.com/schollz/progressbar
+            description: Thread-safe progress bar
           - url: https://github.com/pterm/pterm
+            description: Modern terminal output library
           - url: https://github.com/briandowns/spinner
+            description: Terminal spinner indicators
           - url: https://github.com/mum4k/termdash
+            description: Terminal-based dashboard
           - url: https://github.com/muesli/termenv
+            description: Terminal color support
           - url: https://github.com/gizak/termui
       - name: Standard CLI
         repos:
           - url: https://github.com/cristalhq/acmd
+            description: Simple CLI package
           - url: https://github.com/carapace-sh/carapace
+            description: Multi-shell completion library
           - url: https://github.com/carapace-sh/carapace-bin
+            description: Multi-shell completion binary
           - url: https://github.com/carapace-sh/carapace-spec
+            description: Multi-shell completion library
           - url: https://github.com/leaanthony/clir
+            description: Simple CLI library
           - url: https://github.com/hedzr/cmdr
+            description: POSIX-compliant CLI parser
           - url: https://github.com/spf13/cobra
           - url: https://github.com/posener/complete
+            description: Bash completion in Go
           - url: https://github.com/reeflective/console
+            description: Console library for Cobra
           - url: https://github.com/dnote/dnote
+            description: Command-line notebook
           - url: https://github.com/elves/elvish
+            description: Scripting shell for Go
           - url: https://github.com/codingconcepts/env
           - url: https://github.com/sgreben/flagvar
+            description: CLI argument types for flag
           - url: https://github.com/alexflint/go-arg
+            description: Struct-based argument parsing
           - url: https://github.com/jessevdk/go-flags
+            description: Command-line option parser
           - url: https://github.com/DavidGamba/go-getoptions
+            description: Command line option parser with completion
           - url: https://github.com/nyaosorg/go-readline-ny
+            description: Readline for Go
           - url: https://github.com/hashicorp/cli
+            description: CLI library for Go
           - url: https://github.com/alecthomas/kingpin
-            description: A Go command line and flag parser
+            description: Command-line parser
           - url: https://github.com/peterh/liner
           - url: https://github.com/jxskiss/mcli
+            description: Minimal but powerful CLI
           - url: https://github.com/nanovms/ops
+            description: Build and run unikernels
           - url: https://github.com/spf13/pflag
+            description: POSIX/GNU-style flags
           - url: https://github.com/reeflective/readline
+            description: Shell library with inputrc
           - url: https://github.com/Zaba505/sand
           - url: https://github.com/urfave/sflags
+            description: Generate flags from structs
           - url: https://github.com/urfave/cli
           - url: https://github.com/dixonwille/wlog
+            description: Cross-platform logging
           - url: https://github.com/ddddddO/gtree
   - name: Concurrency
     subcategories:
@@ -217,109 +253,170 @@ categories:
           - url: https://github.com/Tochemey/goakt
           - url: https://github.com/anthdm/hollywood
           - url: https://github.com/asynkron/protoactor-go
+            description: Ultra fast distributed actors for Go
       - name: Goroutines
         repos:
           - url: https://github.com/panjf2000/ants
           - url: https://github.com/mborders/artifex
+            description: In-memory job queue
           - url: https://github.com/reugn/async
+            description: Async computation package
           - url: https://github.com/studiosol/async
           - url: https://github.com/ITcathyh/conexec
           - url: https://github.com/earthboundkid/flowmatic
+            description: Structured concurrency
           - url: https://github.com/vladopajic/go-actor
+            description: Actor model library
           - url: https://github.com/loveleshsharma/gohive
           - url: https://github.com/hmdsefi/gowl
           - url: https://github.com/benmanns/goworker
           - url: https://github.com/xxjwxc/gowp
+            description: Goroutine worker pool
           - url: https://github.com/AaronJan/Hunch
           - url: https://github.com/alitto/pond
+            description: High-performance worker pool
           - url: https://github.com/destel/rill
+            description: Channel-based concurrency toolkit
           - url: https://github.com/timandy/routine
+            description: ThreadLocal for Go
           - url: https://github.com/Jeffail/tunny
       - name: Stream Processing
         repos:
           - url: https://github.com/Breeze0806/go-etl
+            description: ETL toolset for Go
           - url: https://github.com/reugn/go-streams
+            description: Stream processing library
           - url: https://github.com/primetalk/goio
           - url: https://github.com/whitaker-io/machine
           - url: https://github.com/mariomac/gostream
+            description: Java Streams port for Go
           - url: https://github.com/rulego/streamsql
+            description: SQL-based stream processing for IoT
   - name: Configuration
     repos:
       - url: https://github.com/cristalhq/aconfig
+        description: Simple config loader
       - url: https://github.com/wkhere/bcl
+        description: Basic Configuration Language
       - url: https://github.com/ilyakaznacheev/cleanenv
+        description: Minimalistic environment config reader
       - url: https://github.com/JeremyLoy/config
       - url: https://github.com/num30/config
+        description: Declarative configuration
       - url: https://github.com/BoRuDar/configuration
+        description: Set struct fields from env, flags, files
       - url: https://github.com/greencoda/confiq
+        description: Config struct decoder
       - url: https://github.com/caarlos0/env
       - url: https://github.com/go-simpler/env
+        description: Load env vars to struct
       - url: https://github.com/vrischmann/envconfig
+        description: Env config library
       - url: https://github.com/kkyr/fig
+        description: Minimalist config library
       - url: https://github.com/sakirsensoy/genv
+        description: Easy env variable handling
       - url: https://github.com/deatil/go-array
+        description: Read/set map, slice, JSON data
       - url: https://github.com/PaddleHQ/go-aws-ssm
+        description: AWS System Manager interface
       - url: https://github.com/dsbasko/go-cfg
+        description: Unified config reading
       - url: https://github.com/ThomasObenaus/go-conf
       - url: https://github.com/Jagerente/gocfg
       - url: https://github.com/gookit/config
-        description: Go configuration manage (load, get, set, export). support JSON, YAML, TOML, Properties, INI, HCL, ENV and Flags.
+        description: Config management with formats
       - url: https://github.com/beatlabs/harvester
+        description: Watch and notify config changes
       - url: https://github.com/hjson/hjson-go
+        description: Hjson for Go
       - url: https://github.com/gurkankaymak/hocon
+        description: HOCON config library for Go
       - url: https://github.com/knadh/koanf
+        description: Lightweight config management
       - url: https://github.com/nil-go/konf
+        description: Simplest config loader for Go
       - url: https://github.com/alecthomas/kong
+        description: Command-line parser for Go
       - url: https://github.com/nasermirzaei89/env
+        description: Zero-dep env package
       - url: https://github.com/Yiling-J/piper
       - url: https://github.com/omeid/uconfig
+        description: Lightweight config management
       - url: https://github.com/spf13/viper
+        description: Go configuration with fangs
       - url: https://github.com/adrg/xdg
+        description: XDG Base Directory implementation
       - url: https://github.com/romshark/yamagiconf
+        description: YAML config framework
       - url: https://github.com/chaindead/zerocfg
+        description: Zero-effort config management
       - url: https://github.com/atelpis/enflag
+        description: Unify env and flag parsing
   - name: Data Formats
     subcategories:
       - name: JSON
         repos:
           - url: https://github.com/spyzhov/ajson
+            description: Abstract JSON with JSONPath
           - url: https://github.com/simonnilsson/ask
           - url: https://github.com/vtopc/epoch
+            description: Unix timestamp marshaling
           - url: https://github.com/valyala/fastjson
           - url: https://github.com/Jeffail/gabs
+            description: Dynamic JSON parsing
           - url: https://github.com/tidwall/gjson
+            description: Fast JSON value extraction
           - url: https://github.com/limiu82214/gojmapr
           - url: https://github.com/elgs/gojq
           - url: https://github.com/ChimeraCoder/gojson
           - url: https://github.com/wI2L/jettison
           - url: https://github.com/romshark/jscan
+            description: High-performance JSON iterator
           - url: https://github.com/AmuzaTkts/jsonapi-errors
           - url: https://github.com/neilotoole/jsoncolor
+            description: Colorized JSON output
           - url: https://github.com/wI2L/jsondiff
+            description: JSON Patch diff computation
           - url: https://github.com/RichardKnop/jsonhal
           - url: https://github.com/Andrew-M-C/go.jsonvalue
+            description: Unstructured JSON solution
           - url: https://github.com/ake-persson/mapslice-json
+            description: Ordered JSON map slices
           - url: https://github.com/PerimeterX/marshmallow
           - url: https://github.com/ohler55/ojg
+            description: Optimized JSON for Go
           - url: https://github.com/iOliverNguyen/ujson
+            description: Minimal JSON parser
           - url: https://github.com/bytedance/sonic
       - name: Serialization
         repos:
           - url: https://github.com/csweichel/bel
+            description: Generate TypeScript from Go
           - url: https://github.com/ghostiam/binstruct
+            description: Binary to struct decoder
           - url: https://github.com/fxamacker/cbor
+            description: CBOR codec with extensions
           - url: https://github.com/jszwec/csvutil
+            description: CSV to struct mapping
           - url: https://github.com/o1egl/fwencoder
+            description: Fixed width file parser
           - url: https://github.com/ugorji/go
+            description: Codec for msgpack, cbor, json
           - url: https://github.com/tiendc/go-csvlib
+            description: High-level CSV library
           - url: https://github.com/golang/protobuf
+            description: Protocol buffers for Go
           - url: https://github.com/linkedin/goavro
       - name: XML
         repos:
           - url: https://github.com/xml-comp/xml-comp
           - url: https://github.com/antchfx/xmlquery
+            description: XPath XML query
           - url: https://github.com/antchfx/xpath
+            description: XPath for Go
           - url: https://github.com/miku/zek
+            description: Generate Go struct from XML
   - name: Data Structures
     subcategories:
       - name: Bit-packing and Compression
@@ -327,11 +424,14 @@ categories:
           - url: https://github.com/iancmcc/bingo
           - url: https://github.com/amallia/go-ef
           - url: https://github.com/RoaringBitmap/roaring
+            description: Compressed bitmaps for Go
       - name: Bloom and Cuckoo Filters
         repos:
           - url: https://github.com/bits-and-blooms/bloom
+            description: Bloom filter implementation
           - url: https://github.com/OldPanda/bloomfilter
           - url: https://github.com/tylertreat/BoomFilters
+            description: Probabilistic data structures for streams
           - url: https://github.com/seiflotfy/cuckoofilter
       - name: Maps
         repos:
@@ -339,19 +439,23 @@ categories:
           - url: https://github.com/srfrog/dict
           - url: https://github.com/goradd/maps
           - url: https://github.com/mhmtszr/concurrent-swiss-map
+            description: Thread-safe concurrent hash map
       - name: Miscellaneous Data Structures and Algorithms
         repos:
           - url: https://github.com/seiflotfy/count-min-log
           - url: https://github.com/barweiss/go-tuple
           - url: https://github.com/axiomhq/hyperloglog
+            description: HyperLogLog with optimizations
           - url: https://github.com/s0rg/quadtree
           - url: https://github.com/kelindar/bitmap
           - url: https://github.com/bits-and-blooms/bitset
           - url: https://github.com/Workiva/go-datastructures
+            description: Performant, threadsafe data structures
           - url: https://github.com/liyue201/gostl
           - url: https://github.com/kak-tus/nan
           - url: https://github.com/nazar256/parapipe
           - url: https://github.com/deckarep/golang-set
+            description: Generic set type for Go
           - url: https://github.com/StudioSol/set
           - url: https://github.com/bobg/merkle
           - url: https://github.com/MauriceGit/skiplist
@@ -361,9 +465,11 @@ categories:
           - url: https://github.com/embano1/memlog
           - url: https://github.com/adrianbrad/queue
           - url: https://github.com/mikestefanello/backlite
+            description: SQLite-backed task queues
       - name: Text Analysis
         repos:
           - url: https://github.com/blevesearch/bleve
+            description: Text/numeric/geo/vector indexing library
           - url: https://github.com/plar/go-adaptive-radix-tree
           - url: https://github.com/agnivade/levenshtein
           - url: https://github.com/BlackRabbitt/mspm
@@ -379,15 +485,18 @@ categories:
           - url: https://github.com/codingsince1985/couchcache
           - url: https://github.com/EchoVault/SugarDB
           - url: https://github.com/VictoriaMetrics/fastcache
+            description: Fast in-memory cache for Go
           - url: https://github.com/bluele/gcache
           - url: https://github.com/elastic/go-freelru
           - url: https://github.com/OrlovEvgeny/go-mcache
+            description: Sharded in-memory KV cache
           - url: https://github.com/eko/gocache
           - url: https://github.com/golang/groupcache
           - url: https://github.com/mdaliyan/icache
           - url: https://github.com/erni27/imcache
           - url: https://github.com/maypok86/otter
           - url: https://github.com/naughtygopher/pocache
+            description: Preemptive optimistic caching
           - url: https://github.com/hypermodeinc/ristretto
           - url: https://github.com/viccon/sturdyc
           - url: https://github.com/Yiling-J/theine-go
@@ -399,6 +508,7 @@ categories:
           - url: https://github.com/ariga/atlas
           - url: https://github.com/khezen/avro
           - url: https://github.com/bytebase/bytebase
+            description: Database DevSecOps platform
           - url: https://github.com/GuiaBolso/darwin
           - url: https://github.com/amacneil/dbmate
           - url: https://github.com/RichardKnop/go-fixtures
@@ -416,14 +526,17 @@ categories:
         repos:
           - url: https://github.com/ContentSquare/chproxy
           - url: https://github.com/nikepan/clickhouse-bulk
+            description: Batch inserts for ClickHouse
           - url: https://github.com/kazhuravlev/database-gateway
           - url: https://github.com/sj14/dbbench
           - url: https://github.com/codingconcepts/dg
           - url: https://github.com/gatewayd-io/gatewayd
           - url: https://github.com/go-mysql-org/go-mysql
           - url: https://github.com/bartventer/gorm-multitenancy
+            description: Multi-tenancy for GORM
           - url: https://github.com/liweiyi88/onedump
           - url: https://github.com/cybertec-postgresql/pg_timetable
+            description: Advanced PostgreSQL scheduler
           - url: https://github.com/sosedoff/pgweb
           - url: https://github.com/prest/prest
           - url: https://github.com/HDT3213/rdb
@@ -435,9 +548,11 @@ categories:
           - url: https://github.com/etcd-io/bbolt
           - url: https://github.com/tidwall/buntdb
           - url: https://github.com/cockroachdb/cockroach
+            description: Cloud native distributed SQL database
           - url: https://github.com/kelindar/column
           - url: https://github.com/CovenantSQL/CovenantSQL
           - url: https://github.com/securitybunker/databunker
+            description: Secure vault for PII/PHI/KYC records
           - url: https://github.com/hypermodeinc/dgraph
           - url: https://github.com/DiceDB/dice
           - url: https://github.com/dolthub/dolt
@@ -450,18 +565,22 @@ categories:
           - url: https://github.com/lotusdblabs/lotusdb
           - url: https://github.com/milvus-io/milvus
           - url: https://github.com/couchbase/moss
+            description: Simple, fast key-val storage
           - url: https://github.com/nutsdb/nutsdb
           - url: https://github.com/objectbox/objectbox-go
+            description: Embedded database for Go
           - url: https://github.com/cockroachdb/pebble
           - url: https://github.com/akrylysov/pogreb
           - url: https://github.com/prometheus/prometheus
           - url: https://github.com/nalgeon/redka
           - url: https://github.com/rosedblabs/rosedb
           - url: https://github.com/xgzlucario/rotom
+            description: Tiny Redis server in Go
           - url: https://github.com/rqlite/rqlite
           - url: https://github.com/pingcap/tidb
           - url: https://github.com/HouzuoGuo/tiedot
           - url: https://github.com/VictoriaMetrics/VictoriaMetrics
+            description: Fast time series database and monitoring
           - url: https://github.com/authzed/spicedb
           - url: https://github.com/marcboeker/go-duckdb
       - name: Interfaces to Multiple Backends
@@ -469,17 +588,20 @@ categories:
           - url: https://github.com/viant/dsc
           - url: https://github.com/fogfish/dynamo
           - url: https://github.com/avito-tech/go-transaction-manager
+            description: Transaction manager for Go
           - url: https://github.com/philippgille/gokv
       - name: NoSQL Database Drivers
         repos:
           - url: https://github.com/aerospike/aerospike-client-go
           - url: https://github.com/couchbase/go-couchbase
           - url: https://github.com/chenmingyong0423/go-mongox
+            description: MongoDB driver wrapper with generics
           - url: https://github.com/nitishm/go-rejson
           - url: https://github.com/couchbase/gocb
           - url: https://github.com/btnguyen2k/gocosmos
           - url: https://github.com/bradfitz/gomemcache
           - url: https://github.com/aliexpressru/gomemcached
+            description: Binary Memcached client with sharding
           - url: https://github.com/go-kivik/kivik
           - url: https://github.com/kamva/mgm
           - url: https://github.com/mongodb/mongo-go-driver
@@ -493,6 +615,7 @@ categories:
           - url: https://github.com/nakagami/firebirdsql
           - url: https://github.com/denisenkom/go-mssqldb
           - url: https://github.com/go-sql-driver/mysql
+            description: MySQL driver for database/sql
           - url: https://github.com/ncruces/go-sqlite3
           - url: https://github.com/godror/godror
           - url: https://github.com/VinGarcia/ksql
@@ -527,6 +650,7 @@ categories:
           - url: https://github.com/elastic/go-elasticsearch
           - url: https://github.com/OwnLocal/goes
           - url: https://github.com/sourcegraph/zoekt
+            description: Fast trigram-based code search
   - name: DevOps & Build
     subcategories:
       - name: Build Automation
@@ -557,19 +681,25 @@ categories:
           - url: https://github.com/opnlabs/dot
           - url: https://github.com/harness/harness
           - url: https://github.com/gha-common/go-beautiful-html-coverage
+            description: GitHub Action for code coverage reports
           - url: https://github.com/vladopajic/go-test-coverage
+            description: Report test coverage threshold issues
           - url: https://github.com/nikogura/gomason
           - url: https://github.com/GoTestTools/gotestfmt
           - url: https://github.com/raviqqe/muffet
+            description: Fast website link checker
           - url: https://github.com/woodpecker-ci/woodpecker
+            description: Simple, powerful CI/CD engine
       - name: DevOps Utilities
         repos:
           - url: https://github.com/chrismckenzie/dropship
           - url: https://github.com/appleboy/easyssh-proxy
+            description: Simple SSH protocol implementation
           - url: https://github.com/fleetdm/fleet
           - url: https://github.com/gaia-pipeline/gaia
           - url: https://github.com/sanbornm/go-selfupdate
           - url: https://github.com/kevincobain2000/gobrew
+            description: Go version manager without root
           - url: https://github.com/moovweb/gvm
           - url: https://github.com/ajvb/kala
           - url: https://github.com/kool-dev/kool
@@ -580,11 +710,13 @@ categories:
           - url: https://github.com/TimothyYe/skm
           - url: https://github.com/taubyte/tau
           - url: https://github.com/datarootsio/tf-profile
+            description: Profile Terraform runs
           - url: https://github.com/yusufcanb/tlm
           - url: https://github.com/xitonix/trubka
           - url: https://github.com/ovh/utask
           - url: https://github.com/thevxn/dish
           - url: https://github.com/jkaninda/goma-gateway
+            description: Lightweight API gateway and proxy
           - url: https://github.com/gabrie30/ghorg
           - url: https://github.com/go-gitea/gitea
           - url: https://github.com/TwiN/gatus
@@ -595,6 +727,7 @@ categories:
         repos:
           - url: https://github.com/aptly-dev/aptly
           - url: https://github.com/KusionStack/kusion
+            description: Declarative platform orchestrator
           - url: https://github.com/hashicorp/packer
           - url: https://github.com/pomerium/pomerium
           - url: https://github.com/oxyno-zeta/s3-proxy
@@ -602,16 +735,20 @@ categories:
       - name: Kubernetes
         repos:
           - url: https://github.com/getanteon/alaz
+            description: eBPF agent for K8s observability
           - url: https://github.com/getanteon/anteon
           - url: https://github.com/flannel-io/flannel
           - url: https://github.com/k3d-io/k3d
           - url: https://github.com/k3s-io/k3s
           - url: https://github.com/kubernetes-sigs/kind
           - url: https://github.com/apecloud/kubeblocks
+            description: Kubernetes operator for databases
           - url: https://github.com/kubernetes/kubernetes
           - url: https://github.com/kubeshark/kubeshark
+            description: API traffic analyzer for Kubernetes
           - url: https://github.com/kubevela/kubevela
           - url: https://github.com/kubenetworks/kubevpn
+            description: Connect to Kubernetes cluster network
           - url: https://github.com/abahmed/kwatch
           - url: https://github.com/kubernetes/minikube
           - url: https://github.com/stefanprodan/podinfo
@@ -649,6 +786,7 @@ categories:
           - url: https://github.com/govalues/money
           - url: https://github.com/jovandeginste/payme
           - url: https://github.com/achannarasappa/ticker
+            description: Terminal stock and crypto tracker
           - url: https://github.com/claygod/transaction
           - url: https://github.com/quagmt/udecimal
           - url: https://github.com/dannyvankooten/vat
@@ -659,6 +797,7 @@ categories:
       - name: GUI
         repos:
           - url: https://github.com/maxence-charriere/go-app
+            description: Build progressive web apps with Go and WASM
           - url: https://github.com/AllenDang/cimgui-go
           - url: https://github.com/cogentcore/core
           - url: https://github.com/progrium/darwinkit
@@ -722,6 +861,7 @@ categories:
           - url: https://github.com/dominikh/go-mode.el
           - url: https://github.com/nsf/gocode
           - url: https://github.com/incu6us/goimports-reviser
+            description: Imports sorting and code formatting tool
           - url: https://github.com/DisposaBoy/GoSublime
           - url: https://github.com/fatih/vim-go
           - url: https://github.com/golang/vscode-go
@@ -740,8 +880,10 @@ categories:
             description: find overspecified function parameters in Go code
           - url: https://github.com/ondrajz/go-callvis
           - url: https://github.com/Zxilly/go-size-analyzer
+            description: Analyze compiled Go binary size
           - url: https://github.com/go-swagger/go-swagger
           - url: https://github.com/dustinblackman/gomodrun
+            description: Run binaries from go.mod
           - url: https://github.com/bitfield/gotestdox
           - url: https://github.com/bobg/modver
             description: a tool that helps you obey semantic versioning rules in your Go module
@@ -772,6 +914,7 @@ categories:
       - name: AI & ML APIs
         repos:
           - url: https://github.com/sashabaranov/go-openai
+            description: OpenAI API client for Go
           - url: https://github.com/otiai10/openaigo
           - url: https://github.com/wit-ai/wit-go
       - name: Cloud Provider APIs
@@ -787,9 +930,10 @@ categories:
         repos:
           - url: https://github.com/google/go-github
           - url: https://github.com/shurcooL/githubv4
-            description: client library for accessing GitHub GraphQL API v4
+            description: GitHub GraphQL API v4 client
           - url: https://github.com/andygrunwald/go-gerrit
           - url: https://github.com/andygrunwald/go-trending
+            description: Access GitHub trending repositories
           - url: https://github.com/go-playground/webhooks
       - name: Microsoft Office
         repos:
@@ -807,6 +951,7 @@ categories:
           - url: https://github.com/ent/ent
           - url: https://github.com/hashicorp/go-dbw
           - url: https://github.com/huandu/go-sqlbuilder
+            description: SQL builder with zero-config ORM
           - url: https://github.com/go-gorm/gorm
           - url: https://github.com/Fs02/grimoire
           - url: https://github.com/steebchen/prisma-client-go
@@ -818,6 +963,7 @@ categories:
           - url: https://github.com/Kachit/appstore-sdk-go
           - url: https://github.com/OTA-Insight/bqwriter
           - url: https://github.com/rinchsan/device-check-go
+            description: iOS DeviceCheck SDK for Go
           - url: https://github.com/Kachit/dusupay-sdk-go
           - url: https://github.com/onrik/ethrpc
           - url: https://github.com/Kachit/fasapay-sdk-go
@@ -838,13 +984,17 @@ categories:
         repos:
           - url: https://github.com/plutov/paypal
           - url: https://github.com/stripe/stripe-go
+            description: Stripe API library for Go
           - url: https://github.com/brunomvsouza/ynab.go
       - name: Productivity APIs
         repos:
           - url: https://github.com/mehanizm/airtable
           - url: https://github.com/ctreminiom/go-atlassian
+            description: Atlassian Cloud API client
           - url: https://github.com/k-capehart/go-salesforce
+            description: Salesforce REST API client
           - url: https://github.com/FreeLeh/GoFreeDB
+            description: Database on top of Google Sheets
           - url: https://github.com/koltyakov/gosip
           - url: https://github.com/adlio/trello
           - url: https://github.com/mk-5/fjira
@@ -868,7 +1018,7 @@ categories:
           - url: https://github.com/huandu/facebook
           - url: https://github.com/go-lark/lark
           - url: https://github.com/chyroc/lark
-            description: Lark Open API Go SDK, Support ALL Open API and Event Callback
+            description: Lark/Feishu Open API SDK
           - url: https://github.com/slack-go/slack
   - name: Messaging & Bots
     subcategories:
@@ -881,19 +1031,26 @@ categories:
           - url: https://github.com/gempir/go-twitch-irc
           - url: https://github.com/onrik/micha
           - url: https://github.com/innogames/slack-bot
+            description: Slack bot for Jenkins, Jira, PRs
           - url: https://github.com/slack-io/slacker
           - url: https://github.com/tucnak/telebot
           - url: https://github.com/mymmrac/telego
       - name: Email
         repos:
           - url: https://github.com/AfterShip/email-verifier
+            description: Email verification without sending emails
           - url: https://github.com/toorop/go-dkim
           - url: https://github.com/dimuska139/go-email-normalizer
+            description: Normalize email addresses
           - url: https://github.com/wneessen/go-mail
           - url: https://github.com/emersion/go-message
+            description: Internet Message Format library
           - url: https://github.com/vanng822/go-premailer
+            description: Inline CSS for HTML mail
           - url: https://github.com/xhit/go-simple-mail
+            description: Simple mail sending with TLS/SSL
           - url: https://github.com/matcornic/hermes
+            description: Clean HTML email generator
           - url: https://github.com/foxcpp/maddy
           - url: https://github.com/mailgun/mailgun-go
           - url: https://github.com/mailhog/MailHog
@@ -902,7 +1059,9 @@ categories:
           - url: https://github.com/mjl-/mox
           - url: https://github.com/sendgrid/sendgrid-go
           - url: https://github.com/mocktools/go-smtp-mock
+            description: SMTP mock server for testing
           - url: https://github.com/truemail-rb/truemail-go
+            description: Email validator via Regex, DNS, SMTP
       - name: Messaging
         repos:
           - url: https://github.com/rabbitmq/amqp091-go
@@ -911,9 +1070,11 @@ categories:
           - url: https://github.com/hibiken/asynq
           - url: https://github.com/Clivern/Beaver
           - url: https://github.com/centrifugal/centrifugo
+            description: Scalable real-time messaging server
           - url: https://github.com/confluentinc/confluent-kafka-go
           - url: https://github.com/asaskevich/EventBus
           - url: https://github.com/mehdihadeli/Go-MediatR
+            description: Mediator pattern for CQRS
           - url: https://github.com/TheCreeper/go-notify
           - url: https://github.com/jirenius/go-res
           - url: https://github.com/maxatome/go-vitotrol
@@ -921,18 +1082,23 @@ categories:
           - url: https://github.com/Terry-Mao/gopush-cluster
           - url: https://github.com/appleboy/gorush
           - url: https://github.com/SchwarzIT/hypermatch
+            description: High-performance rule matching
           - url: https://github.com/RichardKnop/machinery
+            description: Async task queue with message passing
           - url: https://github.com/olahol/melody
           - url: https://github.com/dunglas/mercure
           - url: https://github.com/nats-io/nats.go
           - url: https://github.com/dailymotion/oplog
           - url: https://github.com/cskr/pubsub
           - url: https://github.com/timbray/quamina
+            description: Fast pattern-matching library
           - url: https://github.com/furdarius/rabbitroutine
+            description: RabbitMQ auto-reconnect library
           - url: https://github.com/jandelgado/rabtap
           - url: https://github.com/sybrexsys/RapidMQ
           - url: https://github.com/hyperonym/ratus
           - url: https://github.com/robinjoseph08/redisqueue
+            description: Redis streams producer and consumer
           - url: https://github.com/IBM/sarama
           - url: https://github.com/ThreeDotsLabs/watermill
           - url: https://github.com/pebbe/zmq4
@@ -951,6 +1117,7 @@ categories:
       - name: Consensus
         repos:
           - url: https://github.com/vadiminshakov/committer
+            description: 2PC and 3PC protocols for Go
           - url: https://github.com/lni/dragonboat
           - url: https://github.com/hashicorp/raft
           - url: https://github.com/etcd-io/raft
@@ -966,6 +1133,7 @@ categories:
           - url: https://github.com/capillariesio/capillaries
           - url: https://github.com/svcavallar/celeriac.v1
           - url: https://github.com/mbrostami/consistenthash
+            description: Consistent hashing implementation
           - url: https://github.com/chrislusf/gleam
           - url: https://github.com/sanketplus/go-mysql-lock
           - url: https://github.com/pdupub/go-pdu
@@ -983,12 +1151,15 @@ categories:
           - url: https://github.com/elazarl/goproxy
           - url: https://github.com/wzshiming/httpproxy
           - url: https://github.com/eduardonunesp/sslb
+            description: Simple load balancer
       - name: HTTP Clients
         repos:
           - url: https://github.com/rezmoss/axios4go
           - url: https://github.com/Noooste/azuretls-client
+            description: HTTP client to spoof TLS/JA3 fingerprint
           - url: https://github.com/opus-domini/fast-shot
           - url: https://github.com/NdoleStudio/go-otelroundtripper
+            description: OpenTelemetry metrics for HTTP clients
           - url: https://github.com/hashicorp/go-retryablehttp
           - url: https://github.com/go-zoox/fetch
           - url: https://github.com/levigross/grequests
@@ -999,16 +1170,19 @@ categories:
           - url: https://github.com/go-resty/resty
           - url: https://github.com/dghubble/sling
           - url: https://github.com/bogdanfinn/tls-client
+            description: HTTP client with TLS fingerprint spoofing
           - url: https://github.com/lib4u/fake-useragent
       - name: Message Brokers
         repos:
           - url: https://github.com/emitter-io/emitter
           - url: https://github.com/mochi-mqtt/server
           - url: https://github.com/nats-io/nats-server
+            description: High-performance NATS message server
       - name: Microservices
         repos:
           - url: https://github.com/gmsec/micro
           - url: https://github.com/unionj-cloud/go-doudou
+            description: OpenAPI 3 and gRPC microservices framework
           - url: https://github.com/go-eagle/eagle
           - url: https://github.com/go-kit/kit
           - url: https://github.com/micro/go-micro
@@ -1026,13 +1200,17 @@ categories:
           - url: https://github.com/yl2chen/cidranger
           - url: https://github.com/DarthPestilane/easytcp
           - url: https://github.com/fortio/fortio
+            description: Load testing and echo server
           - url: https://github.com/fclairamb/ftpserverlib
+            description: FTP server library for Go
           - url: https://github.com/shoriwe/fullproxy
           - url: https://github.com/alegrey91/fwdctl
+            description: Manage IPTables forwards via CLI
           - url: https://github.com/DrmagicE/gmqtt
           - url: https://github.com/hashicorp/go-getter
           - url: https://github.com/gansidui/gotcp
           - url: https://github.com/cavaliergopher/grab
+            description: Download manager package
           - url: https://github.com/c-robinson/iplib
           - url: https://github.com/udhos/jazigo
           - url: https://github.com/kirillDanshin/llb
@@ -1045,6 +1223,7 @@ categories:
         repos:
           - url: https://github.com/anacrolix/dht
           - url: https://github.com/dragonflyoss/dragonfly
+            description: P2P-based container image distribution
           - url: https://github.com/cenkalti/rain
           - url: https://github.com/anacrolix/torrent
       - name: Protocols
@@ -1057,14 +1236,17 @@ categories:
           - url: https://github.com/gosnmp/gosnmp
           - url: https://github.com/soypat/natiu-mqtt
           - url: https://github.com/jeroenrinzema/psql-wire
+            description: PostgreSQL wire protocol for Go
           - url: https://github.com/quic-go/quic-go
           - url: https://github.com/lxzan/gws
           - url: https://github.com/pion/webrtc
       - name: RPC
         repos:
           - url: https://github.com/lesismal/arpc
+            description: Two-way RPC with broadcast support
           - url: https://github.com/grpc/grpc-go
           - url: https://github.com/hprose/hprose-golang
+            description: Cross-language RPC for Go
           - url: https://github.com/osamingo/jsonrpc
           - url: https://github.com/ybbus/jsonrpc
       - name: SSH & SFTP
@@ -1078,16 +1260,19 @@ categories:
           - url: https://github.com/caddyserver/caddy
           - url: https://github.com/claceio/clace
           - url: https://github.com/blind-oracle/cortex-tenant
+            description: Prometheus proxy with tenant ID injection
           - url: https://github.com/easegress-io/easegress
           - url: https://github.com/etcd-io/etcd
           - url: https://github.com/getfider/fider
           - url: https://github.com/openflagr/flagr
           - url: https://github.com/flipt-io/flipt
           - url: https://github.com/thomaspoignant/go-feature-flag
+            description: Open source feature flag solution
           - url: https://github.com/rekby/lets-proxy2
           - url: https://github.com/minio/minio
           - url: https://github.com/pocketbase/pocketbase
           - url: https://github.com/roadrunner-server/roadrunner
+            description: High-performance PHP application server
           - url: https://github.com/drakkan/sftpgo
           - url: https://github.com/baalimago/wd-41
           - url: https://github.com/charmbracelet/wish
@@ -1107,8 +1292,9 @@ categories:
         repos:
           - url: https://github.com/cloudflare/cloudflared
           - url: https://github.com/yosebyte/nodepass
-            description: A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TLS/TCP connections
+            description: Secure TCP/UDP tunneling with TLS
           - url: https://github.com/xjasonlyu/tun2socks
+            description: TUN to SOCKS proxy
           - url: https://github.com/songgao/water
   - name: Other
     subcategories:
@@ -1116,40 +1302,57 @@ categories:
         repos:
           - url: https://github.com/0xERR0R/blocky
           - url: https://github.com/chapar-rest/chapar
+            description: API testing for HTTP and gRPC
           - url: https://github.com/gocircuit/circuit
             description: 'Circuit: Dynamic cloud orchestration'
           - url: https://github.com/schollz/croc
           - url: https://github.com/documize/community
+            description: Modern Confluence alternative
           - url: https://github.com/gilbertchen/duplicacy
+            description: Cloud backup tool
           - url: https://github.com/moshebe/gebug
+            description: Debug Dockerized Go apps
           - url: https://github.com/Antonito/gfile
           - url: https://github.com/shurcooL/Go-Package-Store
           - url: https://github.com/Sioro-Neoku/go-peerflix
           - url: https://github.com/Humpheh/goboy
           - url: https://github.com/goccmack/gocc
+            description: Parser and scanner generator
           - url: https://github.com/diankong/GoDocTooltip
           - url: https://github.com/Forceu/gokapi
           - url: https://github.com/janpfeifer/gonb
+            description: Go notebook kernel for Jupyter
           - url: https://github.com/edwingeng/hotswap
+            description: Hot reload Go code without restart
           - url: https://github.com/thestrukture/ide
           - url: https://github.com/assafmo/joincap
+            description: Merge pcap files
           - url: https://github.com/juicedata/juicefs
+            description: Distributed POSIX filesystem
           - url: https://github.com/jeffail/leaps
           - url: https://github.com/Code-Hex/Neo-cowsay
           - url: https://github.com/fogleman/nes
           - url: https://github.com/pointlander/peg
           - url: https://github.com/root-gg/plik
+            description: Temporary file upload system
           - url: https://github.com/SpatiumPortae/portal
+            description: Command-line file transfer utility
           - url: https://github.com/restic/restic
+            description: Fast, secure backup program
           - url: https://github.com/alajmo/sake
+            description: Task runner for local and remote hosts
           - url: https://github.com/seaweedfs/seaweedfs
+            description: Fast distributed storage for blobs
           - url: https://github.com/msoap/shell2http
           - url: https://github.com/go-sonic/sonic
+            description: Blogging platform in Go
           - url: https://github.com/marwanhawari/stew
           - url: https://github.com/DMcP89/tinycare-tui
           - url: https://github.com/shopify/toxiproxy
           - url: https://github.com/lingrino/vaku
+            description: Extended Vault API and CLI
           - url: https://github.com/wabarc/wayback
+            description: Web archiving tool with IM interface
       - name: Uncategorized
         repos:
           - url: https://github.com/kirillDanshin/avgRating
@@ -1165,15 +1368,23 @@ categories:
       - name: Geographic
         repos:
           - url: https://github.com/spatial-go/geoos
+            description: Spatial data and geometric algorithms
           - url: https://github.com/airbusgeo/godal
+            description: GDAL wrapper for Go
           - url: https://github.com/uber/h3-go
+            description: H3 hexagonal geospatial indexing
           - url: https://github.com/consbio/mbtileserver
+            description: MBTiles server in Go
           - url: https://github.com/paulmach/osm
+            description: OpenStreetMap data library
           - url: https://github.com/pantrif/s2-geojson
+            description: Visualize S2 cells on a map
           - url: https://github.com/golang/geo
           - url: https://github.com/peterstace/simplefeatures
+            description: OpenGIS Simple Feature implementation
           - url: https://github.com/tidwall/tile38
           - url: https://github.com/wroge/wgs84
+            description: Zero-dep coordinate transformations
       - name: Science
         repos:
           - url: https://github.com/ndabAP/assocentity
@@ -1183,15 +1394,20 @@ categories:
           - url: https://github.com/ThePaw/go-gt
           - url: https://github.com/go-hep/hep
           - url: https://github.com/hmdsefi/gograph
+            description: Generic graph algorithms library
           - url: https://github.com/gonum/gonum
+            description: Numeric libraries for Go
           - url: https://github.com/gonum/plot
+            description: Plotting and visualization
           - url: https://github.com/OGFris/GoStats
           - url: https://github.com/nikolaydubina/jsonl-graph
           - url: https://github.com/ChristopherRabotin/ode
           - url: https://github.com/paulmach/orb
+            description: 2D geometry types and utilities
           - url: https://github.com/sgreben/piecewiselinear
           - url: https://github.com/claygod/PiHex
           - url: https://github.com/bebop/poly
+            description: Synthetic biology library for Go
           - url: https://github.com/nytlabs/streamtools
           - url: https://github.com/DavidBelicza/TextRank
   - name: Scripting
@@ -1199,32 +1415,55 @@ categories:
       - name: Embeddable Languages
         repos:
           - url: https://github.com/mattn/anko
+            description: Scriptable interpreter in Go
           - url: https://github.com/google/cel-go
+            description: Common Expression Language for Go
           - url: https://github.com/expr-lang/expr
+            description: Expression evaluation for Go
           - url: https://github.com/dunglas/frankenphp
           - url: https://github.com/Shopify/go-lua
+            description: Lua VM in Go
           - url: https://github.com/dop251/goja
+            description: ECMAScript engine in pure Go
           - url: https://github.com/aarzilli/golua
+            description: Lua C API bindings for Go
           - url: https://github.com/yuin/gopher-lua
+            description: Lua VM and compiler in Go
           - url: https://github.com/PaesslerAG/gval
+            description: Expression evaluation in Go
           - url: https://github.com/metacall/core
+            description: Polyglot programming runtime
           - url: https://github.com/ichiban/prolog
+            description: Prolog scripting engine for Go
           - url: https://github.com/google/starlark-go
+            description: Starlark config language in Go
           - url: https://github.com/1set/starlet
+            description: Starlark wrapper with batteries
           - url: https://github.com/d5/tengo
+            description: Fast script language for Go
           - url: https://github.com/wa-lang/wa
+            description: The Wa Programming Language
       - name: Generators
         repos:
           - url: https://github.com/reedom/convergen
+            description: Type-to-type copy code generator
           - url: https://github.com/switchupcb/copygen
+            description: Copy values between types
           - url: https://github.com/senselogic/GENERIS
           - url: https://github.com/abice/go-enum
+            description: Enum generator for Go
           - url: https://github.com/awalterschulze/goderive
+            description: Generate mundane Go functions
           - url: https://github.com/jmattheis/goverter
+            description: Generate type-safe converters
           - url: https://github.com/hexdigest/gowrap
+            description: Generate interface decorators
           - url: https://github.com/rjeczalik/interfaces
+            description: Code generation tools for Go
           - url: https://github.com/dave/jennifer
+            description: Code generator for Go
           - url: https://github.com/oapi-codegen/oapi-codegen
+            description: Generate Go code from OpenAPI 3 specs
   - name: Testing & Quality
     subcategories:
       - name: Benchmarks
@@ -1233,7 +1472,9 @@ categories:
           - url: https://github.com/julienschmidt/go-http-routing-benchmark
           - url: https://github.com/nikolaydubina/go-ml-benchmarks
           - url: https://github.com/smallnest/go-web-framework-benchmark
+            description: Web framework benchmarks
           - url: https://github.com/alecthomas/go_serialization_benchmarks
+            description: Serialization benchmarks for Go
           - url: https://github.com/SimonWaldherr/golang-benchmarks
           - url: https://github.com/feyeleanor/GoSpeed
           - url: https://github.com/atemerev/skynet
@@ -1242,22 +1483,32 @@ categories:
           - url: https://github.com/Checkmarx/chainjacking
           - url: https://github.com/amit-davidson/Chronos
           - url: https://github.com/mibk/dupl
+            description: Code clone detection tool
           - url: https://github.com/kisielk/errcheck
           - url: https://github.com/Crocmagnon/fatcontext
+            description: Detect nested contexts in loops
           - url: https://github.com/go-critic/go-critic
           - url: https://github.com/yuroyoro/goast-viewer
           - url: https://github.com/golangci/golangci-lint
           - url: https://github.com/segmentio/golines
           - url: https://github.com/sqs/goreturns
           - url: https://github.com/shurcooL/gostatus
+            description: Show status of Go repositories
           - url: https://github.com/mgechev/revive
+            description: Fast, extensible Go linter
           - url: https://github.com/Antonboom/testifylint
+            description: Linter for testify usage
           - url: https://github.com/presmihaylov/todocheck
+            description: Analyser for TODO comments
           - url: https://github.com/mdempsky/unconvert
+            description: Remove unnecessary type conversions
           - url: https://github.com/sashamelentyev/usestdlibvars
+            description: Linter for stdlib variables usage
           - url: https://github.com/daveshanley/vacuum
+            description: Fast OpenAPI linter
           - url: https://github.com/mccoyst/validate
           - url: https://github.com/tomarrell/wrapcheck
+            description: Check errors are wrapped
           - url: https://github.com/boyter/scc
           - url: https://github.com/antham/ghokin
           - url: https://github.com/borovikovd/gomsort
@@ -1265,41 +1516,63 @@ categories:
       - name: Mock
         repos:
           - url: https://github.com/maxbrunsfeld/counterfeiter
+            description: Generate type-safe test doubles
           - url: https://github.com/elgohr/go-localstack
+            description: Go wrapper for LocalStack
           - url: https://github.com/DATA-DOG/go-sqlmock
+            description: SQL mock driver for testing
           - url: https://github.com/DATA-DOG/go-txdb
+            description: Transaction-isolated SQL driver
           - url: https://github.com/uber-go/mock
           - url: https://github.com/seborama/govcr
+            description: Record and replay HTTP interactions
           - url: https://github.com/SpectoLabs/hoverfly
+            description: API simulation and virtualization
           - url: https://github.com/jarcoal/httpmock
+            description: HTTP mocking for Go
           - url: https://github.com/gojuno/minimock
+            description: Powerful mock generator
           - url: https://github.com/vektra/mockery
+            description: Mock code autogenerator for Go
           - url: https://github.com/GuilhermeCaruso/mooncake
           - url: https://github.com/matryer/moq
+            description: Interface mocking via go generate
           - url: https://github.com/pashagolub/pgxmock
+            description: pgx mock driver for testing
           - url: https://github.com/xhd2015/xgo
+            description: All-in-one Go testing library
           - url: https://github.com/balinomad/go-mockfs
           - url: https://github.com/brianvoe/gofakeit
       - name: Performance
         repos:
           - url: https://github.com/nikolaydubina/go-instrument
+            description: Add trace spans to Go functions
           - url: https://github.com/jaegertracing/jaeger
+            description: Distributed tracing platform
           - url: https://github.com/joetifa2003/mm-go
+            description: Manual memory management for Go
           - url: https://github.com/pixie-io/pixie
+            description: Kubernetes-native observability
           - url: https://github.com/arl/statsviz
+            description: Visualize Go runtime metrics
       - name: Selenium and browser control tools
         repos:
           - url: https://github.com/mafredri/cdp
           - url: https://github.com/chromedp/chromedp
+            description: Chrome DevTools Protocol driver
           - url: https://github.com/playwright-community/playwright-go
+            description: Browser automation for Chromium, Firefox, WebKit
           - url: https://github.com/go-rod/rod
+            description: Chrome DevTools driver for scraping
           - url: https://github.com/sensepost/gowitness
+            description: Web screenshot utility with Chrome
       - name: Testing Frameworks
         repos:
           - url: https://github.com/earthboundkid/be
           - url: https://github.com/abecodes/dft
           - url: https://github.com/viant/dsunit
           - url: https://github.com/fergusstrange/embedded-postgres
+            description: Embedded PostgreSQL for testing
           - url: https://github.com/viant/endly
           - url: https://github.com/PerimeterX/envite
           - url: https://github.com/rekby/fixenv
@@ -1315,6 +1588,7 @@ categories:
           - url: https://github.com/cunicu/gont
           - url: https://github.com/ysmood/got
           - url: https://github.com/gotestyourself/gotest.tools
+            description: Testing utilities for Go
           - url: https://github.com/gavv/httpexpect
           - url: https://github.com/kinbiko/jsonassert
           - url: https://github.com/keploy/keploy
@@ -1322,222 +1596,359 @@ categories:
           - url: https://github.com/adamluzsi/testcase
           - url: https://github.com/madflojo/testcerts
           - url: https://github.com/testcontainers/testcontainers-go
+            description: Docker containers for integration tests
           - url: https://github.com/go-testfixtures/testfixtures
+            description: Rails-like test fixtures for Go
           - url: https://github.com/stretchr/testify
           - url: https://github.com/MarvinJWendt/testza
       - name: Testing Utilities
         repos:
           - url: https://github.com/pingcap/failpoint
+            description: Failpoint implementation for Go
           - url: https://github.com/dvyukov/go-fuzz
+            description: Randomized testing for Go
       - name: Validation
         repos:
           - url: https://github.com/osamingo/checkdigit
+            description: Check digit algorithms
           - url: https://github.com/tiendc/go-validator
+            description: Intuitive validation library
           - url: https://github.com/twharmon/govalid
+            description: Struct validation using tags
           - url: https://github.com/faceair/jio
+            description: JSON schema validator like Joi
           - url: https://github.com/gookit/validate
-            description: Go package for data validation and filtering. support Map, Struct, Form data
+            description: Struct and data validation
           - url: https://github.com/go-playground/validator
+            description: Struct and field validation for Go
           - url: https://github.com/marrow16/valix
+            description: Request validation package
           - url: https://github.com/Oudwins/zog
+            description: Zod-inspired schema validation
   - name: Text & NLP
     subcategories:
       - name: Formatters
         repos:
           - url: https://github.com/bojanz/address
+            description: Address handling for Go
           - url: https://github.com/Guitarbum722/align
           - url: https://github.com/ianlopshire/go-fixedwidth
+            description: Fixed-width data encoding
           - url: https://github.com/dustin/go-humanize
+            description: Human-friendly unit formatting
           - url: https://github.com/neilotoole/sq
+            description: SQL data wrangler
       - name: Markup Languages
         repos:
           - url: https://github.com/mmalcek/bafi
+            description: Universal format converter
           - url: https://github.com/CalebQ42/bbConvert
           - url: https://github.com/drewstinnett/gout
+            description: Output Go objects in YAML, JSON
           - url: https://github.com/pelletier/go-toml
+            description: TOML library for Go
           - url: https://github.com/yuin/goldmark
+            description: Markdown parser for Go
           - url: https://github.com/JohannesKaufmann/html-to-markdown
+            description: Convert HTML to Markdown
           - url: https://github.com/antchfx/htmlquery
+            description: XPath for HTML queries
           - url: https://github.com/clbanning/mxj
+            description: XML to/from map conversion
           - url: https://github.com/BurntSushi/toml
+            description: TOML parser with reflection
       - name: Morphological Analyzers
         repos:
           - url: https://github.com/jonreiter/govader
+            description: VADER sentiment analysis
           - url: https://github.com/PIMPfiction/govader_backend
           - url: https://github.com/ikawaha/kagome
+            description: Japanese morphological analyzer
           - url: https://github.com/afjoseph/RAKE.Go
+            description: Rapid Keyword Extraction in Go
           - url: https://github.com/nlpodyssey/spago
+            description: ML and NLP library for Go
       - name: Parsers/Encoders/Decoders
         repos:
           - url: https://github.com/editorconfig/editorconfig-core-go
+            description: EditorConfig core in Go
           - url: https://github.com/adrianmo/go-nmea
+            description: NMEA sentence parser
           - url: https://github.com/google/go-querystring
+            description: Encode structs to URL query strings
           - url: https://github.com/emersion/go-vcard
+            description: vCard parser and formatter
           - url: https://github.com/yassinebenaid/godump
+            description: Dump any Go variable
           - url: https://github.com/mmcdole/gofeed
+            description: Parse RSS, Atom, JSON feeds
           - url: https://github.com/polera/gonameparts
           - url: https://github.com/Wing924/ltsv
           - url: https://github.com/mvdan/sh
+            description: Shell parser and formatter
           - url: https://github.com/bzick/tokenizer
+            description: Tokenizer/lexer for Go
           - url: https://github.com/olebedev/when
+            description: Natural language date parser
       - name: Scrapers
         repos:
           - url: https://github.com/gocolly/colly
+            description: Web scraping framework for Go
           - url: https://github.com/PuerkitoBio/goquery
+            description: jQuery-like HTML manipulation
           - url: https://github.com/foolin/pagser
           - url: https://github.com/zoomio/tagify
+            description: Extract tags from HTML/Markdown/text
           - url: https://github.com/mvdan/xurls
+            description: Extract URLs from text
           - url: https://github.com/s0rg/crawley
       - name: Tokenizers
         repos:
           - url: https://github.com/go-ego/gse
+            description: Multilingual text segmentation
           - url: https://github.com/awsong/MMSEGO
           - url: https://github.com/pebbe/textcat
+            description: N-gram text categorization
       - name: Translation
         repos:
           - url: https://github.com/invopop/ctxi18n
+            description: Context-based i18n for Go
           - url: https://github.com/nicksnyder/go-i18n
+            description: Translate Go programs
           - url: https://github.com/leonelquinteros/gotext
+            description: GNU gettext for Go
           - url: https://github.com/mehanizm/iuliia-go
+            description: Cyrillic to Latin transliteration
           - url: https://github.com/vorlif/spreak
+            description: Gettext-based translation library
           - url: https://github.com/youthlin/t
+            description: Translation util using gettext
       - name: Utility/Miscellaneous
         repos:
           - url: https://github.com/mattn/go-runewidth
+            description: Rune width for terminals
           - url: https://github.com/striker2000/petrovich
           - url: https://github.com/Dynom/TySug
+            description: Typo suggestions with keyboard layout
           - url: https://github.com/arunsupe/semantic-grep
+            description: Grep for similar words
           - url: https://github.com/pemistahl/lingua-go
+            description: Natural language detection
           - url: https://github.com/IGLOU-EU/go-wildcard
+            description: Fast wildcard matching
           - url: https://github.com/hedhyw/rex
+            description: Flexible regex constructor
           - url: https://github.com/microcosm-cc/bluemonday
+            description: Fast HTML sanitizer for Go
           - url: https://github.com/JoshuaDoes/gofuckyourself
+            description: Swear filter for Go
           - url: https://github.com/gosimple/slug
+            description: URL-friendly slugify
           - url: https://github.com/alexsergivan/transliterator
+            description: Text transliterator
   - name: Utilities
     subcategories:
       - name: Build & Release
         repos:
           - url: https://github.com/miniscruff/changie
+            description: Automated changelog tool
           - url: https://github.com/create-go-app/cli
+            description: Create production-ready Go projects
           - url: https://github.com/karl-cardenas-coding/go-lambda-cleanup
+            description: Remove old AWS Lambda versions
           - url: https://github.com/goreleaser/goreleaser
+            description: Release engineering simplified
           - url: https://github.com/jaschaephraim/lrserver
       - name: CLI Tools
         repos:
           - url: https://github.com/itchyny/bed
+            description: Binary editor in Go
           - url: https://github.com/wagoodman/dive
+            description: Explore Docker image layers
           - url: https://github.com/junegunn/fzf
+            description: Command-line fuzzy finder
           - url: https://github.com/knbr13/gitcs
+            description: Git contributions graph generator
           - url: https://github.com/hedhyw/json-log-viewer
+            description: Interactive JSON log viewer
           - url: https://github.com/alajmo/mani
+            description: CLI for managing repositories
           - url: https://github.com/minio/mc
+            description: Unix utilities for object stores
           - url: https://github.com/Unrud/remote-touchpad
+            description: Control mouse/keyboard remotely
           - url: https://github.com/joshmedeski/sesh
+            description: Terminal session manager
           - url: https://github.com/owenthereal/upterm
+            description: Instant terminal sharing
           - url: https://github.com/xo/usql
+            description: Universal SQL CLI
           - url: https://github.com/reugn/wifiqr
+            description: Generate Wi-Fi QR codes
           - url: https://github.com/antham/yogo
+            description: Check yopmail from CLI
           - url: https://github.com/chenquan/diskusage
+            description: Fast disk usage analyzer
       - name: Data Conversion
         repos:
           - url: https://github.com/shockerli/cvt
-            description: Easy and safe convert any value to another type in Go
+            description: Safe type conversion
           - url: https://github.com/gookit/filter
-            description: Provide filtering, sanitizing, and conversion of Golang data
+            description: Data filtering and conversion
           - url: https://github.com/tiendc/gofn
+            description: High-performance generic functions
           - url: https://github.com/duke-git/lancet
+            description: Comprehensive util library
           - url: https://github.com/samber/lo
+            description: Lodash-style utilities for Go
           - url: https://github.com/darccio/mergo
+            description: Merge Go structs and maps
           - url: https://github.com/xorcare/pointer
+            description: Create optional field pointers
           - url: https://github.com/Henry-Sarabia/sliceconv
           - url: https://github.com/goforj/godump
+            description: Pretty-printer for Go structs
       - name: Database Extensions
         repos:
           - url: https://github.com/blockloop/scan
+            description: Scan SQL rows to structs
           - url: https://github.com/wroge/scan
+            description: Generic SQL row scanner
           - url: https://github.com/georgysavva/scany
+            description: Scan database rows to structs
           - url: https://github.com/jmoiron/sqlx
+            description: Extensions for database/sql
       - name: Date and Time
         repos:
           - url: https://github.com/dromara/carbon
+            description: Developer-friendly time package
           - url: https://github.com/rickb777/date
+            description: Date handling package
           - url: https://github.com/araddon/dateparse
+            description: Parse dates without format
           - url: https://github.com/yaa110/go-persian-calendar
+            description: Persian calendar for Go
           - url: https://github.com/nathan-osman/go-sunrise
+            description: Calculate sunrise and sunset times
           - url: https://github.com/bykof/gostradamus
+            description: Better DateTimes for Go
           - url: https://github.com/relvacode/iso8601
+            description: Fast ISO8601 date parser
           - url: https://github.com/GuilhermeCaruso/kair
           - url: https://github.com/SaidinWoT/timespan
       - name: Dependency Injection
         repos:
           - url: https://github.com/componego/componego
+            description: Component-oriented framework
           - url: https://github.com/d3fvxl/di
           - url: https://github.com/uber-go/dig
+            description: Reflection-based DI toolkit
           - url: https://github.com/i-love-flamingo/dingo
+            description: DI framework for Go
           - url: https://github.com/uber-go/fx
+            description: DI-based application framework
           - url: https://github.com/goioc/di
+            description: Simple DI for Go
           - url: https://github.com/NVIDIA/gontainer
+            description: Simple DI container
           - url: https://github.com/gontainer/gontainer
+            description: YAML-based DI container
           - url: https://github.com/google/wire
           - url: https://github.com/HnH/di
           - url: https://github.com/go-kod/kod
+            description: DI with aspect-oriented support
           - url: https://github.com/logrange/linker
+            description: DI and IoC package
           - url: https://github.com/muir/nject
+            description: Type-safe DI for Go
           - url: https://github.com/firasdarwish/ore
+            description: Advanced DI solution
           - url: https://github.com/Fs02/wire
           - url: https://github.com/matzefriedrich/parsley
+            description: Reflection-based DI package
           - url: https://github.com/junioryono/godi
+            description: DI with service lifetimes
       - name: Error Handling
         repos:
           - url: https://github.com/rotisserie/eris
+            description: Errors with readable stack traces
           - url: https://github.com/snwfdhmp/errlog
           - url: https://github.com/PumpkinSeed/errors
           - url: https://github.com/cockroachdb/errors
+            description: Error library with portability
           - url: https://github.com/joomcode/errorx
+            description: Comprehensive error handling
           - url: https://github.com/Southclaws/fault
+            description: Composable error wrapping
           - url: https://github.com/hashicorp/go-multierror
+            description: Represent multiple errors as one
           - url: https://github.com/samber/oops
+            description: Structured error handling
           - url: https://github.com/ztrue/tracerr
+            description: Errors with stack trace
       - name: File Handling
         repos:
           - url: https://github.com/spf13/afero
+            description: Filesystem abstraction for Go
           - url: https://github.com/viant/afs
+            description: Abstract file storage
           - url: https://github.com/codingsince1985/checksum
           - url: https://github.com/otiai10/copy
+            description: Copy directories recursively
           - url: https://github.com/dundee/gdu
+            description: Fast disk usage analyzer
           - url: https://github.com/artonge/go-csv-tag
+            description: CSV reading with tags
           - url: https://github.com/barasher/go-exiftool
+            description: Exiftool wrapper for metadata
           - url: https://github.com/artonge/go-gtfs
           - url: https://github.com/SebastiaanKlippert/go-wkhtmltopdf
+            description: HTML to PDF wrapper
           - url: https://github.com/no-src/gofs
+            description: Cross-platform file sync
           - url: https://github.com/adelowo/gulter
+            description: Multipart form handling
           - url: https://github.com/kdomanski/iso9660
+            description: ISO9660 image library
           - url: https://github.com/qmuntal/opc
           - url: https://github.com/parsyl/parquet
+            description: Parquet file library
           - url: https://github.com/pdfcpu/pdfcpu
+            description: PDF processor in Go
           - url: https://github.com/1set/todotxt
           - url: https://github.com/C2FO/vfs
+            description: Virtual file system for Go
           - url: https://github.com/charlievieth/fastwalk
+            description: Fast directory traversal
           - url: https://github.com/mholt/archives
           - url: https://github.com/gen2brain/go-unarr
           - url: https://github.com/ulikunitz/xz
       - name: Forms
         repos:
           - url: https://github.com/cinar/checker
+            description: Input validation with struct tags
           - url: https://github.com/go-playground/form
+            description: URL values to structs
           - url: https://github.com/gorilla/csrf
+            description: CSRF prevention middleware
           - url: https://github.com/ggicci/httpin
+            description: HTTP request to struct binding
           - url: https://github.com/justinas/nosurf
+            description: CSRF protection middleware
           - url: https://github.com/sonh/qs
+            description: Encode structs to query params
           - url: https://github.com/tomwright/queryparam
       - name: Functional
         repos:
           - url: https://github.com/TeaEntityLab/fpGo
           - url: https://github.com/seborama/fuego
+            description: Functional programming in Go
           - url: https://github.com/BooleanCat/go-functional
+            description: Iterator library for Go
           - url: https://github.com/samber/mo
+            description: Monads and FP for Go
           - url: https://github.com/rjNemo/underscore
+            description: Functional helpers for Go
       - name: General
         repos:
           - url: https://github.com/icza/backscanner
@@ -1556,6 +1967,7 @@ categories:
           - url: https://github.com/mozillazg/go-httpheader
           - url: https://github.com/PhakornKiong/go-pattern-match
           - url: https://github.com/ikeikeikeike/go-sitemap-generator
+            description: Generate XML sitemaps
           - url: https://github.com/mikekonan/go-types
           - url: https://github.com/VividCortex/godaemon
           - url: https://github.com/dropbox/godropbox
@@ -1568,6 +1980,7 @@ categories:
           - url: https://github.com/kazhuravlev/just
           - url: https://github.com/zRedShift/mimemagic
           - url: https://github.com/gabriel-vasile/mimetype
+            description: MIME type detection by magic numbers
           - url: https://github.com/StabbyCutyou/moldova
           - url: https://github.com/linxGnu/mssqlx
           - url: https://github.com/VividCortex/multitick
@@ -1579,6 +1992,7 @@ categories:
           - url: https://github.com/PumpkinSeed/structs
           - url: https://github.com/viant/toolbox
           - url: https://github.com/nikolaydubina/watchhttp
+            description: Expose command output via HTTP
           - url: https://github.com/itbasis/go-hashtag
           - url: https://github.com/floatdrop/debounce
           - url: https://github.com/shurcooL/vfsgen
@@ -1592,81 +2006,131 @@ categories:
       - name: Logging
         repos:
           - url: https://github.com/golang/glog
+            description: Leveled execution logs
           - url: https://github.com/henvic/httpretty
+            description: Pretty-print HTTP requests
           - url: https://github.com/clok/kemba
-            description: A tiny debug logging tool. Ideal for CLI tools and command applications
+            description: Tiny debug logging tool
           - url: https://github.com/Lifailon/lazyjournal
+            description: TUI for journald, Docker, K8s logs
           - url: https://github.com/apex/log
           - url: https://github.com/go-playground/log
           - url: https://github.com/Sirupsen/logrus
           - url: https://github.com/hashicorp/logutils
+            description: Logging utilities for Go
           - url: https://github.com/phuslu/log
+            description: Fastest structured logging
           - url: https://github.com/k0kubun/pp
+            description: Colored pretty printer for Go
           - url: https://github.com/getsentry/sentry-go
+            description: Official Sentry SDK for Go
           - url: https://github.com/gookit/slog
-            description: Lightweight, configurable, extensible logging library written in Go
+            description: Configurable logging library
           - url: https://github.com/samber/slog-formatter
+            description: Slog attribute formatting
           - url: https://github.com/samber/slog-multi
+            description: Workflow design for slog handlers
           - url: https://github.com/davecgh/go-spew
+            description: Deep pretty printer for debugging
           - url: https://github.com/simukti/sqldb-logger
+            description: SQL database logger
           - url: https://github.com/lmittmann/tint
+            description: Colorized slog handler
           - url: https://github.com/rs/xlog
+            description: Context-aware HTTP logger
           - url: https://github.com/uber-go/zap
+            description: Fast structured logging
           - url: https://github.com/yuseferi/zax
+            description: Zap logger with context
           - url: https://github.com/rs/zerolog
+            description: Zero allocation JSON logger
           - url: https://github.com/DeRuina/timberjack
+            description: Log rolling library
       - name: Networking Utils
         repos:
           - url: https://github.com/cristianoliveira/ergo
+            description: Manage apps on different ports
           - url: https://github.com/htcat/htcat
+            description: Parallel HTTP download
           - url: https://github.com/ferama/rospo
+            description: Persistent SSH tunnels
       - name: Project Layout
         repos:
           - url: https://github.com/ardanlabs/service
+            description: K8s service starter kit
           - url: https://github.com/lacion/cookiecutter-golang
+            description: Go project template
           - url: https://github.com/Melkeydev/go-blueprint
+            description: Spin up Go projects with popular frameworks
           - url: https://github.com/allaboutapps/go-starter
+            description: Production-ready RESTful API template
           - url: https://github.com/Fs02/go-todo-backend
           - url: https://github.com/naughtygopher/goapp
+            description: Opinionated web app structure
           - url: https://github.com/wajox/gobase
           - url: https://github.com/golang-standards/project-layout
+            description: Standard Go project layout
           - url: https://github.com/golang-templates/seed
+            description: Go app GitHub template
           - url: https://github.com/shpota/goxygen
           - url: https://github.com/raeperd/kickstart.go
+            description: Minimal HTTP server template
           - url: https://github.com/sagikazarmark/modern-go-application
+            description: Modern Go app example
           - url: https://github.com/go-nunu/nunu
+            description: CLI for building Go apps
           - url: https://github.com/mikestefanello/pagoda
+            description: Full-stack web development starter kit
           - url: https://github.com/wangyoucao577/go-project-layout
+            description: Go project structure guide
       - name: Resilience & Retry
         repos:
           - url: https://github.com/cep21/circuit
+            description: Hystrix-like circuit breaker
           - url: https://github.com/rubyist/circuitbreaker
+            description: Circuit breakers in Go
           - url: https://github.com/reugn/equalizer
+            description: Performant rate limiters
           - url: https://github.com/failsafe-go/failsafe-go
+            description: Fault tolerance patterns
           - url: https://github.com/mennanov/limiters
+            description: Distributed rate limiters
           - url: https://github.com/kamilsk/retry
+            description: Advanced retry mechanism
           - url: https://github.com/avast/retry-go
+            description: Simple retry mechanism
           - url: https://github.com/webriots/rate
+            description: High-performance rate limiter
           - url: https://github.com/eapache/go-resiliency
       - name: Strings
         repos:
           - url: https://github.com/gobeam/Stringy
           - url: https://github.com/ozgio/strutil
+            description: String utilities for Go
           - url: https://github.com/abhimanyu003/sttr
+            description: CLI string operations
           - url: https://github.com/huandu/xstrings
+            description: String functions from other langs
       - name: System & Process
         repos:
           - url: https://github.com/derekparker/delve
           - url: https://github.com/immortal/immortal
+            description: Cross-platform supervisor
           - url: https://github.com/maruel/panicparse
+            description: Crash your app in style
           - url: https://github.com/cilium/ebpf
+            description: eBPF library for Go
           - url: https://github.com/gotranspile/cxgo
+            description: Transpile C to Go
       - name: UUID
         repos:
           - url: https://github.com/twharmon/gouid
           - url: https://github.com/oklog/ulid
+            description: ULID implementation
           - url: https://github.com/gofrs/uuid
+            description: UUID library for Go
           - url: https://github.com/google/uuid
+            description: UUID generation and parsing
           - url: https://github.com/edwingeng/wuid
           - url: https://github.com/sdrapkin/guid
           - url: https://github.com/osamingo/indigo
@@ -1684,6 +2148,7 @@ categories:
           - url: https://github.com/jfrog/froggit-go
           - url: https://github.com/gabyx/githooks
           - url: https://github.com/go-git/go-git
+            description: Pure Go Git implementation
           - url: https://github.com/sourcegraph/go-vcs
           - url: https://github.com/antham/gommit
           - url: https://github.com/antham/chyle
@@ -1694,6 +2159,7 @@ categories:
         repos:
           - url: https://github.com/rs/cors
           - url: https://github.com/faabiosr/echo-middleware
+            description: Middlewares for Echo framework
           - url: https://github.com/lingrino/go-fault
           - url: https://github.com/rookie-ninja/rk-gin
           - url: https://github.com/rookie-ninja/rk-grpc
@@ -1725,6 +2191,7 @@ categories:
           - url: https://github.com/osteele/liquid
           - url: https://github.com/johnfercher/maroto
           - url: https://github.com/valyala/quicktemplate
+            description: Fast template engine for Go
           - url: https://github.com/robfig/soy
           - url: https://github.com/go-sprout/sprout
           - url: https://github.com/a-h/templ
@@ -1737,7 +2204,9 @@ categories:
           - url: https://github.com/fastschema/fastschema
           - url: https://github.com/gofiber/fiber
           - url: https://github.com/i-love-flamingo/flamingo
+            description: Flexible Go web framework
           - url: https://github.com/i-love-flamingo/flamingo-commerce
+            description: Flexible Go web framework
           - url: https://github.com/go-fuego/fuego
           - url: https://github.com/gin-gonic/gin
           - url: https://github.com/xxjwxc/ginrpc
@@ -1763,6 +2232,7 @@ categories:
           - url: https://github.com/uadmin/uadmin
           - url: https://github.com/ankorstore/yokai
           - url: https://github.com/SaiNageswarS/go-api-boot
+            description: gRPC + HTTP/2 production framework
           - url: https://github.com/apache/dubbo-go
           - url: https://github.com/yaitoo/xun
           - url: https://github.com/go-spring/spring-core
@@ -1793,6 +2263,7 @@ categories:
       - name: Workflow Frameworks
         repos:
           - url: https://github.com/cadence-workflow/cadence-go-client
+            description: Cadence workflow client for Go
           - url: https://github.com/dagu-org/dagu
           - url: https://github.com/rhosocial/go-dag
           - url: https://github.com/noneback/go-taskflow
