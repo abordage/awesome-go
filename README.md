@@ -17,10 +17,9 @@ Go libraries, tools, and applications from the community. This awesome list is a
   - [Audio](#audio)
   - [Images](#images)
   - [Video](#video)
-- [Authentication & Security](#authentication--security)
+- [Auth](#auth)
   - [Authentication](#authentication)
-  - [Security](#security)
-  - [Zero Trust](#zero-trust)
+  - [Authorization](#authorization)
 - [Bots & Chat](#bots--chat)
   - [Bot Frameworks](#bot-frameworks)
   - [Chat APIs](#chat-apis)
@@ -89,22 +88,27 @@ Go libraries, tools, and applications from the community. This awesome list is a
   - [Distributed Utilities](#distributed-utilities)
   - [HTTP & Proxy](#http--proxy)
   - [HTTP Clients](#http-clients)
-  - [Message Brokers](#message-brokers)
-  - [Message Queues](#message-queues)
-  - [Microservices](#microservices)
+  - [Infrastructure](#infrastructure)
   - [Network Utilities](#network-utilities)
   - [P2P & Torrent](#p2p--torrent)
   - [Protocols](#protocols)
   - [RPC](#rpc)
   - [SSH & SFTP](#ssh--sftp)
-  - [Server Applications](#server-applications)
   - [TCP/UDP Frameworks](#tcpudp-frameworks)
   - [VPN & Tunneling](#vpn--tunneling)
 - [Other](#other)
+- [Queues & Pub/Sub](#queues--pubsub)
+  - [Brokers](#brokers)
+  - [Clients & Libraries](#clients--libraries)
 - [Science](#science)
 - [Scripting](#scripting)
   - [Embeddable Languages](#embeddable-languages)
   - [Code Generators](#code-generators)
+- [Security](#security)
+  - [Certificates](#certificates)
+  - [Cryptography](#cryptography)
+  - [WAF & Protection](#waf--protection)
+  - [Zero Trust](#zero-trust)
 - [Testing & Quality](#testing--quality)
   - [Benchmarks](#benchmarks)
   - [Code Analysis](#code-analysis)
@@ -151,6 +155,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
   - [Package Management](#package-management)
   - [Version Control](#version-control)
 - [Web Development](#web-development)
+  - [Microservices](#microservices)
   - [Middlewares](#middlewares)
   - [Routers](#routers)
   - [Template Engines](#template-engines)
@@ -229,17 +234,13 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [Eyevinn/hls-m3u8](https://github.com/Eyevinn/hls-m3u8) — HLS m3u8 library in Go ☆`35`
 - [jonoton/scout](https://github.com/jonoton/scout) — Video surveillance with motion detection ☆`26`
 - [unki2aut/go-mpd](https://github.com/unki2aut/go-mpd) — MPEG-DASH manifest library ☆`33`
-## Authentication & Security
+## Auth
 
 ### Authentication
 
-- [casbin/casbin](https://github.com/casbin/casbin) — Authorization library for Go ☆`19,590`
 - [golang-jwt/jwt](https://github.com/golang-jwt/jwt) — Go implementation of JSON Web Tokens (JWT). ☆`8,794`
 - [markbates/goth](https://github.com/markbates/goth) — Multi-provider authentication ☆`6,382`
 - [golang/oauth2](https://github.com/golang/oauth2) — Go OAuth2 ☆`5,785`
-- [ory/keto](https://github.com/ory/keto) — Customizable permission server ☆`5,223`
-- [openfga/openfga](https://github.com/openfga/openfga) — Fine-grained authorization server ☆`4,572`
-- [cerbos/cerbos](https://github.com/cerbos/cerbos) — Open core authorization layer ☆`4,173`
 - [aarondl/authboss](https://github.com/aarondl/authboss) — The boss of http auth. ☆`4,130`
 - [alexedwards/scs](https://github.com/alexedwards/scs) — HTTP Session Management for Go ☆`2,489`
 - [lestrrat-go/jwx](https://github.com/lestrrat-go/jwx) — Complete JWx implementation ☆`2,288`
@@ -258,42 +259,12 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [icza/session](https://github.com/icza/session) — Session management for web servers ☆`118`
 - [essentialkaos/branca](https://github.com/essentialkaos/branca) — Encrypted API tokens ☆`93`
 - [mengzhuo/cookiestxt](https://github.com/mengzhuo/cookiestxt) — cookiestxt implement parser of cookies txt format ☆`21`
-### Security
+### Authorization
 
-- [FiloSottile/age](https://github.com/FiloSottile/age) — Simple encryption tool ☆`20,456`
-- [go-acme/lego](https://github.com/go-acme/lego) — Let's Encrypt/ACME client and library written in Go ☆`9,099`
-- [authzed/spicedb](https://github.com/authzed/spicedb) — Zanzibar-inspired permissions DB ☆`6,300`
-- [caddyserver/certmagic](https://github.com/caddyserver/certmagic) — Automatic HTTPS certificate management ☆`5,408`
-- [Ullaakut/cameradar](https://github.com/Ullaakut/cameradar) — Cameradar hacks its way into RTSP videosurveillance cameras ☆`4,807`
-- [corazawaf/coraza](https://github.com/corazawaf/coraza) — ModSecurity-compatible WAF in Go ☆`3,163`
-- [awnumar/memguard](https://github.com/awnumar/memguard) — Software sandbox for storage of sensitive information in memory. ☆`2,696`
-- [mojocn/base64Captcha](https://github.com/mojocn/base64Captcha) — captcha of base64 image string ☆`2,323`
-- [unrolled/secure](https://github.com/unrolled/secure) — HTTP middleware for Go that facilitates some quick security wins. ☆`2,334`
-- [cossacklabs/themis](https://github.com/cossacklabs/themis) — Cryptographic framework for data protection ☆`1,944`
-- [mariocandela/beelzebub](https://github.com/mariocandela/beelzebub) — AI-powered honeypot framework ☆`1,772`
-- [cossacklabs/acra](https://github.com/cossacklabs/acra) — Database security proxy ☆`1,447`
-- [securitybunker/databunker](https://github.com/securitybunker/databunker) — Secure vault for PII/PHI/KYC records ☆`1,374`
-- [dromara/dongle](https://github.com/dromara/dongle) — A simple, semantic and developer-friendly crypto package for golang ☆`1,094`
-- [anatol/booster](https://github.com/anatol/booster) — Fast and secure initramfs generator ☆`609`
-- [kevinburke/nacl](https://github.com/kevinburke/nacl) — Pure Go implementation of the NaCL set of API's ☆`551`
-- [ssh-vault/ssh-vault](https://github.com/ssh-vault/ssh-vault) — encrypt/decrypt using ssh keys ☆`487`
-- [hillu/go-yara](https://github.com/hillu/go-yara) — Go bindings for YARA ☆`383`
-- [teler-sh/teler-waf](https://github.com/teler-sh/teler-waf) — HTTP middleware for WAF ☆`395`
-- [number571/go-peer](https://github.com/number571/go-peer) — Secure decentralized networking ☆`312`
-- [steambap/captcha](https://github.com/steambap/captcha) — Easy captcha library ☆`161`
-- [anatol/luks.go](https://github.com/anatol/luks.go) — Pure Golang library to manage LUKS partitions ☆`94`
-- [zitadel/passwap](https://github.com/zitadel/passwap) — Unified password hashing ☆`72`
-- [tg123/go-htpasswd](https://github.com/tg123/go-htpasswd) — Apache htpasswd Parser for Go. ☆`46`
-- [adrianosela/sslmgr](https://github.com/adrianosela/sslmgr) — SSL certificate abstraction ☆`30`
-- [rsjethani/secret](https://github.com/rsjethani/secret) — Prevent your secrets from leaking into logs, std* etc. ☆`32`
-- [andskur/argon2-hashing](https://github.com/andskur/argon2-hashing) — Argon2 password hashing ☆`25`
-- [bitfield/qrand](https://github.com/bitfield/qrand) — Quantum randomness source using the ANU hardware QRNG ☆`17`
-### Zero Trust
-
-- [sigstore/cosign](https://github.com/sigstore/cosign) — Code signing and transparency for containers and binaries ☆`5,519`
-- [openziti/ziti](https://github.com/openziti/ziti) — Zero trust networking platform ☆`3,774`
-- [spiffe/spire](https://github.com/spiffe/spire) — The SPIFFE Runtime Environment ☆`2,159`
-- [philips-labs/spiffe-vault](https://github.com/philips-labs/spiffe-vault) — Integrates Spiffe and Vault to have secretless authentication ☆`96`
+- [casbin/casbin](https://github.com/casbin/casbin) — Authorization library for Go ☆`19,590`
+- [ory/keto](https://github.com/ory/keto) — Customizable permission server ☆`5,223`
+- [openfga/openfga](https://github.com/openfga/openfga) — Fine-grained authorization server ☆`4,572`
+- [cerbos/cerbos](https://github.com/cerbos/cerbos) — Open core authorization layer ☆`4,173`
 ## Bots & Chat
 
 ### Bot Frameworks
@@ -968,55 +939,28 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [opus-domini/fast-shot](https://github.com/opus-domini/fast-shot) — Fluent HTTP client for Go ☆`94`
 - [go-zoox/fetch](https://github.com/go-zoox/fetch) — Powerful HTTP client for Go ☆`88`
 - [rezmoss/axios4go](https://github.com/rezmoss/axios4go) — Axios-inspired HTTP client ☆`30`
-### Message Brokers
+### Infrastructure
 
-- [nats-io/nats-server](https://github.com/nats-io/nats-server) — High-performance NATS message server ☆`18,853`
-- [emitter-io/emitter](https://github.com/emitter-io/emitter) — High-performance pub/sub broker ☆`3,996`
-- [mochi-mqtt/server](https://github.com/mochi-mqtt/server) — Embeddable MQTT v5 broker ☆`1,746`
-### Message Queues
-
-- [hibiken/asynq](https://github.com/hibiken/asynq) — Simple, reliable, and efficient distributed task queue in Go ☆`12,651`
-- [IBM/sarama](https://github.com/IBM/sarama) — Sarama is a Go library for Apache Kafka. ☆`12,352`
-- [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) — Scalable real-time messaging server ☆`9,663`
-- [ThreeDotsLabs/watermill](https://github.com/ThreeDotsLabs/watermill) — Building event-driven applications the easy way in Go. ☆`9,343`
-- [appleboy/gorush](https://github.com/appleboy/gorush) — A push notification server written in Go (Golang). ☆`8,652`
-- [RichardKnop/machinery](https://github.com/RichardKnop/machinery) — Async task queue with message passing ☆`7,914`
-- [nats-io/nats.go](https://github.com/nats-io/nats.go) — Golang client for NATS, the cloud native messaging system. ☆`6,319`
-- [confluentinc/confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go) — Confluent's Apache Kafka Golang client ☆`5,071`
-- [dunglas/mercure](https://github.com/dunglas/mercure) — Server-Sent Events hub ☆`5,142`
-- [olahol/melody](https://github.com/olahol/melody) — Minimalist websocket framework for Go ☆`4,036`
-- [sideshow/apns2](https://github.com/sideshow/apns2) — Apple Push Notification Service ☆`3,149`
-- [lovoo/goka](https://github.com/lovoo/goka) — Kafka stream processing library ☆`2,494`
-- [asaskevich/EventBus](https://github.com/asaskevich/EventBus) — [Go] Lightweight eventbus with async compatibility for Go ☆`1,949`
-- [rabbitmq/amqp091-go](https://github.com/rabbitmq/amqp091-go) — An AMQP 0-9-1 Go client maintained by the RabbitMQ team ☆`1,943`
-- [containrrr/shoutrrr](https://github.com/containrrr/shoutrrr) — Notification library for gophers and their furry friends. ☆`1,434`
-- [pebbe/zmq4](https://github.com/pebbe/zmq4) — A Go interface to ZeroMQ version 4 ☆`1,240`
-- [timbray/quamina](https://github.com/timbray/quamina) — Fast pattern-matching library ☆`437`
-- [cskr/pubsub](https://github.com/cskr/pubsub) — A simple pubsub package for go. ☆`446`
-- [jandelgado/rabtap](https://github.com/jandelgado/rabtap) — RabbitMQ wire tap and swiss army knife ☆`279`
-- [mehdihadeli/Go-MediatR](https://github.com/mehdihadeli/Go-MediatR) — Mediator pattern for CQRS ☆`269`
-- [goptics/varmq](https://github.com/goptics/varmq) — Zero-dep message queue library ☆`176`
-- [hyperonym/ratus](https://github.com/hyperonym/ratus) — RESTful async task queue server ☆`124`
-- [robinjoseph08/redisqueue](https://github.com/robinjoseph08/redisqueue) — Redis streams producer and consumer ☆`138`
-- [oagudo/outbox](https://github.com/oagudo/outbox) — Transactional outbox pattern ☆`113`
-- [furdarius/rabbitroutine](https://github.com/furdarius/rabbitroutine) — RabbitMQ auto-reconnect library ☆`113`
-- [dailymotion/oplog](https://github.com/dailymotion/oplog) — A generic oplog/replication system for microservices ☆`110`
-- [Protocol-Lattice/GoEventBus](https://github.com/Protocol-Lattice/GoEventBus) — A lock-free, ultra-fast event bus for Go ☆`48`
-- [jirenius/go-res](https://github.com/jirenius/go-res) — RES Service protocol library for Go ☆`68`
-- [SchwarzIT/hypermatch](https://github.com/SchwarzIT/hypermatch) — High-performance rule matching ☆`33`
-### Microservices
-
-- [zeromicro/go-zero](https://github.com/zeromicro/go-zero) — Microservices framework with CLI tools ☆`32,330`
-- [go-kit/kit](https://github.com/go-kit/kit) — A standard library for microservices. ☆`27,572`
-- [go-kratos/kratos](https://github.com/go-kratos/kratos) — Your ultimate Go microservices framework for the cloud-native era. ☆`25,258`
-- [micro/go-micro](https://github.com/micro/go-micro) — A Go microservices framework ☆`22,643`
-- [smallnest/rpcx](https://github.com/smallnest/rpcx) — Feature-rich RPC framework ☆`8,270`
-- [cloudwego/kitex](https://github.com/cloudwego/kitex) — High-performance Go RPC framework ☆`7,788`
-- [go-dev-frame/sponge](https://github.com/go-dev-frame/sponge) — Code generation framework for Go ☆`2,735`
-- [go-eagle/eagle](https://github.com/go-eagle/eagle) — A Go framework for the API or Microservice ☆`2,407`
-- [unionj-cloud/go-doudou](https://github.com/unionj-cloud/go-doudou) — OpenAPI 3 and gRPC microservices framework ☆`1,208`
-- [trpc-group/trpc-go](https://github.com/trpc-group/trpc-go) — A pluggable, high-performance RPC framework written in golang ☆`1,090`
-- [gmsec/micro](https://github.com/gmsec/micro) — A Go distributed systems development framework ☆`25`
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) — Multi-platform web server with HTTPS ☆`68,756`
+- [minio/minio](https://github.com/minio/minio) — High-performance object storage ☆`59,420`
+- [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) — Open Source realtime backend in 1 file ☆`54,605`
+- [etcd-io/etcd](https://github.com/etcd-io/etcd) — Distributed key-value store ☆`51,146`
+- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) — Full-featured SFTP/FTP/HTTP server ☆`11,503`
+- [adnanh/webhook](https://github.com/adnanh/webhook) — Lightweight webhook server ☆`11,442`
+- [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) — High-performance PHP application server ☆`8,358`
+- [easegress-io/easegress](https://github.com/easegress-io/easegress) — A Cloud Native traffic orchestration system ☆`5,869`
+- [flipt-io/flipt](https://github.com/flipt-io/flipt) — Enterprise-ready, Git native feature management solution ☆`4,668`
+- [charmbracelet/wish](https://github.com/charmbracelet/wish) — Make SSH apps, just like that! ☆`4,646`
+- [getfider/fider](https://github.com/getfider/fider) — Open platform to collect and prioritize feedback ☆`3,928`
+- [xyproto/algernon](https://github.com/xyproto/algernon) — Web server with Lua and Markdown ☆`2,971`
+- [openflagr/flagr](https://github.com/openflagr/flagr) — Feature flagging and A/B testing ☆`2,562`
+- [thomaspoignant/go-feature-flag](https://github.com/thomaspoignant/go-feature-flag) — Open source feature flag solution ☆`1,877`
+- [openrundev/openrun](https://github.com/openrundev/openrun) — Open source Cloud Run alternative ☆`713`
+- [webhookx-io/webhookx](https://github.com/webhookx-io/webhookx) — The Next-Generation Webhooks Gateway. ☆`267`
+- [blind-oracle/cortex-tenant](https://github.com/blind-oracle/cortex-tenant) — Prometheus proxy with tenant ID injection ☆`129`
+- [baalimago/wd-41](https://github.com/baalimago/wd-41) — Web-Development 41, a static web server with live-reload ☆`150`
+- [rekby/lets-proxy2](https://github.com/rekby/lets-proxy2) — Reverse proxy with auto TLS ☆`101`
+- [42atomys/webhooked](https://github.com/42atomys/webhooked) — A webhook receiver on steroids. ☆`41`
 ### Network Utilities
 
 - [fortio/fortio](https://github.com/fortio/fortio) — Load testing and echo server ☆`3,651`
@@ -1061,28 +1005,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [gliderlabs/ssh](https://github.com/gliderlabs/ssh) — Easy SSH servers in Golang ☆`4,046`
 - [pkg/sftp](https://github.com/pkg/sftp) — SFTP support for the go.crypto/ssh package ☆`1,627`
 - [masterzen/winrm](https://github.com/masterzen/winrm) — Windows remote command library ☆`456`
-### Server Applications
-
-- [caddyserver/caddy](https://github.com/caddyserver/caddy) — Multi-platform web server with HTTPS ☆`68,756`
-- [minio/minio](https://github.com/minio/minio) — High-performance object storage ☆`59,420`
-- [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) — Open Source realtime backend in 1 file ☆`54,605`
-- [etcd-io/etcd](https://github.com/etcd-io/etcd) — Distributed key-value store ☆`51,146`
-- [drakkan/sftpgo](https://github.com/drakkan/sftpgo) — Full-featured SFTP/FTP/HTTP server ☆`11,503`
-- [adnanh/webhook](https://github.com/adnanh/webhook) — Lightweight webhook server ☆`11,442`
-- [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) — High-performance PHP application server ☆`8,358`
-- [easegress-io/easegress](https://github.com/easegress-io/easegress) — A Cloud Native traffic orchestration system ☆`5,869`
-- [flipt-io/flipt](https://github.com/flipt-io/flipt) — Enterprise-ready, Git native feature management solution ☆`4,668`
-- [charmbracelet/wish](https://github.com/charmbracelet/wish) — Make SSH apps, just like that! ☆`4,646`
-- [getfider/fider](https://github.com/getfider/fider) — Open platform to collect and prioritize feedback ☆`3,928`
-- [xyproto/algernon](https://github.com/xyproto/algernon) — Web server with Lua and Markdown ☆`2,971`
-- [openflagr/flagr](https://github.com/openflagr/flagr) — Feature flagging and A/B testing ☆`2,562`
-- [thomaspoignant/go-feature-flag](https://github.com/thomaspoignant/go-feature-flag) — Open source feature flag solution ☆`1,877`
-- [openrundev/openrun](https://github.com/openrundev/openrun) — Open source Cloud Run alternative ☆`713`
-- [webhookx-io/webhookx](https://github.com/webhookx-io/webhookx) — The Next-Generation Webhooks Gateway. ☆`267`
-- [blind-oracle/cortex-tenant](https://github.com/blind-oracle/cortex-tenant) — Prometheus proxy with tenant ID injection ☆`129`
-- [baalimago/wd-41](https://github.com/baalimago/wd-41) — Web-Development 41, a static web server with live-reload ☆`150`
-- [rekby/lets-proxy2](https://github.com/rekby/lets-proxy2) — Reverse proxy with auto TLS ☆`101`
-- [42atomys/webhooked](https://github.com/42atomys/webhooked) — A webhook receiver on steroids. ☆`41`
 ### TCP/UDP Frameworks
 
 - [xtaci/kcptun](https://github.com/xtaci/kcptun) — Quantum-safe secure tunnel ☆`14,319`
@@ -1124,6 +1046,44 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [assafmo/joincap](https://github.com/assafmo/joincap) — Merge pcap files ☆`219`
 - [lingrino/vaku](https://github.com/lingrino/vaku) — Extended Vault API and CLI ☆`158`
 - [DMcP89/tinycare-tui](https://github.com/DMcP89/tinycare-tui) — TUI application written in GO inspired by tiny-care-terminal ☆`16`
+## Queues & Pub/Sub
+
+### Brokers
+
+- [nats-io/nats-server](https://github.com/nats-io/nats-server) — High-performance NATS message server ☆`18,853`
+- [emitter-io/emitter](https://github.com/emitter-io/emitter) — High-performance pub/sub broker ☆`3,996`
+- [mochi-mqtt/server](https://github.com/mochi-mqtt/server) — Embeddable MQTT v5 broker ☆`1,746`
+### Clients & Libraries
+
+- [hibiken/asynq](https://github.com/hibiken/asynq) — Simple, reliable, and efficient distributed task queue in Go ☆`12,651`
+- [IBM/sarama](https://github.com/IBM/sarama) — Sarama is a Go library for Apache Kafka. ☆`12,352`
+- [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) — Scalable real-time messaging server ☆`9,663`
+- [ThreeDotsLabs/watermill](https://github.com/ThreeDotsLabs/watermill) — Building event-driven applications the easy way in Go. ☆`9,343`
+- [appleboy/gorush](https://github.com/appleboy/gorush) — A push notification server written in Go (Golang). ☆`8,652`
+- [RichardKnop/machinery](https://github.com/RichardKnop/machinery) — Async task queue with message passing ☆`7,914`
+- [nats-io/nats.go](https://github.com/nats-io/nats.go) — Golang client for NATS, the cloud native messaging system. ☆`6,319`
+- [confluentinc/confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go) — Confluent's Apache Kafka Golang client ☆`5,071`
+- [dunglas/mercure](https://github.com/dunglas/mercure) — Server-Sent Events hub ☆`5,142`
+- [olahol/melody](https://github.com/olahol/melody) — Minimalist websocket framework for Go ☆`4,036`
+- [sideshow/apns2](https://github.com/sideshow/apns2) — Apple Push Notification Service ☆`3,149`
+- [lovoo/goka](https://github.com/lovoo/goka) — Kafka stream processing library ☆`2,494`
+- [asaskevich/EventBus](https://github.com/asaskevich/EventBus) — [Go] Lightweight eventbus with async compatibility for Go ☆`1,949`
+- [rabbitmq/amqp091-go](https://github.com/rabbitmq/amqp091-go) — An AMQP 0-9-1 Go client maintained by the RabbitMQ team ☆`1,943`
+- [containrrr/shoutrrr](https://github.com/containrrr/shoutrrr) — Notification library for gophers and their furry friends. ☆`1,434`
+- [pebbe/zmq4](https://github.com/pebbe/zmq4) — A Go interface to ZeroMQ version 4 ☆`1,240`
+- [timbray/quamina](https://github.com/timbray/quamina) — Fast pattern-matching library ☆`437`
+- [cskr/pubsub](https://github.com/cskr/pubsub) — A simple pubsub package for go. ☆`446`
+- [jandelgado/rabtap](https://github.com/jandelgado/rabtap) — RabbitMQ wire tap and swiss army knife ☆`279`
+- [mehdihadeli/Go-MediatR](https://github.com/mehdihadeli/Go-MediatR) — Mediator pattern for CQRS ☆`269`
+- [goptics/varmq](https://github.com/goptics/varmq) — Zero-dep message queue library ☆`176`
+- [hyperonym/ratus](https://github.com/hyperonym/ratus) — RESTful async task queue server ☆`124`
+- [robinjoseph08/redisqueue](https://github.com/robinjoseph08/redisqueue) — Redis streams producer and consumer ☆`138`
+- [oagudo/outbox](https://github.com/oagudo/outbox) — Transactional outbox pattern ☆`113`
+- [furdarius/rabbitroutine](https://github.com/furdarius/rabbitroutine) — RabbitMQ auto-reconnect library ☆`113`
+- [dailymotion/oplog](https://github.com/dailymotion/oplog) — A generic oplog/replication system for microservices ☆`110`
+- [Protocol-Lattice/GoEventBus](https://github.com/Protocol-Lattice/GoEventBus) — A lock-free, ultra-fast event bus for Go ☆`48`
+- [jirenius/go-res](https://github.com/jirenius/go-res) — RES Service protocol library for Go ☆`68`
+- [SchwarzIT/hypermatch](https://github.com/SchwarzIT/hypermatch) — High-performance rule matching ☆`33`
 ## Science
 
 - [gonum/gonum](https://github.com/gonum/gonum) — Numeric libraries for Go ☆`8,269`
@@ -1163,6 +1123,48 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [rjeczalik/interfaces](https://github.com/rjeczalik/interfaces) — Code generation tools for Go ☆`432`
 - [switchupcb/copygen](https://github.com/switchupcb/copygen) — Copy values between types ☆`399`
 - [reedom/convergen](https://github.com/reedom/convergen) — Type-to-type copy code generator ☆`48`
+## Security
+
+### Certificates
+
+- [go-acme/lego](https://github.com/go-acme/lego) — Let's Encrypt/ACME client and library written in Go ☆`9,099`
+- [caddyserver/certmagic](https://github.com/caddyserver/certmagic) — Automatic HTTPS certificate management ☆`5,408`
+- [tg123/go-htpasswd](https://github.com/tg123/go-htpasswd) — Apache htpasswd Parser for Go. ☆`46`
+- [adrianosela/sslmgr](https://github.com/adrianosela/sslmgr) — SSL certificate abstraction ☆`30`
+### Cryptography
+
+- [FiloSottile/age](https://github.com/FiloSottile/age) — Simple encryption tool ☆`20,456`
+- [authzed/spicedb](https://github.com/authzed/spicedb) — Zanzibar-inspired permissions DB ☆`6,300`
+- [awnumar/memguard](https://github.com/awnumar/memguard) — Software sandbox for storage of sensitive information in memory. ☆`2,696`
+- [cossacklabs/themis](https://github.com/cossacklabs/themis) — Cryptographic framework for data protection ☆`1,944`
+- [dromara/dongle](https://github.com/dromara/dongle) — A simple, semantic and developer-friendly crypto package for golang ☆`1,094`
+- [anatol/booster](https://github.com/anatol/booster) — Fast and secure initramfs generator ☆`609`
+- [kevinburke/nacl](https://github.com/kevinburke/nacl) — Pure Go implementation of the NaCL set of API's ☆`551`
+- [ssh-vault/ssh-vault](https://github.com/ssh-vault/ssh-vault) — encrypt/decrypt using ssh keys ☆`487`
+- [number571/go-peer](https://github.com/number571/go-peer) — Secure decentralized networking ☆`312`
+- [anatol/luks.go](https://github.com/anatol/luks.go) — Pure Golang library to manage LUKS partitions ☆`94`
+- [zitadel/passwap](https://github.com/zitadel/passwap) — Unified password hashing ☆`72`
+- [rsjethani/secret](https://github.com/rsjethani/secret) — Prevent your secrets from leaking into logs, std* etc. ☆`32`
+- [andskur/argon2-hashing](https://github.com/andskur/argon2-hashing) — Argon2 password hashing ☆`25`
+- [bitfield/qrand](https://github.com/bitfield/qrand) — Quantum randomness source using the ANU hardware QRNG ☆`17`
+### WAF & Protection
+
+- [Ullaakut/cameradar](https://github.com/Ullaakut/cameradar) — Cameradar hacks its way into RTSP videosurveillance cameras ☆`4,807`
+- [corazawaf/coraza](https://github.com/corazawaf/coraza) — ModSecurity-compatible WAF in Go ☆`3,163`
+- [mojocn/base64Captcha](https://github.com/mojocn/base64Captcha) — captcha of base64 image string ☆`2,323`
+- [unrolled/secure](https://github.com/unrolled/secure) — HTTP middleware for Go that facilitates some quick security wins. ☆`2,334`
+- [mariocandela/beelzebub](https://github.com/mariocandela/beelzebub) — AI-powered honeypot framework ☆`1,772`
+- [cossacklabs/acra](https://github.com/cossacklabs/acra) — Database security proxy ☆`1,447`
+- [securitybunker/databunker](https://github.com/securitybunker/databunker) — Secure vault for PII/PHI/KYC records ☆`1,374`
+- [hillu/go-yara](https://github.com/hillu/go-yara) — Go bindings for YARA ☆`383`
+- [teler-sh/teler-waf](https://github.com/teler-sh/teler-waf) — HTTP middleware for WAF ☆`395`
+- [steambap/captcha](https://github.com/steambap/captcha) — Easy captcha library ☆`161`
+### Zero Trust
+
+- [sigstore/cosign](https://github.com/sigstore/cosign) — Code signing and transparency for containers and binaries ☆`5,519`
+- [openziti/ziti](https://github.com/openziti/ziti) — Zero trust networking platform ☆`3,774`
+- [spiffe/spire](https://github.com/spiffe/spire) — The SPIFFE Runtime Environment ☆`2,159`
+- [philips-labs/spiffe-vault](https://github.com/philips-labs/spiffe-vault) — Integrates Spiffe and Vault to have secretless authentication ☆`96`
 ## Testing & Quality
 
 ### Benchmarks
@@ -1602,6 +1604,19 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [kazhuravlev/git-tools](https://github.com/kazhuravlev/git-tools) — Useful set of tools which helps to manage git tags ☆`33`
 ## Web Development
 
+### Microservices
+
+- [zeromicro/go-zero](https://github.com/zeromicro/go-zero) — Microservices framework with CLI tools ☆`32,330`
+- [go-kit/kit](https://github.com/go-kit/kit) — A standard library for microservices. ☆`27,572`
+- [go-kratos/kratos](https://github.com/go-kratos/kratos) — Your ultimate Go microservices framework for the cloud-native era. ☆`25,258`
+- [micro/go-micro](https://github.com/micro/go-micro) — A Go microservices framework ☆`22,643`
+- [smallnest/rpcx](https://github.com/smallnest/rpcx) — Feature-rich RPC framework ☆`8,270`
+- [cloudwego/kitex](https://github.com/cloudwego/kitex) — High-performance Go RPC framework ☆`7,788`
+- [go-dev-frame/sponge](https://github.com/go-dev-frame/sponge) — Code generation framework for Go ☆`2,735`
+- [go-eagle/eagle](https://github.com/go-eagle/eagle) — A Go framework for the API or Microservice ☆`2,407`
+- [unionj-cloud/go-doudou](https://github.com/unionj-cloud/go-doudou) — OpenAPI 3 and gRPC microservices framework ☆`1,208`
+- [trpc-group/trpc-go](https://github.com/trpc-group/trpc-go) — A pluggable, high-performance RPC framework written in golang ☆`1,090`
+- [gmsec/micro](https://github.com/gmsec/micro) — A Go distributed systems development framework ☆`25`
 ### Middlewares
 
 - [urfave/negroni](https://github.com/urfave/negroni) — Idiomatic HTTP Middleware for Golang ☆`7,540`
