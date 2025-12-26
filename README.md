@@ -1,6 +1,8 @@
 # Awesome Go
 
 [![Last update](https://img.shields.io/github/last-commit/abordage/awesome-go?label=last%20update)](README.md)
+![Repositories](https://img.shields.io/badge/repositories-1,237-blue)
+![Total Stars](https://img.shields.io/badge/total%20stars-4,949,740-yellow)
 [![License](https://img.shields.io/github/license/abordage/awesome-go)](LICENSE)
 
 **Automated. Curated. Ranked.**
