@@ -500,17 +500,6 @@ categories:
             description: Multiple queue implementations
           - url: https://github.com/mikestefanello/backlite
             description: SQLite-backed task queues
-      - name: Text Analysis
-        repos:
-          - url: https://github.com/blevesearch/bleve
-            description: Text/numeric/geo/vector indexing library
-          - url: https://github.com/plar/go-adaptive-radix-tree
-          - url: https://github.com/agnivade/levenshtein
-          - url: https://github.com/BlackRabbitt/mspm
-          - url: https://github.com/MonaxGT/parsefields
-          - url: https://github.com/viant/ptrie
-          - url: https://github.com/derekparker/trie
-            description: Trie for extremely fast prefix search
   - name: Databases
     subcategories:
       - name: Caches
@@ -638,6 +627,12 @@ categories:
           - url: https://github.com/VictoriaMetrics/VictoriaMetrics
             description: Fast time series database and monitoring
           - url: https://github.com/marcboeker/go-duckdb
+      - name: Distributed Storage
+        repos:
+          - url: https://github.com/juicedata/juicefs
+            description: Distributed POSIX filesystem
+          - url: https://github.com/seaweedfs/seaweedfs
+            description: Fast distributed storage for blobs
       - name: Interfaces to Multiple Backends
         repos:
           - url: https://github.com/viant/dsc
@@ -749,6 +744,12 @@ categories:
             description: Fast trigram-based code search
   - name: DevOps & Build
     subcategories:
+      - name: Backup
+        repos:
+          - url: https://github.com/gilbertchen/duplicacy
+            description: Cloud backup tool
+          - url: https://github.com/restic/restic
+            description: Fast, secure backup program
       - name: Build Automation
         repos:
           - url: https://github.com/air-verse/air
@@ -896,6 +897,13 @@ categories:
         description: SMTP mock server for testing
       - url: https://github.com/truemail-rb/truemail-go
         description: Email validator via Regex, DNS, SMTP
+  - name: File Sharing
+    repos:
+      - url: https://github.com/schollz/croc
+      - url: https://github.com/root-gg/plik
+        description: Temporary file upload system
+      - url: https://github.com/SpatiumPortae/portal
+        description: Command-line file transfer utility
   - name: Finance & Blockchain
     subcategories:
       - name: Blockchain
@@ -1080,6 +1088,14 @@ categories:
             description: PEG parser generator for Go
           - url: https://github.com/goccmack/gocc
             description: Parser and scanner generator
+          - url: https://github.com/moshebe/gebug
+            description: Debug Dockerized Go apps
+          - url: https://github.com/janpfeifer/gonb
+            description: Go notebook kernel for Jupyter
+          - url: https://github.com/edwingeng/hotswap
+            description: Hot reload Go code without restart
+          - url: https://github.com/alajmo/sake
+            description: Task runner for local and remote hosts
   - name: Hardware & IoT
     subcategories:
       - name: Hardware
@@ -1174,7 +1190,7 @@ categories:
           - url: https://github.com/bogdanfinn/tls-client
             description: HTTP client with TLS fingerprint spoofing
           - url: https://github.com/lib4u/fake-useragent
-      - name: Infrastructure
+      - name: Servers
         repos:
           - url: https://github.com/xyproto/algernon
             description: Web server with Lua and Markdown
@@ -1308,13 +1324,8 @@ categories:
     repos:
       - url: https://github.com/gocircuit/circuit
         description: 'Circuit: Dynamic cloud orchestration'
-      - url: https://github.com/schollz/croc
       - url: https://github.com/documize/community
         description: Modern Confluence alternative
-      - url: https://github.com/gilbertchen/duplicacy
-        description: Cloud backup tool
-      - url: https://github.com/moshebe/gebug
-        description: Debug Dockerized Go apps
       - url: https://github.com/Antonito/gfile
       - url: https://github.com/shurcooL/Go-Package-Store
       - url: https://github.com/Sioro-Neoku/go-peerflix
@@ -1322,35 +1333,17 @@ categories:
       - url: https://github.com/diankong/GoDocTooltip
       - url: https://github.com/Forceu/gokapi
         description: Self-hosted file sharing server
-      - url: https://github.com/janpfeifer/gonb
-        description: Go notebook kernel for Jupyter
-      - url: https://github.com/edwingeng/hotswap
-        description: Hot reload Go code without restart
       - url: https://github.com/thestrukture/ide
       - url: https://github.com/assafmo/joincap
         description: Merge pcap files
-      - url: https://github.com/juicedata/juicefs
-        description: Distributed POSIX filesystem
       - url: https://github.com/jeffail/leaps
       - url: https://github.com/Code-Hex/Neo-cowsay
       - url: https://github.com/fogleman/nes
-      - url: https://github.com/root-gg/plik
-        description: Temporary file upload system
-      - url: https://github.com/SpatiumPortae/portal
-        description: Command-line file transfer utility
-      - url: https://github.com/restic/restic
-        description: Fast, secure backup program
-      - url: https://github.com/alajmo/sake
-        description: Task runner for local and remote hosts
-      - url: https://github.com/seaweedfs/seaweedfs
-        description: Fast distributed storage for blobs
       - url: https://github.com/msoap/shell2http
       - url: https://github.com/go-sonic/sonic
         description: Blogging platform in Go
       - url: https://github.com/marwanhawari/stew
       - url: https://github.com/DMcP89/tinycare-tui
-      - url: https://github.com/shopify/toxiproxy
-        description: TCP proxy for chaos testing
       - url: https://github.com/lingrino/vaku
         description: Extended Vault API and CLI
       - url: https://github.com/wabarc/wayback
@@ -1706,6 +1699,8 @@ categories:
           - url: https://github.com/MarvinJWendt/testza
           - url: https://github.com/chapar-rest/chapar
             description: API testing for HTTP and gRPC
+          - url: https://github.com/shopify/toxiproxy
+            description: TCP proxy for chaos testing
       - name: Testing Utilities
         repos:
           - url: https://github.com/pingcap/failpoint
@@ -1762,6 +1757,29 @@ categories:
             description: XML to/from map conversion
           - url: https://github.com/BurntSushi/toml
             description: TOML parser with reflection
+      - name: Miscellaneous
+        repos:
+          - url: https://github.com/mattn/go-runewidth
+            description: Rune width for terminals
+          - url: https://github.com/striker2000/petrovich
+          - url: https://github.com/Dynom/TySug
+            description: Typo suggestions with keyboard layout
+          - url: https://github.com/arunsupe/semantic-grep
+            description: Grep for similar words
+          - url: https://github.com/pemistahl/lingua-go
+            description: Natural language detection
+          - url: https://github.com/IGLOU-EU/go-wildcard
+            description: Fast wildcard matching
+          - url: https://github.com/hedhyw/rex
+            description: Flexible regex constructor
+          - url: https://github.com/microcosm-cc/bluemonday
+            description: Fast HTML sanitizer for Go
+          - url: https://github.com/JoshuaDoes/gofuckyourself
+            description: Swear filter for Go
+          - url: https://github.com/gosimple/slug
+            description: URL-friendly slugify
+          - url: https://github.com/alexsergivan/transliterator
+            description: Text transliterator
       - name: Morphological Analyzers
         repos:
           - url: https://github.com/jonreiter/govader
@@ -1807,6 +1825,17 @@ categories:
           - url: https://github.com/mvdan/xurls
             description: Extract URLs from text
           - url: https://github.com/s0rg/crawley
+      - name: Text Analysis
+        repos:
+          - url: https://github.com/blevesearch/bleve
+            description: Text/numeric/geo/vector indexing library
+          - url: https://github.com/plar/go-adaptive-radix-tree
+          - url: https://github.com/agnivade/levenshtein
+          - url: https://github.com/BlackRabbitt/mspm
+          - url: https://github.com/MonaxGT/parsefields
+          - url: https://github.com/viant/ptrie
+          - url: https://github.com/derekparker/trie
+            description: Trie for extremely fast prefix search
       - name: Tokenizers
         repos:
           - url: https://github.com/go-ego/gse
@@ -1828,29 +1857,6 @@ categories:
             description: Gettext-based translation library
           - url: https://github.com/youthlin/t
             description: Translation util using gettext
-      - name: Miscellaneous
-        repos:
-          - url: https://github.com/mattn/go-runewidth
-            description: Rune width for terminals
-          - url: https://github.com/striker2000/petrovich
-          - url: https://github.com/Dynom/TySug
-            description: Typo suggestions with keyboard layout
-          - url: https://github.com/arunsupe/semantic-grep
-            description: Grep for similar words
-          - url: https://github.com/pemistahl/lingua-go
-            description: Natural language detection
-          - url: https://github.com/IGLOU-EU/go-wildcard
-            description: Fast wildcard matching
-          - url: https://github.com/hedhyw/rex
-            description: Flexible regex constructor
-          - url: https://github.com/microcosm-cc/bluemonday
-            description: Fast HTML sanitizer for Go
-          - url: https://github.com/JoshuaDoes/gofuckyourself
-            description: Swear filter for Go
-          - url: https://github.com/gosimple/slug
-            description: URL-friendly slugify
-          - url: https://github.com/alexsergivan/transliterator
-            description: Text transliterator
   - name: Third-party APIs
     subcategories:
       - name: Cloud Provider APIs
