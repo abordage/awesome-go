@@ -552,6 +552,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [objectbox/objectbox-go](https://github.com/objectbox/objectbox-go) — Embedded database for Go ☆`1,254`
 - [couchbase/moss](https://github.com/couchbase/moss) — Simple, fast key-val storage ☆`1,016`
 - [amit-davidson/LibraDB](https://github.com/amit-davidson/LibraDB) — Simple persistent key/value store ☆`198`
+- [claygod/transaction](https://github.com/claygod/transaction) — Embedded database for accounts transactions. ☆`138`
 - [xgzlucario/rotom](https://github.com/xgzlucario/rotom) — Tiny Redis server in Go ☆`41`
 ### Distributed Storage
 
@@ -738,7 +739,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [xhit/go-simple-mail](https://github.com/xhit/go-simple-mail) — Simple mail sending with TLS/SSL ☆`688`
 - [emersion/go-message](https://github.com/emersion/go-message) — Internet Message Format library ☆`432`
 - [vanng822/go-premailer](https://github.com/vanng822/go-premailer) — Inline CSS for HTML mail ☆`180`
-- [mocktools/go-smtp-mock](https://github.com/mocktools/go-smtp-mock) — SMTP mock server for testing ☆`158`
 - [truemail-rb/truemail-go](https://github.com/truemail-rb/truemail-go) — Email validator via Regex, DNS, SMTP ☆`129`
 - [toorop/go-dkim](https://github.com/toorop/go-dkim) — DKIM package for golang ☆`99`
 - [dimuska139/go-email-normalizer](https://github.com/dimuska139/go-email-normalizer) — Normalize email addresses ☆`76`
@@ -767,7 +767,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [invopop/gobl](https://github.com/invopop/gobl) — Go Business Language ☆`240`
 - [govalues/decimal](https://github.com/govalues/decimal) — Correctly rounded decimals for Go ☆`211`
 - [quagmt/udecimal](https://github.com/quagmt/udecimal) — High-precision decimal library ☆`169`
-- [claygod/transaction](https://github.com/claygod/transaction) — Embedded database for accounts transactions. ☆`138`
 - [jovandeginste/payme](https://github.com/jovandeginste/payme) — QR code generator (ASCII & PNG) for SEPA payments ☆`89`
 - [jokruger/dec128](https://github.com/jokruger/dec128) — High performance 128-bit fixed-point decimal numbers in go. ☆`37`
 - [govalues/money](https://github.com/govalues/money) — Correctly rounded monetary amounts and exchange rates for Go ☆`46`
@@ -1195,6 +1194,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [pashagolub/pgxmock](https://github.com/pashagolub/pgxmock) — pgx mock driver for testing ☆`545`
 - [xhd2015/xgo](https://github.com/xhd2015/xgo) — All-in-one Go testing library ☆`428`
 - [seborama/govcr](https://github.com/seborama/govcr) — Record and replay HTTP interactions ☆`197`
+- [mocktools/go-smtp-mock](https://github.com/mocktools/go-smtp-mock) — SMTP mock server for testing ☆`158`
 - [elgohr/go-localstack](https://github.com/elgohr/go-localstack) — Go wrapper for LocalStack ☆`85`
 ### Performance
 
