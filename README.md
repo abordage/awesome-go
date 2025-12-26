@@ -488,7 +488,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [EchoVault/SugarDB](https://github.com/EchoVault/SugarDB) — Embeddable and distributed in-memory alternative to Redis. ☆`518`
 - [faabiosr/cachego](https://github.com/faabiosr/cachego) — Golang Cache component - Multiple drivers ☆`373`
 - [Yiling-J/theine-go](https://github.com/Yiling-J/theine-go) — high performance in-memory cache ☆`359`
-- [elastic/go-freelru](https://github.com/elastic/go-freelru) —  ☆`257`
+- [elastic/go-freelru](https://github.com/elastic/go-freelru) — GC-less, fast and generic LRU cache for Go ☆`257`
 - [samber/hot](https://github.com/samber/hot) — In-memory caching library for read-intensive Go applications ☆`229`
 - [naughtygopher/pocache](https://github.com/naughtygopher/pocache) — Preemptive optimistic caching ☆`231`
 - [erni27/imcache](https://github.com/erni27/imcache) — A zero-dependency generic in-memory cache Go library ☆`123`
@@ -1239,7 +1239,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [hedhyw/gherkingen](https://github.com/hedhyw/gherkingen) — Behaviour Driven Development tests generator for Golang ☆`91`
 - [madflojo/testcerts](https://github.com/madflojo/testcerts) — Generate test certificates on the fly ☆`83`
 - [go-restit/restit](https://github.com/go-restit/restit) — A Go library help testing your RESTful API application ☆`55`
-- [rekby/fixenv](https://github.com/rekby/fixenv) —  ☆`33`
+- [rekby/fixenv](https://github.com/rekby/fixenv) — Pytest-inspired fixture caching for Go tests ☆`33`
 - [viant/dsunit](https://github.com/viant/dsunit) — Datastore Testibility ☆`45`
 - [abecodes/dft](https://github.com/abecodes/dft) — Docker wrapper for testing ☆`19`
 ### Testing Utilities
