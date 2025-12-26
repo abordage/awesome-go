@@ -141,6 +141,8 @@ categories:
           - url: https://github.com/adrianosela/sslmgr
           - url: https://github.com/teler-sh/teler-waf
           - url: https://github.com/cossacklabs/themis
+          - url: https://github.com/mojocn/base64Captcha
+          - url: https://github.com/steambap/captcha
       - name: Zero Trust
         repos:
           - url: https://github.com/sigstore/cosign
@@ -205,6 +207,7 @@ categories:
           - url: https://github.com/urfave/sflags
           - url: https://github.com/urfave/cli
           - url: https://github.com/dixonwille/wlog
+          - url: https://github.com/ddddddO/gtree
   - name: Concurrency
     subcategories:
       - name: Actor Model
@@ -582,10 +585,10 @@ categories:
           - url: https://github.com/ovh/utask
           - url: https://github.com/thevxn/dish
           - url: https://github.com/jkaninda/goma-gateway
-      - name: Git Operations
-        repos:
           - url: https://github.com/gabrie30/ghorg
           - url: https://github.com/go-gitea/gitea
+          - url: https://github.com/TwiN/gatus
+          - url: https://github.com/alexliesenfeld/health
       - name: Infrastructure
         repos:
           - url: https://github.com/aptly-dev/aptly
@@ -752,6 +755,7 @@ categories:
           - url: https://github.com/jaypipes/ghw
           - url: https://github.com/bluenviron/goroslib
           - url: https://github.com/zcalusic/sysinfo
+          - url: https://github.com/shirou/gopsutil
       - name: IoT
         repos:
           - url: https://github.com/lf-edge/ekuiper
@@ -933,6 +937,7 @@ categories:
           - url: https://github.com/oagudo/outbox
           - url: https://github.com/Raezil/GoEventBus
           - url: https://github.com/goptics/varmq
+          - url: https://github.com/containrrr/shoutrrr
       - name: Webhooks
         repos:
           - url: https://github.com/adnanh/webhook
@@ -940,6 +945,12 @@ categories:
           - url: https://github.com/webhookx-io/webhookx
   - name: Networking
     subcategories:
+      - name: Consensus
+        repos:
+          - url: https://github.com/vadiminshakov/committer
+          - url: https://github.com/lni/dragonboat
+          - url: https://github.com/hashicorp/raft
+          - url: https://github.com/etcd-io/raft
       - name: DNS
         repos:
           - url: https://github.com/miekg/dns
@@ -947,54 +958,22 @@ categories:
           - url: https://github.com/joeig/go-powerdns
           - url: https://github.com/hashicorp/mdns
           - url: https://github.com/semihalev/sdns
-      - name: Distributed Systems
+      - name: Distributed Utilities
         repos:
-          - url: https://github.com/lesismal/arpc
           - url: https://github.com/capillariesio/capillaries
           - url: https://github.com/svcavallar/celeriac.v1
-          - url: https://github.com/vadiminshakov/committer
           - url: https://github.com/mbrostami/consistenthash
-          - url: https://github.com/anacrolix/dht
-          - url: https://github.com/lni/dragonboat
-          - url: https://github.com/dragonflyoss/dragonfly
-          - url: https://github.com/emitter-io/emitter
           - url: https://github.com/chrislusf/gleam
-          - url: https://github.com/gmsec/micro
-          - url: https://github.com/unionj-cloud/go-doudou
-          - url: https://github.com/go-eagle/eagle
-          - url: https://github.com/go-kit/kit
-          - url: https://github.com/micro/go-micro
           - url: https://github.com/sanketplus/go-mysql-lock
           - url: https://github.com/pdupub/go-pdu
           - url: https://github.com/AppsFlyer/go-sundheit
-          - url: https://github.com/zeromicro/go-zero
-          - url: https://github.com/grpc/grpc-go
-          - url: https://github.com/hprose/hprose-golang
-          - url: https://github.com/osamingo/jsonrpc
-          - url: https://github.com/ybbus/jsonrpc
           - url: https://github.com/k8gb-io/k8gb
-          - url: https://github.com/cloudwego/kitex
-          - url: https://github.com/go-kratos/kratos
           - url: https://github.com/luraproject/lura
           - url: https://github.com/micro/micro
-          - url: https://github.com/mochi-mqtt/server
-          - url: https://github.com/nats-io/nats-server
           - url: https://github.com/italolelis/outboxer
-          - url: https://github.com/hashicorp/raft
-          - url: https://github.com/etcd-io/raft
-          - url: https://github.com/cenkalti/rain
           - url: https://github.com/bsm/redislock
-          - url: https://github.com/smallnest/rpcx
-            description: Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily
-          - url: https://github.com/go-dev-frame/sponge
           - url: https://github.com/tarmac-project/tarmac
           - url: https://github.com/temporalio/sdk-go
-          - url: https://github.com/anacrolix/torrent
-          - url: https://github.com/trpc-group/trpc-go
-      - name: Dynamic DNS
-        repos:
-          - url: https://github.com/skibish/ddns
-          - url: https://github.com/timothyye/godns
       - name: HTTP & Proxy
         repos:
           - url: https://github.com/valyala/fasthttp
@@ -1018,6 +997,25 @@ categories:
           - url: https://github.com/dghubble/sling
           - url: https://github.com/bogdanfinn/tls-client
           - url: https://github.com/lib4u/fake-useragent
+      - name: Message Brokers
+        repos:
+          - url: https://github.com/emitter-io/emitter
+          - url: https://github.com/mochi-mqtt/server
+          - url: https://github.com/nats-io/nats-server
+      - name: Microservices
+        repos:
+          - url: https://github.com/gmsec/micro
+          - url: https://github.com/unionj-cloud/go-doudou
+          - url: https://github.com/go-eagle/eagle
+          - url: https://github.com/go-kit/kit
+          - url: https://github.com/micro/go-micro
+          - url: https://github.com/zeromicro/go-zero
+          - url: https://github.com/cloudwego/kitex
+          - url: https://github.com/go-kratos/kratos
+          - url: https://github.com/smallnest/rpcx
+            description: Best microservices framework in Go, like alibaba Dubbo, but with more features, Scale easily
+          - url: https://github.com/go-dev-frame/sponge
+          - url: https://github.com/trpc-group/trpc-go
       - name: Network Utilities
         repos:
           - url: https://github.com/gaissmai/bart
@@ -1038,6 +1036,14 @@ categories:
           - url: https://github.com/schollz/peerdiscovery
           - url: https://github.com/lim-yoona/tcpack
           - url: https://github.com/yahoo/vssh
+          - url: https://github.com/skibish/ddns
+          - url: https://github.com/timothyye/godns
+      - name: P2P & Torrent
+        repos:
+          - url: https://github.com/anacrolix/dht
+          - url: https://github.com/dragonflyoss/dragonfly
+          - url: https://github.com/cenkalti/rain
+          - url: https://github.com/anacrolix/torrent
       - name: Protocols
         repos:
           - url: https://github.com/jimlambrt/gldap
@@ -1049,6 +1055,15 @@ categories:
           - url: https://github.com/soypat/natiu-mqtt
           - url: https://github.com/jeroenrinzema/psql-wire
           - url: https://github.com/quic-go/quic-go
+          - url: https://github.com/lxzan/gws
+          - url: https://github.com/pion/webrtc
+      - name: RPC
+        repos:
+          - url: https://github.com/lesismal/arpc
+          - url: https://github.com/grpc/grpc-go
+          - url: https://github.com/hprose/hprose-golang
+          - url: https://github.com/osamingo/jsonrpc
+          - url: https://github.com/ybbus/jsonrpc
       - name: SSH & SFTP
         repos:
           - url: https://github.com/pkg/sftp
@@ -1092,10 +1107,6 @@ categories:
             description: A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TLS/TCP connections
           - url: https://github.com/xjasonlyu/tun2socks
           - url: https://github.com/songgao/water
-      - name: WebSocket & WebRTC
-        repos:
-          - url: https://github.com/lxzan/gws
-          - url: https://github.com/pion/webrtc
   - name: Other
     subcategories:
       - name: Other Software
@@ -1141,32 +1152,14 @@ categories:
           - url: https://github.com/lingrino/vaku
       - name: Uncategorized
         repos:
-          - url: https://github.com/mholt/archives
           - url: https://github.com/kirillDanshin/avgRating
-          - url: https://github.com/mojocn/base64Captcha
           - url: https://github.com/distatus/battery
           - url: https://github.com/digitalcrab/browscap_go
-          - url: https://github.com/steambap/captcha
           - url: https://github.com/pioz/faker
-          - url: https://github.com/TwiN/gatus
-          - url: https://github.com/eapache/go-resiliency
-          - url: https://github.com/gen2brain/go-unarr
-          - url: https://github.com/brianvoe/gofakeit
-          - url: https://github.com/antham/gommit
-          - url: https://github.com/shirou/gopsutil
-          - url: https://github.com/osamingo/gosh
-          - url: https://github.com/ddddddO/gtree
-          - url: https://github.com/alexliesenfeld/health
           - url: https://github.com/dimiro1/health
           - url: https://github.com/Wing924/hostutils
-          - url: https://github.com/osamingo/indigo
-          - url: https://github.com/lrita/numa
           - url: https://github.com/aofei/sandid
           - url: https://github.com/Wing924/shellwords
-          - url: https://github.com/containrrr/shoutrrr
-          - url: https://github.com/qmuntal/stateless
-          - url: https://github.com/rkoesters/xdg
-          - url: https://github.com/ulikunitz/xz
   - name: Science & Geography
     subcategories:
       - name: Geographic
@@ -1282,6 +1275,7 @@ categories:
           - url: https://github.com/pashagolub/pgxmock
           - url: https://github.com/xhd2015/xgo
           - url: https://github.com/balinomad/go-mockfs
+          - url: https://github.com/brianvoe/gofakeit
       - name: Performance
         repos:
           - url: https://github.com/nikolaydubina/go-instrument
@@ -1518,6 +1512,9 @@ categories:
           - url: https://github.com/1set/todotxt
           - url: https://github.com/C2FO/vfs
           - url: https://github.com/charlievieth/fastwalk
+          - url: https://github.com/mholt/archives
+          - url: https://github.com/gen2brain/go-unarr
+          - url: https://github.com/ulikunitz/xz
       - name: Forms
         repos:
           - url: https://github.com/cinar/checker
@@ -1589,6 +1586,12 @@ categories:
           - url: https://github.com/borovikovd/gomsort
           - url: https://github.com/shurcooL/vfsgen
           - url: https://github.com/bahlo/go-styleguide
+          - url: https://github.com/tiendc/go-deepcopy
+          - url: https://github.com/wzshiming/gotype
+          - url: https://github.com/osamingo/gosh
+          - url: https://github.com/lrita/numa
+          - url: https://github.com/qmuntal/stateless
+          - url: https://github.com/rkoesters/xdg
       - name: Logging
         repos:
           - url: https://github.com/golang/glog
@@ -1637,10 +1640,6 @@ categories:
           - url: https://github.com/go-nunu/nunu
           - url: https://github.com/mikestefanello/pagoda
           - url: https://github.com/wangyoucao577/go-project-layout
-      - name: Reflection
-        repos:
-          - url: https://github.com/tiendc/go-deepcopy
-          - url: https://github.com/wzshiming/gotype
       - name: Resilience & Retry
         repos:
           - url: https://github.com/cep21/circuit
@@ -1651,6 +1650,7 @@ categories:
           - url: https://github.com/kamilsk/retry
           - url: https://github.com/avast/retry-go
           - url: https://github.com/webriots/rate
+          - url: https://github.com/eapache/go-resiliency
       - name: Strings
         repos:
           - url: https://github.com/gobeam/Stringy
@@ -1672,6 +1672,7 @@ categories:
           - url: https://github.com/google/uuid
           - url: https://github.com/edwingeng/wuid
           - url: https://github.com/sdrapkin/guid
+          - url: https://github.com/osamingo/indigo
   - name: Version Control & Packages
     subcategories:
       - name: Package Management
@@ -1687,12 +1688,9 @@ categories:
           - url: https://github.com/gabyx/githooks
           - url: https://github.com/go-git/go-git
           - url: https://github.com/sourcegraph/go-vcs
+          - url: https://github.com/antham/gommit
   - name: Web Development
     subcategories:
-      - name: CSS Preprocessors
-        repos:
-          - url: https://github.com/wellington/go-libsass
-          - url: https://github.com/napsy/go-css
       - name: Middlewares
         repos:
           - url: https://github.com/rs/cors
@@ -1769,6 +1767,8 @@ categories:
           - url: https://github.com/yaitoo/xun
           - url: https://github.com/go-spring/spring-core
           - url: https://github.com/jivegroup/gfly
+          - url: https://github.com/wellington/go-libsass
+          - url: https://github.com/napsy/go-css
       - name: WebAssembly
         repos:
           - url: https://github.com/extism/go-sdk
@@ -1776,10 +1776,6 @@ categories:
           - url: https://github.com/agnivade/wasmbrowsertest
   - name: Workflow & Scheduling
     subcategories:
-      - name: Data Integration
-        repos:
-          - url: https://github.com/redpanda-data/connect
-          - url: https://github.com/jf-tech/omniparser
       - name: Job Scheduler
         repos:
           - url: https://github.com/deepaksinghvi/cdule
@@ -1800,3 +1796,5 @@ categories:
           - url: https://github.com/rhosocial/go-dag
           - url: https://github.com/noneback/go-taskflow
           - url: https://github.com/luno/workflow
+          - url: https://github.com/redpanda-data/connect
+          - url: https://github.com/jf-tech/omniparser
