@@ -104,15 +104,13 @@ categories:
           - url: https://github.com/asticode/go-astisub
             description: Manipulate subtitles in Go
           - url: https://github.com/asticode/go-astiav
-  - name: Authentication & Security
+  - name: Auth
     subcategories:
       - name: Authentication
         repos:
           - url: https://github.com/volatiletech/authboss
           - url: https://github.com/essentialkaos/branca
             description: Encrypted API tokens
-          - url: https://github.com/casbin/casbin
-            description: Authorization library for Go
           - url: https://github.com/mengzhuo/cookiestxt
           - url: https://github.com/shaj13/go-guardian
             description: Authentication library for Go
@@ -128,13 +126,9 @@ categories:
           - url: https://github.com/golang-jwt/jwt
           - url: https://github.com/lestrrat-go/jwx
             description: Complete JWx implementation
-          - url: https://github.com/ory/keto
-            description: Customizable permission server
           - url: https://github.com/golang/oauth2
           - url: https://github.com/zitadel/oidc
             description: OpenID Connect client and server
-          - url: https://github.com/openfga/openfga
-            description: Fine-grained authorization server
           - url: https://github.com/openshift/osin
           - url: https://github.com/RijulGulati/otpgen
           - url: https://github.com/alexedwards/scs
@@ -142,61 +136,16 @@ categories:
             description: Session management for web servers
           - url: https://github.com/jellydator/sessionup
           - url: https://github.com/brianvoe/sjwt
+      - name: Authorization
+        repos:
+          - url: https://github.com/casbin/casbin
+            description: Authorization library for Go
+          - url: https://github.com/ory/keto
+            description: Customizable permission server
+          - url: https://github.com/openfga/openfga
+            description: Fine-grained authorization server
           - url: https://github.com/cerbos/cerbos
             description: Open core authorization layer
-      - name: Security
-        repos:
-          - url: https://github.com/cossacklabs/acra
-            description: Database security proxy
-          - url: https://github.com/FiloSottile/age
-            description: Simple encryption tool
-          - url: https://github.com/andskur/argon2-hashing
-            description: Argon2 password hashing
-          - url: https://github.com/mariocandela/beelzebub
-            description: AI-powered honeypot framework
-          - url: https://github.com/anatol/booster
-          - url: https://github.com/Ullaakut/cameradar
-          - url: https://github.com/caddyserver/certmagic
-            description: Automatic HTTPS certificate management
-          - url: https://github.com/corazawaf/coraza
-            description: ModSecurity-compatible WAF in Go
-          - url: https://github.com/dromara/dongle
-          - url: https://github.com/tg123/go-htpasswd
-          - url: https://github.com/number571/go-peer
-            description: Secure decentralized networking
-          - url: https://github.com/hillu/go-yara
-          - url: https://github.com/dwin/goArgonPass
-          - url: https://github.com/dwin/goSecretBoxPassword
-          - url: https://github.com/go-acme/lego
-          - url: https://github.com/anatol/luks.go
-          - url: https://github.com/awnumar/memguard
-          - url: https://github.com/kevinburke/nacl
-          - url: https://github.com/zitadel/passwap
-            description: Unified password hashing
-          - url: https://github.com/bitfield/qrand
-          - url: https://github.com/rsjethani/secret
-          - url: https://github.com/unrolled/secure
-          - url: https://github.com/ssh-vault/ssh-vault
-          - url: https://github.com/adrianosela/sslmgr
-            description: SSL certificate abstraction
-          - url: https://github.com/teler-sh/teler-waf
-            description: HTTP middleware for WAF
-          - url: https://github.com/cossacklabs/themis
-            description: Cryptographic framework for data protection
-          - url: https://github.com/mojocn/base64Captcha
-          - url: https://github.com/steambap/captcha
-            description: Easy captcha library
-          - url: https://github.com/authzed/spicedb
-            description: Zanzibar-inspired permissions DB
-          - url: https://github.com/securitybunker/databunker
-            description: Secure vault for PII/PHI/KYC records
-      - name: Zero Trust
-        repos:
-          - url: https://github.com/sigstore/cosign
-          - url: https://github.com/openziti/ziti
-            description: Zero trust networking platform
-          - url: https://github.com/philips-labs/spiffe-vault
-          - url: https://github.com/spiffe/spire
   - name: Bots & Chat
     subcategories:
       - name: Bot Frameworks
@@ -1225,82 +1174,40 @@ categories:
           - url: https://github.com/bogdanfinn/tls-client
             description: HTTP client with TLS fingerprint spoofing
           - url: https://github.com/lib4u/fake-useragent
-      - name: Message Brokers
+      - name: Infrastructure
         repos:
-          - url: https://github.com/emitter-io/emitter
-            description: High-performance pub/sub broker
-          - url: https://github.com/mochi-mqtt/server
-            description: Embeddable MQTT v5 broker
-          - url: https://github.com/nats-io/nats-server
-            description: High-performance NATS message server
-      - name: Message Queues
-        repos:
-          - url: https://github.com/rabbitmq/amqp091-go
-            description: An AMQP 0-9-1 Go client maintained by the RabbitMQ team
-          - url: https://github.com/sideshow/apns2
-            description: Apple Push Notification Service
-          - url: https://github.com/hibiken/asynq
-          - url: https://github.com/Clivern/Beaver
-          - url: https://github.com/centrifugal/centrifugo
-            description: Scalable real-time messaging server
-          - url: https://github.com/confluentinc/confluent-kafka-go
-          - url: https://github.com/asaskevich/EventBus
-          - url: https://github.com/mehdihadeli/Go-MediatR
-            description: Mediator pattern for CQRS
-          - url: https://github.com/TheCreeper/go-notify
-          - url: https://github.com/jirenius/go-res
-          - url: https://github.com/jcuga/golongpoll
-          - url: https://github.com/Terry-Mao/gopush-cluster
-          - url: https://github.com/appleboy/gorush
-          - url: https://github.com/SchwarzIT/hypermatch
-            description: High-performance rule matching
-          - url: https://github.com/RichardKnop/machinery
-            description: Async task queue with message passing
-          - url: https://github.com/olahol/melody
-          - url: https://github.com/dunglas/mercure
-            description: Server-Sent Events hub
-          - url: https://github.com/nats-io/nats.go
-          - url: https://github.com/dailymotion/oplog
-          - url: https://github.com/cskr/pubsub
-          - url: https://github.com/timbray/quamina
-            description: Fast pattern-matching library
-          - url: https://github.com/furdarius/rabbitroutine
-            description: RabbitMQ auto-reconnect library
-          - url: https://github.com/jandelgado/rabtap
-          - url: https://github.com/sybrexsys/RapidMQ
-          - url: https://github.com/hyperonym/ratus
-            description: RESTful async task queue server
-          - url: https://github.com/robinjoseph08/redisqueue
-            description: Redis streams producer and consumer
-          - url: https://github.com/IBM/sarama
-          - url: https://github.com/ThreeDotsLabs/watermill
-          - url: https://github.com/pebbe/zmq4
-          - url: https://github.com/lovoo/goka
-            description: Kafka stream processing library
-          - url: https://github.com/oagudo/outbox
-            description: Transactional outbox pattern
-          - url: https://github.com/Raezil/GoEventBus
-          - url: https://github.com/goptics/varmq
-            description: Zero-dep message queue library
-          - url: https://github.com/containrrr/shoutrrr
-      - name: Microservices
-        repos:
-          - url: https://github.com/gmsec/micro
-          - url: https://github.com/unionj-cloud/go-doudou
-            description: OpenAPI 3 and gRPC microservices framework
-          - url: https://github.com/go-eagle/eagle
-          - url: https://github.com/go-kit/kit
-          - url: https://github.com/micro/go-micro
-          - url: https://github.com/zeromicro/go-zero
-            description: Microservices framework with CLI tools
-          - url: https://github.com/cloudwego/kitex
-            description: High-performance Go RPC framework
-          - url: https://github.com/go-kratos/kratos
-          - url: https://github.com/smallnest/rpcx
-            description: Feature-rich RPC framework
-          - url: https://github.com/go-dev-frame/sponge
-            description: Code generation framework for Go
-          - url: https://github.com/trpc-group/trpc-go
+          - url: https://github.com/xyproto/algernon
+            description: Web server with Lua and Markdown
+          - url: https://github.com/caddyserver/caddy
+            description: Multi-platform web server with HTTPS
+          - url: https://github.com/openrundev/openrun
+            description: Open source Cloud Run alternative
+          - url: https://github.com/blind-oracle/cortex-tenant
+            description: Prometheus proxy with tenant ID injection
+          - url: https://github.com/easegress-io/easegress
+          - url: https://github.com/etcd-io/etcd
+            description: Distributed key-value store
+          - url: https://github.com/getfider/fider
+          - url: https://github.com/openflagr/flagr
+            description: Feature flagging and A/B testing
+          - url: https://github.com/flipt-io/flipt
+          - url: https://github.com/thomaspoignant/go-feature-flag
+            description: Open source feature flag solution
+          - url: https://github.com/rekby/lets-proxy2
+            description: Reverse proxy with auto TLS
+          - url: https://github.com/minio/minio
+            description: High-performance object storage
+          - url: https://github.com/pocketbase/pocketbase
+          - url: https://github.com/roadrunner-server/roadrunner
+            description: High-performance PHP application server
+          - url: https://github.com/drakkan/sftpgo
+            description: Full-featured SFTP/FTP/HTTP server
+          - url: https://github.com/baalimago/wd-41
+          - url: https://github.com/charmbracelet/wish
+          - url: https://github.com/adnanh/webhook
+            description: Lightweight webhook server
+          - url: https://github.com/42Atomys/webhooked
+          - url: https://github.com/webhookx-io/webhookx
       - name: Network Utilities
         repos:
           - url: https://github.com/gaissmai/bart
@@ -1371,40 +1278,6 @@ categories:
           - url: https://github.com/gliderlabs/ssh
           - url: https://github.com/masterzen/winrm
             description: Windows remote command library
-      - name: Server Applications
-        repos:
-          - url: https://github.com/xyproto/algernon
-            description: Web server with Lua and Markdown
-          - url: https://github.com/caddyserver/caddy
-            description: Multi-platform web server with HTTPS
-          - url: https://github.com/openrundev/openrun
-            description: Open source Cloud Run alternative
-          - url: https://github.com/blind-oracle/cortex-tenant
-            description: Prometheus proxy with tenant ID injection
-          - url: https://github.com/easegress-io/easegress
-          - url: https://github.com/etcd-io/etcd
-            description: Distributed key-value store
-          - url: https://github.com/getfider/fider
-          - url: https://github.com/openflagr/flagr
-            description: Feature flagging and A/B testing
-          - url: https://github.com/flipt-io/flipt
-          - url: https://github.com/thomaspoignant/go-feature-flag
-            description: Open source feature flag solution
-          - url: https://github.com/rekby/lets-proxy2
-            description: Reverse proxy with auto TLS
-          - url: https://github.com/minio/minio
-            description: High-performance object storage
-          - url: https://github.com/pocketbase/pocketbase
-          - url: https://github.com/roadrunner-server/roadrunner
-            description: High-performance PHP application server
-          - url: https://github.com/drakkan/sftpgo
-            description: Full-featured SFTP/FTP/HTTP server
-          - url: https://github.com/baalimago/wd-41
-          - url: https://github.com/charmbracelet/wish
-          - url: https://github.com/adnanh/webhook
-            description: Lightweight webhook server
-          - url: https://github.com/42Atomys/webhooked
-          - url: https://github.com/webhookx-io/webhookx
       - name: TCP/UDP Frameworks
         repos:
           - url: https://github.com/cheng-zhongliang/event
@@ -1482,6 +1355,66 @@ categories:
         description: Extended Vault API and CLI
       - url: https://github.com/wabarc/wayback
         description: Web archiving tool with IM interface
+  - name: Queues & Pub/Sub
+    subcategories:
+      - name: Brokers
+        repos:
+          - url: https://github.com/emitter-io/emitter
+            description: High-performance pub/sub broker
+          - url: https://github.com/mochi-mqtt/server
+            description: Embeddable MQTT v5 broker
+          - url: https://github.com/nats-io/nats-server
+            description: High-performance NATS message server
+      - name: Clients & Libraries
+        repos:
+          - url: https://github.com/rabbitmq/amqp091-go
+            description: An AMQP 0-9-1 Go client maintained by the RabbitMQ team
+          - url: https://github.com/sideshow/apns2
+            description: Apple Push Notification Service
+          - url: https://github.com/hibiken/asynq
+          - url: https://github.com/Clivern/Beaver
+          - url: https://github.com/centrifugal/centrifugo
+            description: Scalable real-time messaging server
+          - url: https://github.com/confluentinc/confluent-kafka-go
+          - url: https://github.com/asaskevich/EventBus
+          - url: https://github.com/mehdihadeli/Go-MediatR
+            description: Mediator pattern for CQRS
+          - url: https://github.com/TheCreeper/go-notify
+          - url: https://github.com/jirenius/go-res
+          - url: https://github.com/jcuga/golongpoll
+          - url: https://github.com/Terry-Mao/gopush-cluster
+          - url: https://github.com/appleboy/gorush
+          - url: https://github.com/SchwarzIT/hypermatch
+            description: High-performance rule matching
+          - url: https://github.com/RichardKnop/machinery
+            description: Async task queue with message passing
+          - url: https://github.com/olahol/melody
+          - url: https://github.com/dunglas/mercure
+            description: Server-Sent Events hub
+          - url: https://github.com/nats-io/nats.go
+          - url: https://github.com/dailymotion/oplog
+          - url: https://github.com/cskr/pubsub
+          - url: https://github.com/timbray/quamina
+            description: Fast pattern-matching library
+          - url: https://github.com/furdarius/rabbitroutine
+            description: RabbitMQ auto-reconnect library
+          - url: https://github.com/jandelgado/rabtap
+          - url: https://github.com/sybrexsys/RapidMQ
+          - url: https://github.com/hyperonym/ratus
+            description: RESTful async task queue server
+          - url: https://github.com/robinjoseph08/redisqueue
+            description: Redis streams producer and consumer
+          - url: https://github.com/IBM/sarama
+          - url: https://github.com/ThreeDotsLabs/watermill
+          - url: https://github.com/pebbe/zmq4
+          - url: https://github.com/lovoo/goka
+            description: Kafka stream processing library
+          - url: https://github.com/oagudo/outbox
+            description: Transactional outbox pattern
+          - url: https://github.com/Raezil/GoEventBus
+          - url: https://github.com/goptics/varmq
+            description: Zero-dep message queue library
+          - url: https://github.com/containrrr/shoutrrr
   - name: Science
     repos:
       - url: https://github.com/ndabAP/assocentity
@@ -1562,6 +1495,65 @@ categories:
             description: Code generator for Go
           - url: https://github.com/oapi-codegen/oapi-codegen
             description: Generate Go code from OpenAPI 3 specs
+  - name: Security
+    subcategories:
+      - name: Certificates
+        repos:
+          - url: https://github.com/caddyserver/certmagic
+            description: Automatic HTTPS certificate management
+          - url: https://github.com/tg123/go-htpasswd
+          - url: https://github.com/go-acme/lego
+          - url: https://github.com/adrianosela/sslmgr
+            description: SSL certificate abstraction
+      - name: Cryptography
+        repos:
+          - url: https://github.com/FiloSottile/age
+            description: Simple encryption tool
+          - url: https://github.com/andskur/argon2-hashing
+            description: Argon2 password hashing
+          - url: https://github.com/anatol/booster
+          - url: https://github.com/dromara/dongle
+          - url: https://github.com/number571/go-peer
+            description: Secure decentralized networking
+          - url: https://github.com/dwin/goArgonPass
+          - url: https://github.com/dwin/goSecretBoxPassword
+          - url: https://github.com/anatol/luks.go
+          - url: https://github.com/awnumar/memguard
+          - url: https://github.com/kevinburke/nacl
+          - url: https://github.com/zitadel/passwap
+            description: Unified password hashing
+          - url: https://github.com/bitfield/qrand
+          - url: https://github.com/rsjethani/secret
+          - url: https://github.com/ssh-vault/ssh-vault
+          - url: https://github.com/cossacklabs/themis
+            description: Cryptographic framework for data protection
+          - url: https://github.com/authzed/spicedb
+            description: Zanzibar-inspired permissions DB
+      - name: WAF & Protection
+        repos:
+          - url: https://github.com/cossacklabs/acra
+            description: Database security proxy
+          - url: https://github.com/mariocandela/beelzebub
+            description: AI-powered honeypot framework
+          - url: https://github.com/Ullaakut/cameradar
+          - url: https://github.com/corazawaf/coraza
+            description: ModSecurity-compatible WAF in Go
+          - url: https://github.com/hillu/go-yara
+          - url: https://github.com/unrolled/secure
+          - url: https://github.com/teler-sh/teler-waf
+            description: HTTP middleware for WAF
+          - url: https://github.com/mojocn/base64Captcha
+          - url: https://github.com/steambap/captcha
+            description: Easy captcha library
+          - url: https://github.com/securitybunker/databunker
+            description: Secure vault for PII/PHI/KYC records
+      - name: Zero Trust
+        repos:
+          - url: https://github.com/sigstore/cosign
+          - url: https://github.com/openziti/ziti
+            description: Zero trust networking platform
+          - url: https://github.com/philips-labs/spiffe-vault
+          - url: https://github.com/spiffe/spire
   - name: Testing & Quality
     subcategories:
       - name: Benchmarks
@@ -2349,6 +2341,24 @@ categories:
           - url: https://github.com/kazhuravlev/git-tools
   - name: Web Development
     subcategories:
+      - name: Microservices
+        repos:
+          - url: https://github.com/gmsec/micro
+          - url: https://github.com/unionj-cloud/go-doudou
+            description: OpenAPI 3 and gRPC microservices framework
+          - url: https://github.com/go-eagle/eagle
+          - url: https://github.com/go-kit/kit
+          - url: https://github.com/micro/go-micro
+          - url: https://github.com/zeromicro/go-zero
+            description: Microservices framework with CLI tools
+          - url: https://github.com/cloudwego/kitex
+            description: High-performance Go RPC framework
+          - url: https://github.com/go-kratos/kratos
+          - url: https://github.com/smallnest/rpcx
+            description: Feature-rich RPC framework
+          - url: https://github.com/go-dev-frame/sponge
+            description: Code generation framework for Go
+          - url: https://github.com/trpc-group/trpc-go
       - name: Middlewares
         repos:
           - url: https://github.com/rs/cors
