@@ -64,7 +64,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
   - [Kubernetes](#kubernetes)
   - [Load Testing](#load-testing)
 - [Email](#email)
-- [File Sharing](#file-sharing)
 - [Finance & Blockchain](#finance--blockchain)
   - [Blockchain](#blockchain)
   - [Financial](#financial)
@@ -98,7 +97,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
   - [SSH & SFTP](#ssh--sftp)
   - [TCP/UDP Frameworks](#tcpudp-frameworks)
   - [VPN & Tunneling](#vpn--tunneling)
-- [Other](#other)
 - [Queues & Pub/Sub](#queues--pubsub)
   - [Brokers](#brokers)
   - [Clients & Libraries](#clients--libraries)
@@ -314,6 +312,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [mattn/go-isatty](https://github.com/mattn/go-isatty) — Check if terminal is TTY ☆`881`
 - [mattn/go-colorable](https://github.com/mattn/go-colorable) — Colorable writer for Windows ☆`804`
 - [Evertras/bubble-table](https://github.com/Evertras/bubble-table) — Table component for Bubble Tea ☆`545`
+- [DMcP89/tinycare-tui](https://github.com/DMcP89/tinycare-tui) — TUI application written in GO inspired by tiny-care-terminal ☆`16`
 ### Standard CLI
 
 - [spf13/cobra](https://github.com/spf13/cobra) — A Commander for modern Go CLI interactions ☆`42,720`
@@ -744,11 +743,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [toorop/go-dkim](https://github.com/toorop/go-dkim) — DKIM package for golang ☆`99`
 - [dimuska139/go-email-normalizer](https://github.com/dimuska139/go-email-normalizer) — Normalize email addresses ☆`76`
 - [valord577/mailx](https://github.com/valord577/mailx) — A library that makes it easier to send email via SMTP. ☆`20`
-## File Sharing
-
-- [schollz/croc](https://github.com/schollz/croc) — Easily and securely send things from one computer to another ☆`33,500`
-- [root-gg/plik](https://github.com/root-gg/plik) — Temporary file upload system ☆`1,679`
-- [SpatiumPortae/portal](https://github.com/SpatiumPortae/portal) — Command-line file transfer utility ☆`1,717`
 ## Finance & Blockchain
 
 ### Blockchain
@@ -812,6 +806,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 ### Game Engines
 
 - [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) — A dead simple 2D game engine for Go ☆`12,786`
+- [fogleman/nes](https://github.com/fogleman/nes) — NES emulator written in Go. ☆`5,631`
 - [topfreegames/pitaya](https://github.com/topfreegames/pitaya) — Game server with clustering support ☆`2,701`
 - [xiaonanln/goworld](https://github.com/xiaonanln/goworld) — Distributed game server engine ☆`2,693`
 - [gen2brain/raylib-go](https://github.com/gen2brain/raylib-go) — Go bindings for raylib ☆`2,283`
@@ -968,6 +963,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [xyproto/algernon](https://github.com/xyproto/algernon) — Web server with Lua and Markdown ☆`2,971`
 - [openflagr/flagr](https://github.com/openflagr/flagr) — Feature flagging and A/B testing ☆`2,562`
 - [thomaspoignant/go-feature-flag](https://github.com/thomaspoignant/go-feature-flag) — Open source feature flag solution ☆`1,877`
+- [msoap/shell2http](https://github.com/msoap/shell2http) — Executing shell commands via HTTP server ☆`1,463`
 - [openrundev/openrun](https://github.com/openrundev/openrun) — Open source Cloud Run alternative ☆`713`
 - [webhookx-io/webhookx](https://github.com/webhookx-io/webhookx) — The Next-Generation Webhooks Gateway. ☆`267`
 - [blind-oracle/cortex-tenant](https://github.com/blind-oracle/cortex-tenant) — Prometheus proxy with tenant ID injection ☆`129`
@@ -983,6 +979,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [schollz/peerdiscovery](https://github.com/schollz/peerdiscovery) — Cross-platform local peer discovery ☆`667`
 - [fclairamb/ftpserverlib](https://github.com/fclairamb/ftpserverlib) — FTP server library for Go ☆`460`
 - [skibish/ddns](https://github.com/skibish/ddns) — Personal DDNS client with Digital Ocean Networking DNS as backend. ☆`267`
+- [assafmo/joincap](https://github.com/assafmo/joincap) — Merge pcap files ☆`219`
 - [c-robinson/iplib](https://github.com/c-robinson/iplib) — A library for working with IP addresses and networks in Go ☆`151`
 - [gaissmai/bart](https://github.com/gaissmai/bart) — Balanced routing table ☆`109`
 - [alegrey91/fwdctl](https://github.com/alegrey91/fwdctl) — Manage IPTables forwards via CLI ☆`73`
@@ -1035,18 +1032,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [xjasonlyu/tun2socks](https://github.com/xjasonlyu/tun2socks) — TUN to SOCKS proxy ☆`4,753`
 - [songgao/water](https://github.com/songgao/water) — A simple TUN/TAP library written in native Go. ☆`2,110`
 - [yosebyte/nodepass](https://github.com/yosebyte/nodepass) — Secure TCP/UDP tunneling with TLS ☆`1,573`
-## Other
-
-- [fogleman/nes](https://github.com/fogleman/nes) — NES emulator written in Go. ☆`5,631`
-- [Forceu/Gokapi](https://github.com/Forceu/Gokapi) — Self-hosted file sharing server ☆`2,470`
-- [documize/community](https://github.com/documize/community) — Modern Confluence alternative ☆`2,347`
-- [go-sonic/sonic](https://github.com/go-sonic/sonic) — Blogging platform in Go ☆`2,118`
-- [wabarc/wayback](https://github.com/wabarc/wayback) — Web archiving tool with IM interface ☆`2,115`
-- [msoap/shell2http](https://github.com/msoap/shell2http) — Executing shell commands via HTTP server ☆`1,463`
-- [marwanhawari/stew](https://github.com/marwanhawari/stew) — An independent package manager for compiled binaries. ☆`312`
-- [assafmo/joincap](https://github.com/assafmo/joincap) — Merge pcap files ☆`219`
-- [lingrino/vaku](https://github.com/lingrino/vaku) — Extended Vault API and CLI ☆`158`
-- [DMcP89/tinycare-tui](https://github.com/DMcP89/tinycare-tui) — TUI application written in GO inspired by tiny-care-terminal ☆`16`
 ## Queues & Pub/Sub
 
 ### Brokers
@@ -1143,6 +1128,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [kevinburke/nacl](https://github.com/kevinburke/nacl) — Pure Go implementation of the NaCL set of API's ☆`551`
 - [ssh-vault/ssh-vault](https://github.com/ssh-vault/ssh-vault) — encrypt/decrypt using ssh keys ☆`487`
 - [number571/go-peer](https://github.com/number571/go-peer) — Secure decentralized networking ☆`312`
+- [lingrino/vaku](https://github.com/lingrino/vaku) — Extended Vault API and CLI ☆`158`
 - [anatol/luks.go](https://github.com/anatol/luks.go) — Pure Golang library to manage LUKS partitions ☆`94`
 - [zitadel/passwap](https://github.com/zitadel/passwap) — Unified password hashing ☆`72`
 - [rsjethani/secret](https://github.com/rsjethani/secret) — Prevent your secrets from leaking into logs, std* etc. ☆`32`
@@ -1450,11 +1436,14 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [Southclaws/fault](https://github.com/Southclaws/fault) — Composable error wrapping ☆`302`
 ### File Handling
 
+- [schollz/croc](https://github.com/schollz/croc) — Easily and securely send things from one computer to another ☆`33,500`
 - [qax-os/excelize](https://github.com/qax-os/excelize) — Excel XLSX library for Go ☆`20,121`
 - [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) — PDF processor in Go ☆`8,320`
 - [spf13/afero](https://github.com/spf13/afero) — Filesystem abstraction for Go ☆`6,500`
 - [dundee/gdu](https://github.com/dundee/gdu) — Fast disk usage analyzer ☆`5,113`
 - [unidoc/unioffice](https://github.com/unidoc/unioffice) — Office document library ☆`4,757`
+- [root-gg/plik](https://github.com/root-gg/plik) — Temporary file upload system ☆`1,679`
+- [SpatiumPortae/portal](https://github.com/SpatiumPortae/portal) — Command-line file transfer utility ☆`1,717`
 - [SebastiaanKlippert/go-wkhtmltopdf](https://github.com/SebastiaanKlippert/go-wkhtmltopdf) — HTML to PDF wrapper ☆`1,170`
 - [otiai10/copy](https://github.com/otiai10/copy) — Copy directories recursively ☆`769`
 - [ulikunitz/xz](https://github.com/ulikunitz/xz) — Pure golang package for reading and writing xz-compressed files ☆`544`
@@ -1487,6 +1476,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [rjNemo/underscore](https://github.com/rjNemo/underscore) — Functional helpers for Go ☆`118`
 ### General
 
+- [wabarc/wayback](https://github.com/wabarc/wayback) — Web archiving tool with IM interface ☆`2,115`
 - [gabriel-vasile/mimetype](https://github.com/gabriel-vasile/mimetype) — MIME type detection by magic numbers ☆`1,916`
 - [qmuntal/stateless](https://github.com/qmuntal/stateless) — Go library for creating finite state machines ☆`1,147`
 - [jonboulle/clockwork](https://github.com/jonboulle/clockwork) — a fake clock for golang ☆`722`
@@ -1602,6 +1592,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 - [anchore/syft](https://github.com/anchore/syft) — SBOM generator for containers ☆`8,155`
 - [nao1215/gup](https://github.com/nao1215/gup) — gup - Update binaries installed by "go install" with goroutines. ☆`516`
+- [marwanhawari/stew](https://github.com/marwanhawari/stew) — An independent package manager for compiled binaries. ☆`312`
 - [chaindead/modup](https://github.com/chaindead/modup) — TUI for Go dependency updates ☆`61`
 ### Version Control
 
@@ -1669,6 +1660,8 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [apache/dubbo-go](https://github.com/apache/dubbo-go) — Go Implementation For Apache Dubbo . ☆`4,866`
 - [goravel/goravel](https://github.com/goravel/goravel) — The full-featured Golang Development Framework skeleton ☆`4,346`
 - [danielgtaylor/huma](https://github.com/danielgtaylor/huma) — Huma REST/HTTP API Framework for Golang with OpenAPI 3.1 ☆`3,682`
+- [documize/community](https://github.com/documize/community) — Modern Confluence alternative ☆`2,347`
+- [go-sonic/sonic](https://github.com/go-sonic/sonic) — Blogging platform in Go ☆`2,118`
 - [go-goyave/goyave](https://github.com/go-goyave/goyave) — The enterprise REST API framework ☆`1,757`
 - [go-fuego/fuego](https://github.com/go-fuego/fuego) — Web framework with OpenAPI 3 ☆`1,620`
 - [savsgio/atreugo](https://github.com/savsgio/atreugo) — Micro web framework on fasthttp ☆`1,298`
