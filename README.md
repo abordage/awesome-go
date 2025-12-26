@@ -1119,7 +1119,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 ### Cryptography
 
 - [FiloSottile/age](https://github.com/FiloSottile/age) — Simple encryption tool ☆`20,456`
-- [authzed/spicedb](https://github.com/authzed/spicedb) — Zanzibar-inspired permissions DB ☆`6,300`
+- [authzed/spicedb](https://github.com/authzed/spicedb) — Zanzibar-inspired permissions DB ☆`6,303`
 - [awnumar/memguard](https://github.com/awnumar/memguard) — Software sandbox for storage of sensitive information in memory. ☆`2,696`
 - [cossacklabs/themis](https://github.com/cossacklabs/themis) — Cryptographic framework for data protection ☆`1,944`
 - [dromara/dongle](https://github.com/dromara/dongle) — A simple, semantic and developer-friendly crypto package for golang ☆`1,094`
@@ -1390,7 +1390,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [samber/lo](https://github.com/samber/lo) — Lodash-style utilities for Go ☆`20,791`
 - [duke-git/lancet](https://github.com/duke-git/lancet) — Comprehensive util library ☆`5,241`
 - [darccio/mergo](https://github.com/darccio/mergo) — Merge Go structs and maps ☆`3,078`
-- [goforj/godump](https://github.com/goforj/godump) — Pretty-printer for Go structs ☆`1,476`
+- [goforj/godump](https://github.com/goforj/godump) — Pretty-printer for Go structs ☆`1,501`
 - [gookit/filter](https://github.com/gookit/filter) — Data filtering and conversion ☆`150`
 - [tiendc/gofn](https://github.com/tiendc/gofn) — High-performance generic functions ☆`52`
 - [xorcare/pointer](https://github.com/xorcare/pointer) — Create optional field pointers ☆`48`
