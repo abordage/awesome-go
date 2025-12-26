@@ -1427,7 +1427,8 @@ categories:
             description: Web server with Lua and Markdown
           - url: https://github.com/caddyserver/caddy
             description: Multi-platform web server with HTTPS
-          - url: https://github.com/claceio/clace
+          - url: https://github.com/openrundev/openrun
+            description: Open source Cloud Run alternative
           - url: https://github.com/blind-oracle/cortex-tenant
             description: Prometheus proxy with tenant ID injection
           - url: https://github.com/easegress-io/easegress
@@ -2475,8 +2476,6 @@ categories:
           - url: https://github.com/jivegroup/gfly
           - url: https://github.com/wellington/go-libsass
           - url: https://github.com/napsy/go-css
-          - url: https://github.com/openrundev/openrun
-            description: Open source Cloud Run alternative
       - name: WebAssembly
         repos:
           - url: https://github.com/extism/go-sdk
