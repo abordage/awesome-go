@@ -628,6 +628,7 @@ categories:
           - url: https://github.com/VictoriaMetrics/VictoriaMetrics
             description: Fast time series database and monitoring
           - url: https://github.com/marcboeker/go-duckdb
+          - url: https://github.com/claygod/transaction
       - name: Distributed Storage
         repos:
           - url: https://github.com/juicedata/juicefs
@@ -894,8 +895,6 @@ categories:
       - url: https://github.com/mjl-/mox
         description: Modern secure mail server
       - url: https://github.com/sendgrid/sendgrid-go
-      - url: https://github.com/mocktools/go-smtp-mock
-        description: SMTP mock server for testing
       - url: https://github.com/truemail-rb/truemail-go
         description: Email validator via Regex, DNS, SMTP
   - name: Finance & Blockchain
@@ -929,7 +928,6 @@ categories:
           - url: https://github.com/jovandeginste/payme
           - url: https://github.com/achannarasappa/ticker
             description: Terminal stock and crypto tracker
-          - url: https://github.com/claygod/transaction
           - url: https://github.com/quagmt/udecimal
             description: High-precision decimal library
           - url: https://github.com/dannyvankooten/vat
@@ -1600,6 +1598,8 @@ categories:
             description: All-in-one Go testing library
           - url: https://github.com/balinomad/go-mockfs
           - url: https://github.com/brianvoe/gofakeit
+          - url: https://github.com/mocktools/go-smtp-mock
+            description: SMTP mock server for testing
       - name: Performance
         repos:
           - url: https://github.com/nikolaydubina/go-instrument
