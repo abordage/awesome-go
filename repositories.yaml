@@ -212,6 +212,7 @@ categories:
           - url: https://github.com/muesli/termenv
             description: Terminal color support
           - url: https://github.com/gizak/termui
+          - url: https://github.com/DMcP89/tinycare-tui
       - name: Standard CLI
         repos:
           - url: https://github.com/cristalhq/acmd
@@ -897,13 +898,6 @@ categories:
         description: SMTP mock server for testing
       - url: https://github.com/truemail-rb/truemail-go
         description: Email validator via Regex, DNS, SMTP
-  - name: File Sharing
-    repos:
-      - url: https://github.com/schollz/croc
-      - url: https://github.com/root-gg/plik
-        description: Temporary file upload system
-      - url: https://github.com/SpatiumPortae/portal
-        description: Command-line file transfer utility
   - name: Finance & Blockchain
     subcategories:
       - name: Blockchain
@@ -1009,6 +1003,7 @@ categories:
           - url: https://github.com/JoelOtter/termloop
           - url: https://github.com/kelindar/tile
             description: 2D grid engine for games
+          - url: https://github.com/fogleman/nes
       - name: OpenGL
         repos:
           - url: https://github.com/go-gl/gl
@@ -1224,6 +1219,7 @@ categories:
             description: Lightweight webhook server
           - url: https://github.com/42Atomys/webhooked
           - url: https://github.com/webhookx-io/webhookx
+          - url: https://github.com/msoap/shell2http
       - name: Network Utilities
         repos:
           - url: https://github.com/gaissmai/bart
@@ -1254,6 +1250,8 @@ categories:
           - url: https://github.com/skibish/ddns
           - url: https://github.com/timothyye/godns
             description: Dynamic DNS client for multiple providers
+          - url: https://github.com/assafmo/joincap
+            description: Merge pcap files
       - name: P2P & Torrent
         repos:
           - url: https://github.com/anacrolix/dht
@@ -1319,35 +1317,6 @@ categories:
           - url: https://github.com/xjasonlyu/tun2socks
             description: TUN to SOCKS proxy
           - url: https://github.com/songgao/water
-  - name: Other
-    subcategories: [ ]
-    repos:
-      - url: https://github.com/gocircuit/circuit
-        description: 'Circuit: Dynamic cloud orchestration'
-      - url: https://github.com/documize/community
-        description: Modern Confluence alternative
-      - url: https://github.com/Antonito/gfile
-      - url: https://github.com/shurcooL/Go-Package-Store
-      - url: https://github.com/Sioro-Neoku/go-peerflix
-      - url: https://github.com/Humpheh/goboy
-      - url: https://github.com/diankong/GoDocTooltip
-      - url: https://github.com/Forceu/gokapi
-        description: Self-hosted file sharing server
-      - url: https://github.com/thestrukture/ide
-      - url: https://github.com/assafmo/joincap
-        description: Merge pcap files
-      - url: https://github.com/jeffail/leaps
-      - url: https://github.com/Code-Hex/Neo-cowsay
-      - url: https://github.com/fogleman/nes
-      - url: https://github.com/msoap/shell2http
-      - url: https://github.com/go-sonic/sonic
-        description: Blogging platform in Go
-      - url: https://github.com/marwanhawari/stew
-      - url: https://github.com/DMcP89/tinycare-tui
-      - url: https://github.com/lingrino/vaku
-        description: Extended Vault API and CLI
-      - url: https://github.com/wabarc/wayback
-        description: Web archiving tool with IM interface
   - name: Queues & Pub/Sub
     subcategories:
       - name: Brokers
@@ -1522,6 +1491,8 @@ categories:
             description: Cryptographic framework for data protection
           - url: https://github.com/authzed/spicedb
             description: Zanzibar-inspired permissions DB
+          - url: https://github.com/lingrino/vaku
+            description: Extended Vault API and CLI
       - name: WAF & Protection
         repos:
           - url: https://github.com/cossacklabs/acra
@@ -2093,6 +2064,11 @@ categories:
           - url: https://github.com/go-the-way/exl
           - url: https://github.com/tealeg/xlsx
           - url: https://github.com/gomutex/godocx
+          - url: https://github.com/schollz/croc
+          - url: https://github.com/root-gg/plik
+            description: Temporary file upload system
+          - url: https://github.com/SpatiumPortae/portal
+            description: Command-line file transfer utility
       - name: Forms
         repos:
           - url: https://github.com/cinar/checker
@@ -2178,6 +2154,8 @@ categories:
             description: NUMA utility library for Go
           - url: https://github.com/qmuntal/stateless
           - url: https://github.com/rkoesters/xdg
+          - url: https://github.com/wabarc/wayback
+            description: Web archiving tool with IM interface
       - name: Logging
         repos:
           - url: https://github.com/golang/glog
@@ -2332,6 +2310,7 @@ categories:
           - url: https://github.com/DamnWidget/VenGO
           - url: https://github.com/chaindead/modup
             description: TUI for Go dependency updates
+          - url: https://github.com/marwanhawari/stew
       - name: Version Control
         repos:
           - url: https://github.com/jfrog/froggit-go
@@ -2473,6 +2452,10 @@ categories:
           - url: https://github.com/jivegroup/gfly
           - url: https://github.com/wellington/go-libsass
           - url: https://github.com/napsy/go-css
+          - url: https://github.com/documize/community
+            description: Modern Confluence alternative
+          - url: https://github.com/go-sonic/sonic
+            description: Blogging platform in Go
       - name: WebAssembly
         repos:
           - url: https://github.com/extism/go-sdk
