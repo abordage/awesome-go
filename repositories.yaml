@@ -83,13 +83,9 @@ categories:
           - url: https://github.com/piglig/go-qr
       - name: Video
         repos:
-          - url: https://github.com/asticode/go-astiav
-          - url: https://github.com/asticode/go-astisub
-            description: Manipulate subtitles in Go
           - url: https://github.com/asticode/go-astits
           - url: https://github.com/unki2aut/go-mpd
             description: MPEG-DASH manifest library
-          - url: https://github.com/bluenviron/gortsplib
           - url: https://github.com/adrg/libvlc-go
             description: Go bindings for libVLC
           - url: https://github.com/Eyevinn/mp4ff
@@ -98,6 +94,9 @@ categories:
           - url: https://github.com/Eyevinn/hls-m3u8
           - url: https://github.com/jonoton/scout
             description: Video surveillance with motion detection
+          - url: https://github.com/asticode/go-astisub
+            description: Manipulate subtitles in Go
+          - url: https://github.com/asticode/go-astiav
   - name: Authentication & Security
     subcategories:
       - name: Authentication
@@ -180,6 +179,10 @@ categories:
           - url: https://github.com/mojocn/base64Captcha
           - url: https://github.com/steambap/captcha
             description: Easy captcha library
+          - url: https://github.com/authzed/spicedb
+            description: Zanzibar-inspired permissions DB
+          - url: https://github.com/securitybunker/databunker
+            description: Secure vault for PII/PHI/KYC records
       - name: Zero Trust
         repos:
           - url: https://github.com/sigstore/cosign
@@ -613,8 +616,6 @@ categories:
           - url: https://github.com/kelindar/column
             description: Columnar in-memory store
           - url: https://github.com/CovenantSQL/CovenantSQL
-          - url: https://github.com/securitybunker/databunker
-            description: Secure vault for PII/PHI/KYC records
           - url: https://github.com/hypermodeinc/dgraph
           - url: https://github.com/DiceDB/dice
           - url: https://github.com/dolthub/dolt
@@ -652,8 +653,6 @@ categories:
           - url: https://github.com/HouzuoGuo/tiedot
           - url: https://github.com/VictoriaMetrics/VictoriaMetrics
             description: Fast time series database and monitoring
-          - url: https://github.com/authzed/spicedb
-            description: Zanzibar-inspired permissions DB
           - url: https://github.com/marcboeker/go-duckdb
       - name: Interfaces to Multiple Backends
         repos:
@@ -959,6 +958,26 @@ categories:
           - url: https://github.com/goxjs/gl
           - url: https://github.com/goxjs/glfw
           - url: https://github.com/go-gl/mathgl
+  - name: Geospatial
+    repos:
+      - url: https://github.com/airbusgeo/godal
+        description: GDAL wrapper for Go
+      - url: https://github.com/uber/h3-go
+        description: H3 hexagonal geospatial indexing
+      - url: https://github.com/paulmach/osm
+        description: OpenStreetMap data library
+      - url: https://github.com/pantrif/s2-geojson
+        description: Visualize S2 cells on a map
+      - url: https://github.com/peterstace/simplefeatures
+        description: OpenGIS Simple Feature implementation
+      - url: https://github.com/wroge/wgs84
+        description: Zero-dep coordinate transformations
+      - url: https://github.com/tidwall/tile38
+      - url: https://github.com/golang/geo
+      - url: https://github.com/consbio/mbtileserver
+        description: MBTiles server in Go
+      - url: https://github.com/spatial-go/geoos
+        description: Spatial data and geometric algorithms
   - name: Go Tooling
     subcategories:
       - name: Compilers
@@ -1007,6 +1026,10 @@ categories:
           - url: https://github.com/dtgorski/typex
           - url: https://github.com/safedep/vet
           - url: https://github.com/ahmedakef/gotutor
+          - url: https://github.com/pointlander/peg
+            description: PEG parser generator for Go
+          - url: https://github.com/goccmack/gocc
+            description: Parser and scanner generator
   - name: Hardware & IoT
     subcategories:
       - name: Hardware
@@ -1027,6 +1050,7 @@ categories:
             description: Lightweight rule engine framework
           - url: https://github.com/Edgenesis/shifu
           - url: https://github.com/e154/smart-home
+          - url: https://github.com/maxatome/go-vitotrol
   - name: Integrations
     subcategories:
       - name: AI & ML APIs
@@ -1214,7 +1238,6 @@ categories:
             description: Mediator pattern for CQRS
           - url: https://github.com/TheCreeper/go-notify
           - url: https://github.com/jirenius/go-res
-          - url: https://github.com/maxatome/go-vitotrol
           - url: https://github.com/jcuga/golongpoll
           - url: https://github.com/Terry-Mao/gopush-cluster
           - url: https://github.com/appleboy/gorush
@@ -1261,10 +1284,10 @@ categories:
         repos:
           - url: https://github.com/vadiminshakov/committer
             description: 2PC and 3PC protocols for Go
+          - url: https://github.com/etcd-io/raft
+          - url: https://github.com/hashicorp/raft
           - url: https://github.com/lni/dragonboat
             description: Multi-group Raft consensus library
-          - url: https://github.com/hashicorp/raft
-          - url: https://github.com/etcd-io/raft
       - name: DNS
         repos:
           - url: https://github.com/miekg/dns
@@ -1273,6 +1296,8 @@ categories:
           - url: https://github.com/hashicorp/mdns
           - url: https://github.com/semihalev/sdns
             description: High-performance recursive DNS
+          - url: https://github.com/0xERR0R/blocky
+            description: DNS ad-blocker for local networks
       - name: Distributed Utilities
         repos:
           - url: https://github.com/capillariesio/capillaries
@@ -1406,6 +1431,7 @@ categories:
           - url: https://github.com/lxzan/gws
             description: Fast websocket server and client
           - url: https://github.com/pion/webrtc
+          - url: https://github.com/bluenviron/gortsplib
       - name: RPC
         repos:
           - url: https://github.com/lesismal/arpc
@@ -1480,10 +1506,6 @@ categories:
     subcategories:
       - name: Other Software
         repos:
-          - url: https://github.com/0xERR0R/blocky
-            description: DNS ad-blocker for local networks
-          - url: https://github.com/chapar-rest/chapar
-            description: API testing for HTTP and gRPC
           - url: https://github.com/gocircuit/circuit
             description: 'Circuit: Dynamic cloud orchestration'
           - url: https://github.com/schollz/croc
@@ -1497,8 +1519,6 @@ categories:
           - url: https://github.com/shurcooL/Go-Package-Store
           - url: https://github.com/Sioro-Neoku/go-peerflix
           - url: https://github.com/Humpheh/goboy
-          - url: https://github.com/goccmack/gocc
-            description: Parser and scanner generator
           - url: https://github.com/diankong/GoDocTooltip
           - url: https://github.com/Forceu/gokapi
             description: Self-hosted file sharing server
@@ -1514,8 +1534,6 @@ categories:
           - url: https://github.com/jeffail/leaps
           - url: https://github.com/Code-Hex/Neo-cowsay
           - url: https://github.com/fogleman/nes
-          - url: https://github.com/pointlander/peg
-            description: PEG parser generator for Go
           - url: https://github.com/root-gg/plik
             description: Temporary file upload system
           - url: https://github.com/SpatiumPortae/portal
@@ -1547,54 +1565,32 @@ categories:
           - url: https://github.com/Wing924/hostutils
           - url: https://github.com/aofei/sandid
           - url: https://github.com/Wing924/shellwords
-  - name: Science & Geography
-    subcategories:
-      - name: Geographic
-        repos:
-          - url: https://github.com/spatial-go/geoos
-            description: Spatial data and geometric algorithms
-          - url: https://github.com/airbusgeo/godal
-            description: GDAL wrapper for Go
-          - url: https://github.com/uber/h3-go
-            description: H3 hexagonal geospatial indexing
-          - url: https://github.com/consbio/mbtileserver
-            description: MBTiles server in Go
-          - url: https://github.com/paulmach/osm
-            description: OpenStreetMap data library
-          - url: https://github.com/pantrif/s2-geojson
-            description: Visualize S2 cells on a map
-          - url: https://github.com/golang/geo
-          - url: https://github.com/peterstace/simplefeatures
-            description: OpenGIS Simple Feature implementation
-          - url: https://github.com/tidwall/tile38
-          - url: https://github.com/wroge/wgs84
-            description: Zero-dep coordinate transformations
-      - name: Science
-        repos:
-          - url: https://github.com/ndabAP/assocentity
-          - url: https://github.com/nikolaydubina/calendarheatmap
-          - url: https://github.com/VividCortex/ewma
-          - url: https://github.com/maddyblue/go-dsp
-          - url: https://github.com/ThePaw/go-gt
-          - url: https://github.com/go-hep/hep
-          - url: https://github.com/hmdsefi/gograph
-            description: Generic graph algorithms library
-          - url: https://github.com/gonum/gonum
-            description: Numeric libraries for Go
-          - url: https://github.com/gonum/plot
-            description: Plotting and visualization
-          - url: https://github.com/OGFris/GoStats
-          - url: https://github.com/nikolaydubina/jsonl-graph
-          - url: https://github.com/ChristopherRabotin/ode
-          - url: https://github.com/paulmach/orb
-            description: 2D geometry types and utilities
-          - url: https://github.com/sgreben/piecewiselinear
-          - url: https://github.com/claygod/PiHex
-            description: Generate hexadecimal Pi digits
-          - url: https://github.com/bebop/poly
-            description: Synthetic biology library for Go
-          - url: https://github.com/nytlabs/streamtools
-          - url: https://github.com/DavidBelicza/TextRank
+  - name: Science
+    repos:
+      - url: https://github.com/ndabAP/assocentity
+      - url: https://github.com/nikolaydubina/calendarheatmap
+      - url: https://github.com/VividCortex/ewma
+      - url: https://github.com/maddyblue/go-dsp
+      - url: https://github.com/ThePaw/go-gt
+      - url: https://github.com/go-hep/hep
+      - url: https://github.com/hmdsefi/gograph
+        description: Generic graph algorithms library
+      - url: https://github.com/gonum/gonum
+        description: Numeric libraries for Go
+      - url: https://github.com/gonum/plot
+        description: Plotting and visualization
+      - url: https://github.com/OGFris/GoStats
+      - url: https://github.com/nikolaydubina/jsonl-graph
+      - url: https://github.com/ChristopherRabotin/ode
+      - url: https://github.com/paulmach/orb
+        description: 2D geometry types and utilities
+      - url: https://github.com/sgreben/piecewiselinear
+      - url: https://github.com/claygod/PiHex
+        description: Generate hexadecimal Pi digits
+      - url: https://github.com/bebop/poly
+        description: Synthetic biology library for Go
+      - url: https://github.com/nytlabs/streamtools
+      - url: https://github.com/DavidBelicza/TextRank
   - name: Scripting
     subcategories:
       - name: Embeddable Languages
@@ -1799,6 +1795,8 @@ categories:
           - url: https://github.com/stretchr/testify
             description: Assertions and mocks for testing
           - url: https://github.com/MarvinJWendt/testza
+          - url: https://github.com/chapar-rest/chapar
+            description: API testing for HTTP and gRPC
       - name: Testing Utilities
         repos:
           - url: https://github.com/pingcap/failpoint
