@@ -1132,6 +1132,7 @@ categories:
         repos:
           - url: https://github.com/ccbrown/api-fu
           - url: https://github.com/tomwright/dasel
+            description: Query and modify data formats
           - url: https://github.com/SeldonIO/goven
           - url: https://github.com/99designs/gqlgen
           - url: https://github.com/graph-gophers/graphql-go
@@ -1380,6 +1381,7 @@ categories:
           - url: https://github.com/yahoo/vssh
           - url: https://github.com/skibish/ddns
           - url: https://github.com/timothyye/godns
+            description: Dynamic DNS client for multiple providers
       - name: P2P & Torrent
         repos:
           - url: https://github.com/anacrolix/dht
@@ -1498,6 +1500,7 @@ categories:
             description: Parser and scanner generator
           - url: https://github.com/diankong/GoDocTooltip
           - url: https://github.com/Forceu/gokapi
+            description: Self-hosted file sharing server
           - url: https://github.com/janpfeifer/gonb
             description: Go notebook kernel for Jupyter
           - url: https://github.com/edwingeng/hotswap
@@ -1528,6 +1531,7 @@ categories:
           - url: https://github.com/marwanhawari/stew
           - url: https://github.com/DMcP89/tinycare-tui
           - url: https://github.com/shopify/toxiproxy
+            description: TCP proxy for chaos testing
           - url: https://github.com/lingrino/vaku
             description: Extended Vault API and CLI
           - url: https://github.com/wabarc/wayback
@@ -1657,6 +1661,7 @@ categories:
             description: Serialization benchmarks for Go
           - url: https://github.com/SimonWaldherr/golang-benchmarks
           - url: https://github.com/feyeleanor/GoSpeed
+            description: Go language construct benchmarks
           - url: https://github.com/atemerev/skynet
       - name: Code Analysis
         repos:
@@ -2272,6 +2277,7 @@ categories:
           - url: https://github.com/golang-templates/seed
             description: Go app GitHub template
           - url: https://github.com/shpota/goxygen
+            description: Generate full-stack web projects
           - url: https://github.com/raeperd/kickstart.go
             description: Minimal HTTP server template
           - url: https://github.com/sagikazarmark/modern-go-application
@@ -2304,6 +2310,7 @@ categories:
       - name: Strings
         repos:
           - url: https://github.com/gobeam/Stringy
+            description: String case conversions
           - url: https://github.com/ozgio/strutil
             description: String utilities for Go
           - url: https://github.com/abhimanyu003/sttr
@@ -2350,6 +2357,7 @@ categories:
           - url: https://github.com/jfrog/froggit-go
             description: Universal VCS client library
           - url: https://github.com/gabyx/githooks
+            description: Per-repo shared Git hooks
           - url: https://github.com/go-git/go-git
             description: Pure Go Git implementation
           - url: https://github.com/sourcegraph/go-vcs
@@ -2453,6 +2461,7 @@ categories:
           - url: https://github.com/gookit/rux
             description: Simple and fast web framework
           - url: https://github.com/axzilla/templui
+            description: UI components for Templ
           - url: https://github.com/uadmin/uadmin
           - url: https://github.com/ankorstore/yokai
             description: Modular framework for Go apps
@@ -2466,6 +2475,8 @@ categories:
           - url: https://github.com/jivegroup/gfly
           - url: https://github.com/wellington/go-libsass
           - url: https://github.com/napsy/go-css
+          - url: https://github.com/openrundev/openrun
+            description: Open source Cloud Run alternative
       - name: WebAssembly
         repos:
           - url: https://github.com/extism/go-sdk
