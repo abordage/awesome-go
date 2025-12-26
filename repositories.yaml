@@ -54,6 +54,7 @@ categories:
           - url: https://github.com/tdewolff/canvas
           - url: https://github.com/marekm4/color-extractor
           - url: https://github.com/gojek/darkroom
+            description: Image processing engine and proxy service
           - url: https://github.com/disintegration/gift
           - url: https://github.com/qmuntal/gltf
           - url: https://github.com/ungerik/go-cairo
@@ -62,15 +63,14 @@ categories:
           - url: https://github.com/kolesa-team/go-webp
           - url: https://github.com/hybridgroup/gocv
           - url: https://github.com/davidbyttow/govips
-          - url: https://github.com/sensepost/gowitness
           - url: https://github.com/gographics/imagick
           - url: https://github.com/cshum/imagor
           - url: https://github.com/thoas/picfit
-          - url: https://github.com/jonoton/scout
           - url: https://github.com/auyer/steganography
           - url: https://github.com/DimitarPetrov/stegify
           - url: https://github.com/Pixboost/transformimgs
           - url: https://github.com/HugoSmits86/nativewebp
+          - url: https://github.com/piglig/go-qr
       - name: Video
         repos:
           - url: https://github.com/asticode/go-astiav
@@ -82,6 +82,7 @@ categories:
           - url: https://github.com/Eyevinn/mp4ff
           - url: https://github.com/korandiz/v4l
           - url: https://github.com/Eyevinn/hls-m3u8
+          - url: https://github.com/jonoton/scout
   - name: Authentication & Security
     subcategories:
       - name: Authentication
@@ -271,7 +272,6 @@ categories:
       - url: https://github.com/alecthomas/kong
       - url: https://github.com/nasermirzaei89/env
       - url: https://github.com/Yiling-J/piper
-      - url: https://github.com/bytedance/sonic
       - url: https://github.com/omeid/uconfig
       - url: https://github.com/spf13/viper
       - url: https://github.com/adrg/xdg
@@ -302,6 +302,7 @@ categories:
           - url: https://github.com/PerimeterX/marshmallow
           - url: https://github.com/ohler55/ojg
           - url: https://github.com/iOliverNguyen/ujson
+          - url: https://github.com/bytedance/sonic
       - name: Serialization
         repos:
           - url: https://github.com/csweichel/bel
@@ -312,6 +313,7 @@ categories:
           - url: https://github.com/ugorji/go
           - url: https://github.com/tiendc/go-csvlib
           - url: https://github.com/golang/protobuf
+          - url: https://github.com/linkedin/goavro
       - name: XML
         repos:
           - url: https://github.com/xml-comp/xml-comp
@@ -356,7 +358,6 @@ categories:
       - name: Queues
         repos:
           - url: https://github.com/gammazero/deque
-          - url: https://github.com/hatchet-dev/hatchet
           - url: https://github.com/embano1/memlog
           - url: https://github.com/adrianbrad/queue
           - url: https://github.com/mikestefanello/backlite
@@ -402,7 +403,6 @@ categories:
           - url: https://github.com/amacneil/dbmate
           - url: https://github.com/RichardKnop/go-fixtures
           - url: https://github.com/robinjoseph08/go-pg-migrations
-          - url: https://github.com/linkedin/goavro
           - url: https://github.com/pressly/goose
           - url: https://github.com/Kachit/gorm-seeder
           - url: https://github.com/go-gormigrate/gormigrate
@@ -589,6 +589,8 @@ categories:
           - url: https://github.com/go-gitea/gitea
           - url: https://github.com/TwiN/gatus
           - url: https://github.com/alexliesenfeld/health
+          - url: https://github.com/megaease/easeprobe
+          - url: https://github.com/kazhuravlev/healthcheck
       - name: Infrastructure
         repos:
           - url: https://github.com/aptly-dev/aptly
@@ -724,6 +726,7 @@ categories:
           - url: https://github.com/fatih/vim-go
           - url: https://github.com/golang/vscode-go
           - url: https://github.com/eaburns/Watch
+          - url: https://github.com/visualfc/liteide
       - name: Generate Tools
         repos:
           - url: https://github.com/g4s8/envdoc
@@ -844,6 +847,7 @@ categories:
           - url: https://github.com/FreeLeh/GoFreeDB
           - url: https://github.com/koltyakov/gosip
           - url: https://github.com/adlio/trello
+          - url: https://github.com/mk-5/fjira
       - name: Query Language
         repos:
           - url: https://github.com/ccbrown/api-fu
@@ -880,7 +884,6 @@ categories:
           - url: https://github.com/slack-io/slacker
           - url: https://github.com/tucnak/telebot
           - url: https://github.com/mymmrac/telego
-          - url: https://github.com/wabarc/wayback
       - name: Email
         repos:
           - url: https://github.com/AfterShip/email-verifier
@@ -1115,11 +1118,9 @@ categories:
           - url: https://github.com/chapar-rest/chapar
           - url: https://github.com/gocircuit/circuit
             description: 'Circuit: Dynamic cloud orchestration'
-          - url: https://github.com/s0rg/crawley
           - url: https://github.com/schollz/croc
           - url: https://github.com/documize/community
           - url: https://github.com/gilbertchen/duplicacy
-          - url: https://github.com/mk-5/fjira
           - url: https://github.com/moshebe/gebug
           - url: https://github.com/Antonito/gfile
           - url: https://github.com/shurcooL/Go-Package-Store
@@ -1134,7 +1135,6 @@ categories:
           - url: https://github.com/assafmo/joincap
           - url: https://github.com/juicedata/juicefs
           - url: https://github.com/jeffail/leaps
-          - url: https://github.com/visualfc/liteide
           - url: https://github.com/Code-Hex/Neo-cowsay
           - url: https://github.com/fogleman/nes
           - url: https://github.com/pointlander/peg
@@ -1142,7 +1142,6 @@ categories:
           - url: https://github.com/SpatiumPortae/portal
           - url: https://github.com/restic/restic
           - url: https://github.com/alajmo/sake
-          - url: https://github.com/boyter/scc
           - url: https://github.com/seaweedfs/seaweedfs
           - url: https://github.com/msoap/shell2http
           - url: https://github.com/go-sonic/sonic
@@ -1150,6 +1149,7 @@ categories:
           - url: https://github.com/DMcP89/tinycare-tui
           - url: https://github.com/shopify/toxiproxy
           - url: https://github.com/lingrino/vaku
+          - url: https://github.com/wabarc/wayback
       - name: Uncategorized
         repos:
           - url: https://github.com/kirillDanshin/avgRating
@@ -1258,6 +1258,10 @@ categories:
           - url: https://github.com/daveshanley/vacuum
           - url: https://github.com/mccoyst/validate
           - url: https://github.com/tomarrell/wrapcheck
+          - url: https://github.com/boyter/scc
+          - url: https://github.com/antham/ghokin
+          - url: https://github.com/borovikovd/gomsort
+          - url: https://github.com/asticode/go-astitodo
       - name: Mock
         repos:
           - url: https://github.com/maxbrunsfeld/counterfeiter
@@ -1289,6 +1293,7 @@ categories:
           - url: https://github.com/chromedp/chromedp
           - url: https://github.com/playwright-community/playwright-go
           - url: https://github.com/go-rod/rod
+          - url: https://github.com/sensepost/gowitness
       - name: Testing Frameworks
         repos:
           - url: https://github.com/earthboundkid/be
@@ -1382,6 +1387,7 @@ categories:
           - url: https://github.com/foolin/pagser
           - url: https://github.com/zoomio/tagify
           - url: https://github.com/mvdan/xurls
+          - url: https://github.com/s0rg/crawley
       - name: Tokenizers
         repos:
           - url: https://github.com/go-ego/gse
@@ -1416,6 +1422,7 @@ categories:
           - url: https://github.com/create-go-app/cli
           - url: https://github.com/karl-cardenas-coding/go-lambda-cleanup
           - url: https://github.com/goreleaser/goreleaser
+          - url: https://github.com/jaschaephraim/lrserver
       - name: CLI Tools
         repos:
           - url: https://github.com/itchyny/bed
@@ -1535,7 +1542,6 @@ categories:
         repos:
           - url: https://github.com/icza/backscanner
           - url: https://github.com/Henry-Sarabia/blank
-          - url: https://github.com/antham/chyle
           - url: https://github.com/jonboulle/clockwork
           - url: https://github.com/commander-cli/cmd
           - url: https://github.com/Boeing/config-file-validator
@@ -1544,16 +1550,11 @@ categories:
           - url: https://github.com/pioz/countries
           - url: https://github.com/Gituser143/cryptgo
           - url: https://github.com/kirillDanshin/dlog
-          - url: https://github.com/megaease/easeprobe
-          - url: https://github.com/antham/ghokin
-          - url: https://github.com/kazhuravlev/git-tools
-          - url: https://github.com/asticode/go-astitodo
           - url: https://github.com/Eun/go-convert
           - url: https://github.com/ungerik/go-dry
           - url: https://github.com/Talento90/go-health
           - url: https://github.com/mozillazg/go-httpheader
           - url: https://github.com/PhakornKiong/go-pattern-match
-          - url: https://github.com/piglig/go-qr
           - url: https://github.com/ikeikeikeike/go-sitemap-generator
           - url: https://github.com/mikekonan/go-types
           - url: https://github.com/VividCortex/godaemon
@@ -1563,13 +1564,10 @@ categories:
           - url: https://github.com/subosito/gotenv
           - url: https://github.com/maja42/goval
           - url: https://github.com/skovtunenko/graterm
-          - url: https://github.com/kazhuravlev/healthcheck
           - url: https://github.com/NicoNex/jet
           - url: https://github.com/kazhuravlev/just
-          - url: https://github.com/jaschaephraim/lrserver
           - url: https://github.com/zRedShift/mimemagic
           - url: https://github.com/gabriel-vasile/mimetype
-          - url: https://github.com/tdewolff/minify
           - url: https://github.com/StabbyCutyou/moldova
           - url: https://github.com/linxGnu/mssqlx
           - url: https://github.com/VividCortex/multitick
@@ -1583,7 +1581,6 @@ categories:
           - url: https://github.com/nikolaydubina/watchhttp
           - url: https://github.com/itbasis/go-hashtag
           - url: https://github.com/floatdrop/debounce
-          - url: https://github.com/borovikovd/gomsort
           - url: https://github.com/shurcooL/vfsgen
           - url: https://github.com/bahlo/go-styleguide
           - url: https://github.com/tiendc/go-deepcopy
@@ -1689,6 +1686,8 @@ categories:
           - url: https://github.com/go-git/go-git
           - url: https://github.com/sourcegraph/go-vcs
           - url: https://github.com/antham/gommit
+          - url: https://github.com/antham/chyle
+          - url: https://github.com/kazhuravlev/git-tools
   - name: Web Development
     subcategories:
       - name: Middlewares
@@ -1704,6 +1703,7 @@ categories:
           - url: https://github.com/urfave/negroni
           - url: https://github.com/unrolled/render
           - url: https://github.com/jub0bs/cors
+          - url: https://github.com/tdewolff/minify
       - name: Routers
         repos:
           - url: https://github.com/gernest/alien
@@ -1789,6 +1789,7 @@ categories:
           - url: https://github.com/romshark/sched
           - url: https://github.com/madflojo/tasks
           - url: https://github.com/pardnchiu/go-cron
+          - url: https://github.com/hatchet-dev/hatchet
       - name: Workflow Frameworks
         repos:
           - url: https://github.com/cadence-workflow/cadence-go-client
