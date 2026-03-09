@@ -593,6 +593,7 @@ categories:
           - url: https://github.com/CovenantSQL/CovenantSQL
           - url: https://github.com/dgraph-io/dgraph
           - url: https://github.com/DiceDB/dice
+            description: Low-latency key/value engine on Valkey with storage tiers
           - url: https://github.com/dolthub/dolt
           - url: https://github.com/hdt3213/godis
             description: A Golang implemented Redis Server and Cluster
@@ -660,6 +661,7 @@ categories:
           - url: https://github.com/go-kivik/kivik
             description: CouchDB client interface
           - url: https://github.com/kamva/mgm
+            description: MongoDB ODM for Go based on official driver
           - url: https://github.com/mongodb/mongo-go-driver
           - url: https://github.com/qiniu/qmgo
             description: Go driver for MongoDB
@@ -759,6 +761,7 @@ categories:
           - url: https://github.com/GuilhermeCaruso/anko
           - url: https://github.com/goyek/goyek
           - url: https://github.com/go-task/task
+            description: Fast cross-platform build tool inspired by Make
           - url: https://github.com/joerdav/xc
           - url: https://github.com/flowexec/flow
       - name: CI/CD
@@ -828,6 +831,7 @@ categories:
           - url: https://github.com/go-gitea/gitea
             description: Self-hosted Git service
           - url: https://github.com/TwiN/gatus
+            description: Developer-oriented status page with alerting
           - url: https://github.com/alexliesenfeld/health
           - url: https://github.com/megaease/easeprobe
             description: Service health monitoring tool
