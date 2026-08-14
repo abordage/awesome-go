@@ -3,7 +3,7 @@
 ![Awesome](https://raw.githubusercontent.com/abordage/schemas/main/badges/awesome.svg)
 [![Last update](https://img.shields.io/github/last-commit/abordage/awesome-go?label=last%20update)](README.md)
 ![Repositories](https://img.shields.io/badge/repositories-1,133-06b6d4)
-![Total Stars](https://img.shields.io/badge/total%20stars-4,985,141-gold)
+![Total Stars](https://img.shields.io/badge/total%20stars-4,985,145-gold)
 [![License](https://img.shields.io/github/license/abordage/awesome-go)](LICENSE)
 
 **Automated. Curated. Ranked.**
@@ -661,7 +661,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [kazhuravlev/healthcheck](https://github.com/kazhuravlev/healthcheck) — Readiness probes for Kubernetes application ☆`24`
 ### Infrastructure
 
-- [hashicorp/packer](https://github.com/hashicorp/packer) — Build machine images from config ☆`15,754`
+- [hashicorp/packer](https://github.com/hashicorp/packer) — Build machine images from config ☆`15,756`
 - [pomerium/pomerium](https://github.com/pomerium/pomerium) — Pomerium is an identity and context-aware access proxy. ☆`4,950`
 - [peak/s5cmd](https://github.com/peak/s5cmd) — Parallel S3 and local filesystem execution tool. ☆`4,161`
 - [aptly-dev/aptly](https://github.com/aptly-dev/aptly) — aptly - Debian repository management tool ☆`2,862`
@@ -963,8 +963,8 @@ Go libraries, tools, and applications from the community. This awesome list is a
 ### TCP/UDP Frameworks
 
 - [panjf2000/gnet](https://github.com/panjf2000/gnet) — High-performance event-loop network ☆`11,230`
-- [xtaci/kcp-go](https://github.com/xtaci/kcp-go) — A crypto-secure Reliable-UDP library for Golang with FEC support. ☆`4,545`
 - [cloudwego/netpoll](https://github.com/cloudwego/netpoll) — High-performance I/O framework ☆`4,599`
+- [xtaci/kcp-go](https://github.com/xtaci/kcp-go) — A crypto-secure Reliable-UDP library for Golang with FEC support. ☆`4,545`
 - [lesismal/nbio](https://github.com/lesismal/nbio) — High-performance network library ☆`2,753`
 - [xtaci/gaio](https://github.com/xtaci/gaio) — High-performance, minimalist async-io (proactor) networking for Golang. ☆`933`
 - [cheng-zhongliang/event](https://github.com/cheng-zhongliang/event) — Simple I/O event notification library wirtten in Golang ☆`119`
@@ -1028,7 +1028,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [dop251/goja](https://github.com/dop251/goja) — ECMAScript engine in pure Go ☆`7,045`
 - [yuin/gopher-lua](https://github.com/yuin/gopher-lua) — Lua VM and compiler in Go ☆`6,966`
 - [d5/tengo](https://github.com/d5/tengo) — Fast script language for Go ☆`3,831`
-- [Shopify/go-lua](https://github.com/Shopify/go-lua) — Lua VM in Go ☆`3,448`
+- [Shopify/go-lua](https://github.com/Shopify/go-lua) — Lua VM in Go ☆`3,446`
 - [cel-expr/cel-go](https://github.com/cel-expr/cel-go) — Common Expression Language for Go ☆`3,064`
 - [google/starlark-go](https://github.com/google/starlark-go) — Starlark config language in Go ☆`2,746`
 - [metacall/core](https://github.com/metacall/core) — Polyglot programming runtime ☆`1,809`
@@ -1151,7 +1151,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 - [stretchr/testify](https://github.com/stretchr/testify) — Assertions and mocks for testing ☆`26,154`
 - [keploy/keploy](https://github.com/keploy/keploy) — API testing with auto mocks ☆`18,398`
-- [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,238`
+- [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,244`
 - [testcontainers/testcontainers-go](https://github.com/testcontainers/testcontainers-go) — Docker containers for integration tests ☆`4,948`
 - [google/go-cmp](https://github.com/google/go-cmp) — Package for comparing Go values in tests ☆`4,672`
 - [gavv/httpexpect](https://github.com/gavv/httpexpect) — End-to-end HTTP and REST API testing for Go. ☆`2,725`
@@ -1479,7 +1479,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [gotranspile/cxgo](https://github.com/gotranspile/cxgo) — Transpile C to Go ☆`395`
 ### UUID
 
-- [google/uuid](https://github.com/google/uuid) — UUID generation and parsing ☆`6,134`
+- [google/uuid](https://github.com/google/uuid) — UUID generation and parsing ☆`6,132`
 - [oklog/ulid](https://github.com/oklog/ulid) — ULID implementation ☆`5,048`
 - [gofrs/uuid](https://github.com/gofrs/uuid) — UUID library for Go ☆`1,811`
 - [osamingo/indigo](https://github.com/osamingo/indigo) — Sonyflake-based ID generator ☆`111`
@@ -1698,7 +1698,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 1. [fatih/vim-go](https://github.com/fatih/vim-go) — Go development plugin for Vim ☆`16,219`
 1. [goreleaser/goreleaser](https://github.com/goreleaser/goreleaser) — Release engineering simplified ☆`15,981`
 1. [go-task/task](https://github.com/go-task/task) — Fast cross-platform build tool inspired by Make ☆`15,959`
-1. [hashicorp/packer](https://github.com/hashicorp/packer) — Build machine images from config ☆`15,754`
+1. [hashicorp/packer](https://github.com/hashicorp/packer) — Build machine images from config ☆`15,756`
 1. [dgraph-io/badger](https://github.com/dgraph-io/badger) — Fast key-value DB in Go. ☆`15,750`
 1. [tidwall/gjson](https://github.com/tidwall/gjson) — Fast JSON value extraction ☆`15,551`
 1. [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) — Kubernetes IN Docker - local clusters for testing Kubernetes ☆`15,414`
@@ -1720,7 +1720,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 1. [IBM/sarama](https://github.com/IBM/sarama) — Sarama is a Go library for Apache Kafka. ☆`12,505`
 1. [rs/zerolog](https://github.com/rs/zerolog) — Zero allocation JSON logger ☆`12,490`
 1. [drakkan/sftpgo](https://github.com/drakkan/sftpgo) — Full-featured SFTP/FTP/HTTP server ☆`12,396`
-1. [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,238`
+1. [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,244`
 1. [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) — API traffic analyzer for Kubernetes ☆`12,037`
 1. [adnanh/webhook](https://github.com/adnanh/webhook) — Lightweight webhook server ☆`12,035`
 
