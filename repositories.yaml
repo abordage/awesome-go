@@ -388,6 +388,7 @@ categories:
           - url: https://github.com/spyzhov/ajson
             description: Abstract JSON with JSONPath
           - url: https://github.com/simonnilsson/ask
+            description: Nested property access for maps and slices
           - url: https://github.com/vtopc/epoch
             description: Unix timestamp marshaling
           - url: https://github.com/valyala/fastjson
@@ -909,12 +910,14 @@ categories:
           - url: https://github.com/cometbft/cometbft
             description: Byzantine fault-tolerant consensus
           - url: https://github.com/cosmos/cosmos-sdk
+            description: Framework for customizable interoperable blockchains
           - url: https://github.com/gnolang/gno
             description: Interpreted Go virtual machine
           - url: https://github.com/ethereum/go-ethereum
           - url: https://github.com/LimeChain/gosemble
           - url: https://github.com/ChainSafe/gossamer
           - url: https://github.com/ipfs/kubo
+            description: IPFS daemon with CLI, HTTP gateway, and RPC
           - url: https://github.com/lightningnetwork/lnd
           - url: https://github.com/gagliardetto/solana-go
       - name: Financial
@@ -938,6 +941,7 @@ categories:
           - url: https://github.com/dannyvankooten/vat
           - url: https://github.com/invopop/gobl
           - url: https://github.com/jokruger/dec128
+            description: 128-bit fixed-point decimal with SQL NUMERIC semantics
       - name: Payment APIs
         repos:
           - url: https://github.com/plutov/paypal
@@ -1187,6 +1191,7 @@ categories:
           - url: https://github.com/bogdanfinn/tls-client
             description: HTTP client with TLS fingerprint spoofing
           - url: https://github.com/lib4u/fake-useragent
+            description: Current real-world user-agent faker for HTTP clients
       - name: Servers
         repos:
           - url: https://github.com/xyproto/algernon
@@ -1404,6 +1409,7 @@ categories:
         description: Synthetic biology library for Go
       - url: https://github.com/nytlabs/streamtools
       - url: https://github.com/DavidBelicza/TextRank
+        description: TextRank summarization and keyphrase extraction
   - name: Scripting
     subcategories:
       - name: Embeddable Languages
@@ -1518,6 +1524,7 @@ categories:
           - url: https://github.com/openziti/ziti
             description: Zero trust networking platform
           - url: https://github.com/philips-labs/spiffe-vault
+            description: SPIFFE plus Vault for secretless authentication
           - url: https://github.com/spiffe/spire
   - name: Testing & Quality
     subcategories:
@@ -2106,6 +2113,7 @@ categories:
           - url: https://github.com/jonboulle/clockwork
           - url: https://github.com/commander-cli/cmd
           - url: https://github.com/Boeing/config-file-validator
+            description: Validate 18 config formats with JSON Schema and XSD
           - url: https://github.com/syntaqx/cookie
           - url: https://github.com/biter777/countries
             description: ISO country codes library
@@ -2220,6 +2228,7 @@ categories:
           - url: https://github.com/allaboutapps/go-starter
             description: Production-ready RESTful API template
           - url: https://github.com/Fs02/go-todo-backend
+            description: Modular todo backend as a product microservice example
           - url: https://github.com/naughtygopher/goapp
             description: Opinionated web app structure
           - url: https://github.com/wajox/gobase
@@ -2307,6 +2316,7 @@ categories:
         repos:
           - url: https://github.com/Masterminds/glide
           - url: https://github.com/nao1215/gup
+            description: Update, export, and migrate binaries from $GOBIN
           - url: https://github.com/anchore/syft
             description: SBOM generator for containers
           - url: https://github.com/DamnWidget/VenGO
@@ -2482,7 +2492,9 @@ categories:
           - url: https://github.com/madflojo/tasks
             description: In-process task scheduler
           - url: https://github.com/pardnchiu/go-scheduler
+            description: Task dependencies, timeouts, and cron expressions
           - url: https://github.com/hatchet-dev/hatchet
+            description: Background tasks, AI agents, and durable workflows
       - name: Workflow Frameworks
         repos:
           - url: https://github.com/cadence-workflow/cadence-go-client
