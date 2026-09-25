@@ -2,8 +2,8 @@
 
 ![Awesome](https://raw.githubusercontent.com/abordage/schemas/main/badges/awesome.svg)
 [![Last update](https://img.shields.io/github/last-commit/abordage/awesome-go?label=last%20update)](README.md)
-![Repositories](https://img.shields.io/badge/repositories-1,107-06b6d4)
-![Total Stars](https://img.shields.io/badge/total%20stars-4,957,567-gold)
+![Repositories](https://img.shields.io/badge/repositories-1,106-06b6d4)
+![Total Stars](https://img.shields.io/badge/total%20stars-4,956,820-gold)
 [![License](https://img.shields.io/github/license/abordage/awesome-go)](LICENSE)
 
 **Automated. Curated. Ranked.**
@@ -730,7 +730,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [govalues/money](https://github.com/govalues/money) — Correctly rounded monetary amounts and exchange rates for Go ☆`56`
 ### Payment APIs
 
-- [stripe/stripe-go](https://github.com/stripe/stripe-go) — Stripe API library for Go ☆`2,639`
+- [stripe/stripe-go](https://github.com/stripe/stripe-go) — Stripe API library for Go ☆`2,640`
 - [plutov/paypal](https://github.com/plutov/paypal) — Golang client for PayPal REST API ☆`778`
 - [brunovenceslau/ynab.go](https://github.com/brunovenceslau/ynab.go) — Client for YNAB API ☆`79`
 ## GUI & Desktop
@@ -812,7 +812,6 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [safedep/vet](https://github.com/safedep/vet) — Protect against malicious open source packages ☆`1,106`
 - [pointlander/peg](https://github.com/pointlander/peg) — PEG parser generator for Go ☆`1,118`
 - [janpfeifer/gonb](https://github.com/janpfeifer/gonb) — Go notebook kernel for Jupyter ☆`1,047`
-- [alajmo/sake](https://github.com/alajmo/sake) — Task runner for local and remote hosts ☆`753`
 - [goccmack/gocc](https://github.com/goccmack/gocc) — Parser and scanner generator ☆`664`
 - [iyashjayesh/monigo](https://github.com/iyashjayesh/monigo) — Performance monitoring library ☆`410`
 - [becheran/roumon](https://github.com/becheran/roumon) — Universal goroutine monitor using pprof and termui ☆`237`
@@ -1014,7 +1013,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [dop251/goja](https://github.com/dop251/goja) — ECMAScript engine in pure Go ☆`7,111`
 - [yuin/gopher-lua](https://github.com/yuin/gopher-lua) — Lua VM and compiler in Go ☆`6,980`
 - [d5/tengo](https://github.com/d5/tengo) — Fast script language for Go ☆`3,840`
-- [Shopify/go-lua](https://github.com/Shopify/go-lua) — Lua VM in Go ☆`3,452`
+- [Shopify/go-lua](https://github.com/Shopify/go-lua) — Lua VM in Go ☆`3,453`
 - [cel-expr/cel-go](https://github.com/cel-expr/cel-go) — Common Expression Language for Go ☆`3,109`
 - [google/starlark-go](https://github.com/google/starlark-go) — Starlark config language in Go ☆`2,774`
 - [metacall/core](https://github.com/metacall/core) — Polyglot programming runtime ☆`1,819`
@@ -1134,7 +1133,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 - [stretchr/testify](https://github.com/stretchr/testify) — Assertions and mocks for testing ☆`26,212`
 - [keploy/keploy](https://github.com/keploy/keploy) — API testing with auto mocks ☆`18,480`
-- [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,357`
+- [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,360`
 - [testcontainers/testcontainers-go](https://github.com/testcontainers/testcontainers-go) — Docker containers for integration tests ☆`4,991`
 - [google/go-cmp](https://github.com/google/go-cmp) — Package for comparing Go values in tests ☆`4,677`
 - [gavv/httpexpect](https://github.com/gavv/httpexpect) — End-to-end HTTP and REST API testing for Go. ☆`2,727`
@@ -1433,7 +1432,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [wangyoucao577/go-project-layout](https://github.com/wangyoucao577/go-project-layout) — Go project structure guide ☆`26`
 ### Resilience & Retry
 
-- [avast/retry-go](https://github.com/avast/retry-go) — Simple retry mechanism ☆`2,962`
+- [avast/retry-go](https://github.com/avast/retry-go) — Simple retry mechanism ☆`2,963`
 - [eapache/go-resiliency](https://github.com/eapache/go-resiliency) — Resiliency patterns for golang ☆`2,369`
 - [failsafe-go/failsafe-go](https://github.com/failsafe-go/failsafe-go) — Fault tolerance patterns ☆`2,251`
 - [cep21/circuit](https://github.com/cep21/circuit) — Hystrix-like circuit breaker ☆`815`
@@ -1692,9 +1691,9 @@ Go libraries, tools, and applications from the community. This awesome list is a
 1. [drakkan/sftpgo](https://github.com/drakkan/sftpgo) — Full-featured SFTP/FTP/HTTP server ☆`12,571`
 1. [IBM/sarama](https://github.com/IBM/sarama) — Sarama is a Go library for Apache Kafka. ☆`12,518`
 1. [rs/zerolog](https://github.com/rs/zerolog) — Zero allocation JSON logger ☆`12,504`
-1. [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,357`
-1. [adnanh/webhook](https://github.com/adnanh/webhook) — Lightweight webhook server ☆`12,146`
+1. [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,360`
 1. [TwiN/gatus](https://github.com/TwiN/gatus) — Developer-oriented status page with alerting ☆`12,146`
+1. [adnanh/webhook](https://github.com/adnanh/webhook) — Lightweight webhook server ☆`12,146`
 1. [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) — API traffic analyzer for Kubernetes ☆`12,085`
 1. [shirou/gopsutil](https://github.com/shirou/gopsutil) — psutil for golang ☆`11,926`
 
