@@ -3,7 +3,7 @@
 ![Awesome](https://raw.githubusercontent.com/abordage/schemas/main/badges/awesome.svg)
 [![Last update](https://img.shields.io/github/last-commit/abordage/awesome-go?label=last%20update)](README.md)
 ![Repositories](https://img.shields.io/badge/repositories-1,095-06b6d4)
-![Total Stars](https://img.shields.io/badge/total%20stars-4,964,786-gold)
+![Total Stars](https://img.shields.io/badge/total%20stars-4,964,795-gold)
 [![License](https://img.shields.io/github/license/abordage/awesome-go)](LICENSE)
 
 **Automated. Curated. Ranked.**
@@ -725,7 +725,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [govalues/money](https://github.com/govalues/money) — Correctly rounded monetary amounts and exchange rates for Go ☆`56`
 ### Payment APIs
 
-- [stripe/stripe-go](https://github.com/stripe/stripe-go) — Stripe API library for Go ☆`2,639`
+- [stripe/stripe-go](https://github.com/stripe/stripe-go) — Stripe API library for Go ☆`2,640`
 - [plutov/paypal](https://github.com/plutov/paypal) — Golang client for PayPal REST API ☆`778`
 - [brunovenceslau/ynab.go](https://github.com/brunovenceslau/ynab.go) — Client for YNAB API ☆`79`
 ## GUI & Desktop
@@ -867,7 +867,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [go-resty/resty](https://github.com/go-resty/resty) — Simple HTTP, REST, and SSE client library for Go ☆`11,813`
 - [imroc/req](https://github.com/imroc/req) — Simple Go HTTP client with Black Magic ☆`4,869`
 - [gojek/heimdall](https://github.com/gojek/heimdall) — An enhanced HTTP client for Go ☆`2,776`
-- [hashicorp/go-retryablehttp](https://github.com/hashicorp/go-retryablehttp) — Retryable HTTP client in Go ☆`2,352`
+- [hashicorp/go-retryablehttp](https://github.com/hashicorp/go-retryablehttp) — Retryable HTTP client in Go ☆`2,351`
 - [bogdanfinn/tls-client](https://github.com/bogdanfinn/tls-client) — HTTP client with TLS fingerprint spoofing ☆`1,875`
 - [dghubble/sling](https://github.com/dghubble/sling) — A Go HTTP client library for creating and sending API requests ☆`1,721`
 - [earthboundkid/requests](https://github.com/earthboundkid/requests) — HTTP requests for Gophers ☆`1,670`
@@ -1126,7 +1126,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 - [stretchr/testify](https://github.com/stretchr/testify) — Assertions and mocks for testing ☆`26,222`
 - [keploy/keploy](https://github.com/keploy/keploy) — API testing with auto mocks ☆`18,537`
-- [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,381`
+- [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,389`
 - [testcontainers/testcontainers-go](https://github.com/testcontainers/testcontainers-go) — Docker containers for integration tests ☆`4,996`
 - [google/go-cmp](https://github.com/google/go-cmp) — Package for comparing Go values in tests ☆`4,678`
 - [gavv/httpexpect](https://github.com/gavv/httpexpect) — End-to-end HTTP and REST API testing for Go. ☆`2,723`
@@ -1422,7 +1422,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [wangyoucao577/go-project-layout](https://github.com/wangyoucao577/go-project-layout) — Go project structure guide ☆`26`
 ### Resilience & Retry
 
-- [avast/retry-go](https://github.com/avast/retry-go) — Simple retry mechanism ☆`2,963`
+- [avast/retry-go](https://github.com/avast/retry-go) — Simple retry mechanism ☆`2,964`
 - [eapache/go-resiliency](https://github.com/eapache/go-resiliency) — Resiliency patterns for golang ☆`2,368`
 - [failsafe-go/failsafe-go](https://github.com/failsafe-go/failsafe-go) — Fault tolerance patterns ☆`2,253`
 - [cep21/circuit](https://github.com/cep21/circuit) — Hystrix-like circuit breaker ☆`815`
@@ -1680,7 +1680,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 1. [drakkan/sftpgo](https://github.com/drakkan/sftpgo) — Full-featured SFTP/FTP/HTTP server ☆`12,618`
 1. [IBM/sarama](https://github.com/IBM/sarama) — Sarama is a Go library for Apache Kafka. ☆`12,521`
 1. [rs/zerolog](https://github.com/rs/zerolog) — Zero allocation JSON logger ☆`12,514`
-1. [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,381`
+1. [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) — TCP proxy for chaos testing ☆`12,389`
 1. [TwiN/gatus](https://github.com/TwiN/gatus) — Developer-oriented status page with alerting ☆`12,246`
 1. [adnanh/webhook](https://github.com/adnanh/webhook) — Lightweight webhook server ☆`12,173`
 1. [kubeshark/kubeshark](https://github.com/kubeshark/kubeshark) — API traffic analyzer for Kubernetes ☆`12,093`
