@@ -1261,6 +1261,8 @@ categories:
             description: Dynamic DNS client for multiple providers
           - url: https://github.com/assafmo/joincap
             description: Merge pcap files
+          - url: https://github.com/yanet-platform/xnetip
+            description: Fast IPv4/IPv6 set operations with arbitrary masks and no heap allocation.
       - name: P2P & Torrent
         repos:
           - url: https://github.com/anacrolix/dht
