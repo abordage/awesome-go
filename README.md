@@ -3,7 +3,7 @@
 ![Awesome](https://raw.githubusercontent.com/abordage/schemas/main/badges/awesome.svg)
 [![Last update](https://img.shields.io/github/last-commit/abordage/awesome-go?label=last%20update)](README.md)
 ![Repositories](https://img.shields.io/badge/repositories-1,085-06b6d4)
-![Total Stars](https://img.shields.io/badge/total%20stars-4,929,491-gold)
+![Total Stars](https://img.shields.io/badge/total%20stars-4,929,575-gold)
 [![License](https://img.shields.io/github/license/abordage/awesome-go)](LICENSE)
 
 **Automated. Curated. Ranked.**
@@ -179,10 +179,10 @@ Go libraries, tools, and applications from the community. This awesome list is a
 ### Artificial Intelligence
 
 - [ollama/ollama](https://github.com/ollama/ollama) — Run LLMs locally ☆`185,850`
-- [mudler/LocalAI](https://github.com/mudler/LocalAI) — Local OpenAI alternative ☆`50,188`
-- [tmc/langchaingo](https://github.com/tmc/langchaingo) — LangChain for Go, the easiest way to write LLM-based programs in Go ☆`9,760`
+- [mudler/LocalAI](https://github.com/mudler/LocalAI) — Local OpenAI alternative ☆`50,211`
+- [tmc/langchaingo](https://github.com/tmc/langchaingo) — LangChain for Go, the easiest way to write LLM-based programs in Go ☆`9,765`
 - [maximhq/bifrost](https://github.com/maximhq/bifrost) — Fastest LLM gateway for Go ☆`9,375`
-- [philippgille/chromem-go](https://github.com/philippgille/chromem-go) — Embeddable vector database for Go ☆`1,074`
+- [philippgille/chromem-go](https://github.com/philippgille/chromem-go) — Embeddable vector database for Go ☆`1,075`
 - [universal-tool-calling-protocol/go-utcp](https://github.com/universal-tool-calling-protocol/go-utcp) — Official Go implementation of the UTCP ☆`130`
 - [presbrey/ollamafarm](https://github.com/presbrey/ollamafarm) — Manage multiple Ollama instances ☆`103`
 ### Machine Learning
@@ -232,10 +232,10 @@ Go libraries, tools, and applications from the community. This awesome list is a
 ### Authentication
 
 - [golang-jwt/jwt](https://github.com/golang-jwt/jwt) — Go implementation of JSON Web Tokens (JWT). ☆`9,260`
-- [markbates/goth](https://github.com/markbates/goth) — Multi-provider authentication ☆`6,620`
+- [markbates/goth](https://github.com/markbates/goth) — Multi-provider authentication ☆`6,623`
 - [golang/oauth2](https://github.com/golang/oauth2) — Go OAuth2 ☆`5,906`
 - [aarondl/authboss](https://github.com/aarondl/authboss) — The boss of http auth. ☆`4,201`
-- [alexedwards/scs](https://github.com/alexedwards/scs) — HTTP Session Management for Go ☆`2,634`
+- [alexedwards/scs](https://github.com/alexedwards/scs) — HTTP Session Management for Go ☆`2,637`
 - [lestrrat-go/jwx](https://github.com/lestrrat-go/jwx) — Complete JWx implementation ☆`2,444`
 - [openshift/osin](https://github.com/openshift/osin) — Golang OAuth2 server library ☆`1,934`
 - [dghubble/gologin](https://github.com/dghubble/gologin) — Go login handlers for authentication providers (OAuth1, OAuth2) ☆`1,955`
@@ -258,11 +258,11 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 ### Bot Frameworks
 
-- [tucnak/telebot](https://github.com/tucnak/telebot) — Telebot is a Telegram bot framework in Go. ☆`4,628`
+- [tucnak/telebot](https://github.com/tucnak/telebot) — Telebot is a Telegram bot framework in Go. ☆`4,631`
 - [go-telegram/bot](https://github.com/go-telegram/bot) — Telegram Bot API Go framework ☆`1,875`
 - [mymmrac/telego](https://github.com/mymmrac/telego) — Telegram Bot API library for Go ☆`1,080`
 - [diamondburned/arikawa](https://github.com/diamondburned/arikawa) — A Golang library and framework for the Discord API. ☆`604`
-- [NicoNex/echotron](https://github.com/NicoNex/echotron) — An elegant and concurrent library for the Telegram bot API in Go. ☆`447`
+- [NicoNex/echotron](https://github.com/NicoNex/echotron) — An elegant and concurrent library for the Telegram bot API in Go. ☆`448`
 - [gempir/go-twitch-irc](https://github.com/gempir/go-twitch-irc) — go irc client for twitch.tv ☆`405`
 - [innogames/slack-bot](https://github.com/innogames/slack-bot) — Slack bot for Jenkins, Jira, PRs ☆`211`
 - [mr-linch/go-tg](https://github.com/mr-linch/go-tg) — Telegram Bot API client ☆`135`
@@ -281,18 +281,18 @@ Go libraries, tools, and applications from the community. This awesome list is a
 ### Advanced Console UIs
 
 - [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — A powerful little TUI framework ☆`45,600`
-- [antonmedv/fx](https://github.com/antonmedv/fx) — Terminal JSON viewer & processor ☆`20,698`
-- [gizak/termui](https://github.com/gizak/termui) — Golang terminal dashboard ☆`13,585`
+- [antonmedv/fx](https://github.com/antonmedv/fx) — Terminal JSON viewer & processor ☆`20,702`
+- [gizak/termui](https://github.com/gizak/termui) — Golang terminal dashboard ☆`13,583`
 - [charmbracelet/lipgloss](https://github.com/charmbracelet/lipgloss) — Style definitions for nice terminal layouts ☆`11,972`
 - [jroimartin/gocui](https://github.com/jroimartin/gocui) — Minimalist Go package aimed at creating Console User Interfaces. ☆`10,619`
 - [charmbracelet/bubbles](https://github.com/charmbracelet/bubbles) — TUI components for Bubble Tea ☆`9,020`
 - [pterm/pterm](https://github.com/pterm/pterm) — Modern terminal output library ☆`5,563`
 - [c-bata/go-prompt](https://github.com/c-bata/go-prompt) — Interactive prompts for Go ☆`5,499`
-- [schollz/progressbar](https://github.com/schollz/progressbar) — Thread-safe progress bar ☆`4,708`
+- [schollz/progressbar](https://github.com/schollz/progressbar) — Thread-safe progress bar ☆`4,709`
 - [guptarohit/asciigraph](https://github.com/guptarohit/asciigraph) — ASCII line graphs in terminal ☆`3,099`
-- [mum4k/termdash](https://github.com/mum4k/termdash) — Terminal-based dashboard ☆`3,044`
-- [briandowns/spinner](https://github.com/briandowns/spinner) — Terminal spinner indicators ☆`2,531`
-- [vbauerster/mpb](https://github.com/vbauerster/mpb) — Multi progress bar ☆`2,514`
+- [mum4k/termdash](https://github.com/mum4k/termdash) — Terminal-based dashboard ☆`3,045`
+- [briandowns/spinner](https://github.com/briandowns/spinner) — Terminal spinner indicators ☆`2,532`
+- [vbauerster/mpb](https://github.com/vbauerster/mpb) — Multi progress bar ☆`2,513`
 - [muesli/termenv](https://github.com/muesli/termenv) — Terminal color support ☆`2,029`
 - [gookit/color](https://github.com/gookit/color) — Terminal color rendering ☆`1,607`
 - [logrusorgru/aurora](https://github.com/logrusorgru/aurora) — ANSI colors for Printf ☆`1,493`
@@ -303,14 +303,14 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [DMcP89/tinycare-tui](https://github.com/DMcP89/tinycare-tui) — TUI application written in GO inspired by tiny-care-terminal ☆`22`
 ### Standard CLI
 
-- [spf13/cobra](https://github.com/spf13/cobra) — A Commander for modern Go CLI interactions ☆`44,743`
+- [spf13/cobra](https://github.com/spf13/cobra) — A Commander for modern Go CLI interactions ☆`44,747`
 - [urfave/cli](https://github.com/urfave/cli) — Fast CLI framework for Go ☆`24,304`
 - [elves/elvish](https://github.com/elves/elvish) — Scripting shell for Go ☆`6,396`
 - [alecthomas/kingpin](https://github.com/alecthomas/kingpin) — Command-line parser ☆`3,567`
 - [dnote/dnote](https://github.com/dnote/dnote) — Command-line notebook ☆`3,091`
-- [spf13/pflag](https://github.com/spf13/pflag) — POSIX/GNU-style flags ☆`2,784`
+- [spf13/pflag](https://github.com/spf13/pflag) — POSIX/GNU-style flags ☆`2,785`
 - [jessevdk/go-flags](https://github.com/jessevdk/go-flags) — Command-line option parser ☆`2,694`
-- [alexflint/go-arg](https://github.com/alexflint/go-arg) — Struct-based argument parsing ☆`2,289`
+- [alexflint/go-arg](https://github.com/alexflint/go-arg) — Struct-based argument parsing ☆`2,290`
 - [carapace-sh/carapace-bin](https://github.com/carapace-sh/carapace-bin) — Multi-shell completion binary ☆`2,009`
 - [nanovms/ops](https://github.com/nanovms/ops) — Build and run unikernels ☆`1,526`
 - [carapace-sh/carapace](https://github.com/carapace-sh/carapace) — Multi-shell completion library ☆`1,476`
@@ -354,10 +354,10 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [rulego/streamsql](https://github.com/rulego/streamsql) — SQL-based stream processing for IoT ☆`64`
 ## Configuration
 
-- [spf13/viper](https://github.com/spf13/viper) — Go configuration with fangs ☆`30,500`
-- [caarlos0/env](https://github.com/caarlos0/env) — Parse environment variables to structs ☆`6,353`
-- [knadh/koanf](https://github.com/knadh/koanf) — Lightweight config management ☆`4,231`
-- [alecthomas/kong](https://github.com/alecthomas/kong) — Command-line parser for Go ☆`3,196`
+- [spf13/viper](https://github.com/spf13/viper) — Go configuration with fangs ☆`30,502`
+- [caarlos0/env](https://github.com/caarlos0/env) — Parse environment variables to structs ☆`6,356`
+- [knadh/koanf](https://github.com/knadh/koanf) — Lightweight config management ☆`4,232`
+- [alecthomas/kong](https://github.com/alecthomas/kong) — Command-line parser for Go ☆`3,197`
 - [adrg/xdg](https://github.com/adrg/xdg) — XDG Base Directory implementation ☆`1,024`
 - [cristalhq/aconfig](https://github.com/cristalhq/aconfig) — Simple config loader ☆`655`
 - [gookit/config](https://github.com/gookit/config) — Config management with formats ☆`585`
@@ -426,9 +426,9 @@ Go libraries, tools, and applications from the community. This awesome list is a
 ### Miscellaneous
 
 - [Workiva/go-datastructures](https://github.com/Workiva/go-datastructures) — Performant, threadsafe data structures ☆`7,965`
-- [deckarep/golang-set](https://github.com/deckarep/golang-set) — Generic set type for Go ☆`4,774`
+- [deckarep/golang-set](https://github.com/deckarep/golang-set) — Generic set type for Go ☆`4,776`
 - [bits-and-blooms/bitset](https://github.com/bits-and-blooms/bitset) — Go package implementing bitsets ☆`1,514`
-- [liyue201/gostl](https://github.com/liyue201/gostl) — Data structures modeled on C++ STL ☆`1,143`
+- [liyue201/gostl](https://github.com/liyue201/gostl) — Data structures modeled on C++ STL ☆`1,144`
 - [axiomhq/hyperloglog](https://github.com/axiomhq/hyperloglog) — HyperLogLog with optimizations ☆`1,056`
 - [kelindar/bitmap](https://github.com/kelindar/bitmap) — Simple dense bitmap index in Go with binary operators ☆`385`
 - [seiflotfy/count-min-log](https://github.com/seiflotfy/count-min-log) — Go implementation of Count-Min-Log ☆`70`
@@ -448,13 +448,13 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 - [golang/groupcache](https://github.com/golang/groupcache) — Distributed cache library ☆`13,334`
 - [dgraph-io/ristretto](https://github.com/dgraph-io/ristretto) — A high performance memory-bound Go cache ☆`7,005`
-- [eko/gocache](https://github.com/eko/gocache) — Multi-store caching library ☆`2,889`
-- [maypok86/otter](https://github.com/maypok86/otter) — A high performance caching library for Go ☆`2,708`
+- [eko/gocache](https://github.com/eko/gocache) — Multi-store caching library ☆`2,891`
+- [maypok86/otter](https://github.com/maypok86/otter) — A high performance caching library for Go ☆`2,710`
 - [VictoriaMetrics/fastcache](https://github.com/VictoriaMetrics/fastcache) — Fast in-memory cache for Go ☆`2,373`
 - [jellydator/ttlcache](https://github.com/jellydator/ttlcache) — An in-memory cache with item expiration and generics ☆`1,313`
 - [viccon/sturdyc](https://github.com/viccon/sturdyc) — Caching with advanced concurrency ☆`1,284`
 - [EchoVault/SugarDB](https://github.com/EchoVault/SugarDB) — Embeddable and distributed in-memory alternative to Redis. ☆`539`
-- [Yiling-J/theine-go](https://github.com/Yiling-J/theine-go) — high performance in-memory cache ☆`381`
+- [Yiling-J/theine-go](https://github.com/Yiling-J/theine-go) — high performance in-memory cache ☆`380`
 - [elastic/go-freelru](https://github.com/elastic/go-freelru) — GC-less, fast and generic LRU cache for Go ☆`271`
 - [samber/hot](https://github.com/samber/hot) — In-memory caching library for read-intensive Go applications ☆`273`
 - [naughtygopher/pocache](https://github.com/naughtygopher/pocache) — Preemptive optimistic caching ☆`238`
@@ -467,7 +467,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [bytebase/bytebase](https://github.com/bytebase/bytebase) — Database DevSecOps platform ☆`14,674`
 - [pressly/goose](https://github.com/pressly/goose) — A database migration tool. Supports SQL migrations and Go functions. ☆`11,655`
 - [ariga/atlas](https://github.com/ariga/atlas) — Declarative schema migrations with schema-as-code workflows ☆`8,808`
-- [amacneil/dbmate](https://github.com/amacneil/dbmate) — A lightweight, framework-agnostic database migration tool. ☆`7,517`
+- [amacneil/dbmate](https://github.com/amacneil/dbmate) — A lightweight, framework-agnostic database migration tool. ☆`7,520`
 - [rubenv/sql-migrate](https://github.com/rubenv/sql-migrate) — SQL schema migration tool for Go. ☆`3,415`
 - [skeema/skeema](https://github.com/skeema/skeema) — Declarative pure-SQL schema management for MySQL and MariaDB ☆`1,381`
 - [go-gormigrate/gormigrate](https://github.com/go-gormigrate/gormigrate) — Minimalistic database migration helper for Gorm ORM ☆`1,178`
@@ -526,7 +526,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [juicedata/juicefs](https://github.com/juicedata/juicefs) — Distributed POSIX filesystem ☆`14,665`
 ### Interfaces to Multiple Backends
 
-- [philippgille/gokv](https://github.com/philippgille/gokv) — Key-value store abstraction ☆`828`
+- [philippgille/gokv](https://github.com/philippgille/gokv) — Key-value store abstraction ☆`829`
 - [avito-tech/go-transaction-manager](https://github.com/avito-tech/go-transaction-manager) — Transaction manager for Go ☆`421`
 - [viant/dsc](https://github.com/viant/dsc) — Datastore Connectivity in go ☆`37`
 - [fogfish/dynamo](https://github.com/fogfish/dynamo) — Generic Golang Key/Value trait for AWS storage services ☆`24`
@@ -571,7 +571,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [denisenkom/go-mssqldb](https://github.com/denisenkom/go-mssqldb) — Microsoft SQL server driver written in go language ☆`1,880`
 - [ncruces/go-sqlite3](https://github.com/ncruces/go-sqlite3) — Go bindings to SQLite using wasm2go ☆`1,132`
 - [godror/godror](https://github.com/godror/godror) — GO DRiver for ORacle DB ☆`600`
-- [cvilsmeier/sqinn-go](https://github.com/cvilsmeier/sqinn-go) — Golang SQLite without cgo ☆`545`
+- [cvilsmeier/sqinn-go](https://github.com/cvilsmeier/sqinn-go) — Golang SQLite without cgo ☆`547`
 - [VinGarcia/ksql](https://github.com/VinGarcia/ksql) — A Simple and Powerful Golang SQL Library ☆`361`
 - [surrealdb/surrealdb.go](https://github.com/surrealdb/surrealdb.go) — SurrealDB SDK for Golang ☆`318`
 - [nakagami/firebirdsql](https://github.com/nakagami/firebirdsql) — Firebird RDBMS sql driver for Go (golang) ☆`270`
@@ -582,7 +582,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 - [sqlc-dev/sqlc](https://github.com/sqlc-dev/sqlc) — Generate type-safe code from SQL ☆`18,431`
 - [xo/dbtpl](https://github.com/xo/dbtpl) — Generate Go code for databases ☆`3,899`
-- [go-jet/jet](https://github.com/go-jet/jet) — Type-safe SQL builder with codegen ☆`3,827`
+- [go-jet/jet](https://github.com/go-jet/jet) — Type-safe SQL builder with codegen ☆`3,828`
 - [doug-martin/goqu](https://github.com/doug-martin/goqu) — SQL builder and query library for golang ☆`2,675`
 - [lqs/sqlingo](https://github.com/lqs/sqlingo) — A lightweight DSL & ORM which helps you to write SQL in Go. ☆`456`
 - [arthurkushman/buildsqlx](https://github.com/arthurkushman/buildsqlx) — Go database query builder library for PostgreSQL ☆`185`
@@ -615,7 +615,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [raviqqe/muffet](https://github.com/raviqqe/muffet) — Fast website link checker ☆`2,620`
 - [pipe-cd/pipecd](https://github.com/pipe-cd/pipecd) — The One CD for All {applications, platforms, operations} ☆`1,370`
 - [jenkins-zh/jenkins-cli](https://github.com/jenkins-zh/jenkins-cli) — Jenkins CLI allows you to manage your Jenkins in an easy way ☆`432`
-- [vladopajic/go-test-coverage](https://github.com/vladopajic/go-test-coverage) — Report test coverage threshold issues ☆`242`
+- [vladopajic/go-test-coverage](https://github.com/vladopajic/go-test-coverage) — Report test coverage threshold issues ☆`243`
 - [appleboy/drone-scp](https://github.com/appleboy/drone-scp) — Copy files via SSH for Drone ☆`174`
 - [nikogura/gomason](https://github.com/nikogura/gomason) — A tool for testing, building, signing, and publishing binaries. ☆`70`
 - [appleboy/drone-jenkins](https://github.com/appleboy/drone-jenkins) — Drone plugin for trigger Jenkins jobs. ☆`43`
@@ -681,7 +681,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 ## Email
 
 - [axllent/mailpit](https://github.com/axllent/mailpit) — An email and SMTP testing tool with API for developers ☆`10,827`
-- [foxcpp/maddy](https://github.com/foxcpp/maddy) — Composable all-in-one mail server. ☆`6,119`
+- [foxcpp/maddy](https://github.com/foxcpp/maddy) — Composable all-in-one mail server. ☆`6,120`
 - [mjl-/mox](https://github.com/mjl-/mox) — Modern secure mail server ☆`5,929`
 - [matcornic/hermes](https://github.com/matcornic/hermes) — Clean HTML email generator ☆`3,041`
 - [AfterShip/email-verifier](https://github.com/AfterShip/email-verifier) — Email verification without sending emails ☆`1,652`
@@ -973,7 +973,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [confluentinc/confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go) — Confluent's Apache Kafka Golang client ☆`5,175`
 - [olahol/melody](https://github.com/olahol/melody) — Minimalist websocket framework for Go ☆`4,081`
 - [sideshow/apns2](https://github.com/sideshow/apns2) — Apple Push Notification Service ☆`3,191`
-- [lovoo/goka](https://github.com/lovoo/goka) — Kafka stream processing library ☆`2,549`
+- [lovoo/goka](https://github.com/lovoo/goka) — Kafka stream processing library ☆`2,550`
 - [rabbitmq/amqp091-go](https://github.com/rabbitmq/amqp091-go) — An AMQP 0-9-1 Go client maintained by the RabbitMQ team ☆`2,041`
 - [timbray/quamina](https://github.com/timbray/quamina) — Fast pattern-matching library ☆`509`
 - [jandelgado/rabtap](https://github.com/jandelgado/rabtap) — RabbitMQ wire tap and swiss army knife ☆`290`
@@ -1001,7 +1001,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [php/frankenphp](https://github.com/php/frankenphp) — The modern PHP app server ☆`11,511`
 - [expr-lang/expr](https://github.com/expr-lang/expr) — Expression evaluation for Go ☆`8,063`
 - [dop251/goja](https://github.com/dop251/goja) — ECMAScript engine in pure Go ☆`7,184`
-- [yuin/gopher-lua](https://github.com/yuin/gopher-lua) — Lua VM and compiler in Go ☆`7,002`
+- [yuin/gopher-lua](https://github.com/yuin/gopher-lua) — Lua VM and compiler in Go ☆`7,003`
 - [d5/tengo](https://github.com/d5/tengo) — Fast script language for Go ☆`3,845`
 - [Shopify/go-lua](https://github.com/Shopify/go-lua) — Lua VM in Go ☆`3,461`
 - [cel-expr/cel-go](https://github.com/cel-expr/cel-go) — Common Expression Language for Go ☆`3,146`
@@ -1035,7 +1035,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 ### Cryptography
 
 - [FiloSottile/age](https://github.com/FiloSottile/age) — Simple encryption tool ☆`24,194`
-- [authzed/spicedb](https://github.com/authzed/spicedb) — Zanzibar-inspired permissions DB ☆`7,193`
+- [authzed/spicedb](https://github.com/authzed/spicedb) — Zanzibar-inspired permissions DB ☆`7,195`
 - [awnumar/memguard](https://github.com/awnumar/memguard) — Software sandbox for storage of sensitive information in memory. ☆`2,765`
 - [cossacklabs/themis](https://github.com/cossacklabs/themis) — Cryptographic framework for data protection ☆`1,983`
 - [dromara/dongle](https://github.com/dromara/dongle) — A simple, semantic and developer-friendly crypto package for golang ☆`1,104`
@@ -1068,7 +1068,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 ### Benchmarks
 
-- [smallnest/go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark) — Web framework benchmarks ☆`2,130`
+- [smallnest/go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark) — Web framework benchmarks ☆`2,132`
 - [alecthomas/go_serialization_benchmarks](https://github.com/alecthomas/go_serialization_benchmarks) — Serialization benchmarks for Go ☆`1,625`
 - [SimonWaldherr/golang-benchmarks](https://github.com/SimonWaldherr/golang-benchmarks) — Go(lang) benchmarks - (measure the speed of golang) ☆`145`
 ### Code Analysis
@@ -1076,9 +1076,9 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [golangci/golangci-lint](https://github.com/golangci/golangci-lint) — Fast linters runner for Go ☆`19,500`
 - [boyter/scc](https://github.com/boyter/scc) — Fast code counter and stats ☆`8,859`
 - [revive-lint/revive](https://github.com/revive-lint/revive) — Fast, extensible Go linter ☆`5,561`
-- [kisielk/errcheck](https://github.com/kisielk/errcheck) — errcheck checks that you checked errors. ☆`2,532`
+- [kisielk/errcheck](https://github.com/kisielk/errcheck) — errcheck checks that you checked errors. ☆`2,533`
 - [go-critic/go-critic](https://github.com/go-critic/go-critic) — The most opinionated Go source code linter for code audit. ☆`2,079`
-- [daveshanley/vacuum](https://github.com/daveshanley/vacuum) — Fast OpenAPI linter ☆`1,141`
+- [daveshanley/vacuum](https://github.com/daveshanley/vacuum) — Fast OpenAPI linter ☆`1,142`
 - [mdempsky/unconvert](https://github.com/mdempsky/unconvert) — Remove unnecessary type conversions ☆`388`
 - [tomarrell/wrapcheck](https://github.com/tomarrell/wrapcheck) — Check errors are wrapped ☆`373`
 - [mibk/dupl](https://github.com/mibk/dupl) — Code clone detection tool ☆`369`
@@ -1316,11 +1316,11 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [schollz/croc](https://github.com/schollz/croc) — Easily and securely send things from one computer to another ☆`40,864`
 - [qax-os/excelize](https://github.com/qax-os/excelize) — Excel XLSX library for Go ☆`21,062`
 - [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) — PDF processor in Go ☆`8,895`
-- [spf13/afero](https://github.com/spf13/afero) — Filesystem abstraction for Go ☆`6,716`
+- [spf13/afero](https://github.com/spf13/afero) — Filesystem abstraction for Go ☆`6,718`
 - [dundee/gdu](https://github.com/dundee/gdu) — Fast disk usage analyzer ☆`6,175`
 - [unidoc/unioffice](https://github.com/unidoc/unioffice) — Office document library ☆`4,941`
 - [root-gg/plik](https://github.com/root-gg/plik) — Temporary file upload system ☆`1,839`
-- [SebastiaanKlippert/go-wkhtmltopdf](https://github.com/SebastiaanKlippert/go-wkhtmltopdf) — HTML to PDF wrapper ☆`1,178`
+- [SebastiaanKlippert/go-wkhtmltopdf](https://github.com/SebastiaanKlippert/go-wkhtmltopdf) — HTML to PDF wrapper ☆`1,179`
 - [ulikunitz/xz](https://github.com/ulikunitz/xz) — Pure golang package for reading and writing xz-compressed files ☆`561`
 - [mholt/archives](https://github.com/mholt/archives) — Create and extract archives ☆`448`
 - [viant/afs](https://github.com/viant/afs) — Abstract file storage ☆`410`
@@ -1426,7 +1426,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [ozgio/strutil](https://github.com/ozgio/strutil) — String utilities for Go ☆`206`
 ### System & Process
 
-- [cilium/ebpf](https://github.com/cilium/ebpf) — eBPF library for Go ☆`8,029`
+- [cilium/ebpf](https://github.com/cilium/ebpf) — eBPF library for Go ☆`8,030`
 - [maruel/panicparse](https://github.com/maruel/panicparse) — Crash your app in style ☆`3,705`
 - [immortal/immortal](https://github.com/immortal/immortal) — Cross-platform supervisor ☆`844`
 - [derekparker/delve](https://github.com/derekparker/delve) — Delve is a debugger for the Go programming language. ☆`660`
@@ -1484,7 +1484,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [didip/tollbooth](https://github.com/didip/tollbooth) — Simple middleware to rate-limit HTTP requests. ☆`2,847`
 - [unrolled/render](https://github.com/unrolled/render) — Render JSON, XML, HTML, binary ☆`2,000`
 - [lingrino/go-fault](https://github.com/lingrino/go-fault) — go fault injection library ☆`556`
-- [jub0bs/cors](https://github.com/jub0bs/cors) — perhaps the best CORS middleware library for Go ☆`226`
+- [jub0bs/cors](https://github.com/jub0bs/cors) — perhaps the best CORS middleware library for Go ☆`227`
 - [faabiosr/echo-middleware](https://github.com/faabiosr/echo-middleware) — Middlewares for Echo framework ☆`16`
 ### Routers
 
@@ -1588,10 +1588,10 @@ Go libraries, tools, and applications from the community. This awesome list is a
 1. [wagoodman/dive](https://github.com/wagoodman/dive) — Explore Docker image layers ☆`54,699`
 1. [etcd-io/etcd](https://github.com/etcd-io/etcd) — Distributed key-value store ☆`52,444`
 1. [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) — Go implementation of the Ethereum protocol ☆`51,457`
-1. [mudler/LocalAI](https://github.com/mudler/LocalAI) — Local OpenAI alternative ☆`50,188`
+1. [mudler/LocalAI](https://github.com/mudler/LocalAI) — Local OpenAI alternative ☆`50,211`
 1. [milvus-io/milvus](https://github.com/milvus-io/milvus) — Cloud-native vector database ☆`46,581`
 1. [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — A powerful little TUI framework ☆`45,600`
-1. [spf13/cobra](https://github.com/spf13/cobra) — A Commander for modern Go CLI interactions ☆`44,743`
+1. [spf13/cobra](https://github.com/spf13/cobra) — A Commander for modern Go CLI interactions ☆`44,747`
 1. [schollz/croc](https://github.com/schollz/croc) — Easily and securely send things from one computer to another ☆`40,864`
 1. [pingcap/tidb](https://github.com/pingcap/tidb) — Cloud-native distributed SQL DB ☆`40,706`
 1. [gofiber/fiber](https://github.com/gofiber/fiber) — Express inspired web framework written in Go ☆`40,251`
@@ -1607,7 +1607,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 1. [kubernetes/minikube](https://github.com/kubernetes/minikube) — Run Kubernetes locally ☆`32,224`
 1. [grafana/k6](https://github.com/grafana/k6) — A modern load testing tool, using Go and JavaScript ☆`32,143`
 1. [influxdata/influxdb](https://github.com/influxdata/influxdb) — Scalable datastore for metrics, events, and real-time analytics ☆`31,798`
-1. [spf13/viper](https://github.com/spf13/viper) — Go configuration with fangs ☆`30,500`
+1. [spf13/viper](https://github.com/spf13/viper) — Go configuration with fangs ☆`30,502`
 1. [fyne-io/fyne](https://github.com/fyne-io/fyne) — Cross platform GUI toolkit in Go inspired by Material Design ☆`28,813`
 1. [stretchr/testify](https://github.com/stretchr/testify) — Assertions and mocks for testing ☆`26,244`
 1. [go-kratos/kratos](https://github.com/go-kratos/kratos) — Your ultimate Go microservices framework for the cloud-native era. ☆`26,010`
@@ -1631,7 +1631,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 1. [qax-os/excelize](https://github.com/qax-os/excelize) — Excel XLSX library for Go ☆`21,062`
 1. [nats-io/nats-server](https://github.com/nats-io/nats-server) — High-performance NATS message server ☆`21,000`
 1. [gofr-dev/gofr](https://github.com/gofr-dev/gofr) — Microservice framework for Go ☆`20,821`
-1. [antonmedv/fx](https://github.com/antonmedv/fx) — Terminal JSON viewer & processor ☆`20,698`
+1. [antonmedv/fx](https://github.com/antonmedv/fx) — Terminal JSON viewer & processor ☆`20,702`
 1. [apache/casbin](https://github.com/apache/casbin) — Authorization library for Go ☆`20,475`
 1. [go-playground/validator](https://github.com/go-playground/validator) — Struct and field validation for Go ☆`20,217`
 1. [golangci/golangci-lint](https://github.com/golangci/golangci-lint) — Fast linters runner for Go ☆`19,500`
@@ -1661,7 +1661,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 1. [webview/webview](https://github.com/webview/webview) — Tiny webview library for Go ☆`14,335`
 1. [hibiken/asynq](https://github.com/hibiken/asynq) — Simple, reliable, and efficient distributed task queue in Go ☆`13,808`
 1. [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) — A dead simple 2D game engine for Go ☆`13,607`
-1. [gizak/termui](https://github.com/gizak/termui) — Golang terminal dashboard ☆`13,585`
+1. [gizak/termui](https://github.com/gizak/termui) — Golang terminal dashboard ☆`13,583`
 1. [chromedp/chromedp](https://github.com/chromedp/chromedp) — Chrome DevTools Protocol driver ☆`13,355`
 1. [golang/groupcache](https://github.com/golang/groupcache) — Distributed cache library ☆`13,334`
 1. [gogf/gf](https://github.com/gogf/gf) — Powerful full-stack framework ☆`13,297`
