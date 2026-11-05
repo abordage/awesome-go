@@ -314,6 +314,7 @@ categories:
           - url: https://github.com/reugn/go-streams
             description: Stream processing library
           - url: https://github.com/primetalk/goio
+            description: IO, Stream and Fiber for Go, in the style of cats and fs2
           - url: https://github.com/fulminate-io/machine
           - url: https://github.com/mariomac/gostream
             description: Java Streams port for Go
@@ -868,6 +869,7 @@ categories:
           - url: https://github.com/kubenetworks/kubevpn
             description: Connect to Kubernetes cluster network
           - url: https://github.com/abahmed/kwatch
+            description: Watches Kubernetes and reports what broke, why, and what to do
           - url: https://github.com/kubernetes/minikube
           - url: https://github.com/stefanprodan/podinfo
       - name: Load Testing
@@ -1381,6 +1383,7 @@ categories:
           - url: https://github.com/oagudo/outbox
             description: Transactional outbox pattern
           - url: https://github.com/Protocol-Lattice/GoEventBus
+            description: High-performance Go event bus with a decision layer
           - url: https://github.com/goptics/varmq
             description: Zero-dep message queue library
           - url: https://github.com/containrrr/shoutrrr
