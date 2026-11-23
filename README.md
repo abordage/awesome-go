@@ -212,7 +212,7 @@ Go libraries, tools, and applications from the community. This awesome list is a
 - [yeqown/go-qrcode](https://github.com/yeqown/go-qrcode) — Customizable QR code generator ☆`867`
 - [HugoSmits86/nativewebp](https://github.com/HugoSmits86/nativewebp) — Native webp encoder for Go ☆`461`
 - [auyer/steganography](https://github.com/auyer/steganography) — LSB steganography in pure Go ☆`354`
-- [kolesa-team/go-webp](https://github.com/kolesa-team/go-webp) — Pure Go WebP encoder and decoder: lossy, lossless and alpha, with SIMD on amd64 and arm64. No cgo, no libwebp. ☆`314`
+- [kolesa-team/go-webp](https://github.com/kolesa-team/go-webp) — Pure Go WebP encoder and decoder: lossy, lossless and alpha ☆`314`
 - [qmuntal/gltf](https://github.com/qmuntal/gltf) — Go library for encoding glTF 2.0 files ☆`290`
 - [Pixboost/transformimgs](https://github.com/Pixboost/transformimgs) — Open source image CDN. ☆`293`
 - [ungerik/go-cairo](https://github.com/ungerik/go-cairo) — Go binding for the cairo graphics library ☆`152`
@@ -1676,10 +1676,10 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 ## 2 recently updated
 
-> Projects updated recently that have not yet reached the star threshold, sorted by GitHub stars.
+> Projects updated recently that have not yet reached the star threshold, sorted by the latest update.
 
-1. [balinomad/go-mockfs](https://github.com/balinomad/go-mockfs) — Feature-rich filesystem mocking for Go tests: comprehensive error injection, latency simulation, write operations, operation statistics, and standalone file handles. Built on testing/fstest.MapFS with comprehensive fs.FS interface support. ☆`9`
-1. [yanet-platform/xnetip](https://github.com/yanet-platform/xnetip) — Fast IPv4/IPv6 set operations with arbitrary masks and no heap allocation. ☆`1`
+1. [balinomad/go-mockfs](https://github.com/balinomad/go-mockfs) — Filesystem mocks for Go tests, with errors and latency ☆`9`
+1. [yanet-platform/xnetip](https://github.com/yanet-platform/xnetip) — Fast IPv4/IPv6 set operations with arbitrary masks ☆`1`
 
 
 
