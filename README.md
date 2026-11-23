@@ -1674,9 +1674,9 @@ Go libraries, tools, and applications from the community. This awesome list is a
 
 ---
 
-## 2 recently updated
+## 🌱 2 rising
 
-> Projects updated recently that have not yet reached the star threshold, sorted by the latest update.
+> Updated in the last two months, and still under the star threshold. Newest first.
 
 1. [balinomad/go-mockfs](https://github.com/balinomad/go-mockfs) — Filesystem mocks for Go tests, with errors and latency ☆`9`
 1. [yanet-platform/xnetip](https://github.com/yanet-platform/xnetip) — Fast IPv4/IPv6 set operations with arbitrary masks ☆`1`
