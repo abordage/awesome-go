@@ -76,6 +76,7 @@ categories:
           - url: https://github.com/yeqown/go-qrcode
             description: Customizable QR code generator
           - url: https://github.com/kolesa-team/go-webp
+            description: "Pure Go WebP encoder and decoder: lossy, lossless and alpha"
           - url: https://github.com/hybridgroup/gocv
             description: Computer vision with OpenCV 4
           - url: https://github.com/davidbyttow/govips
@@ -1262,7 +1263,7 @@ categories:
           - url: https://github.com/assafmo/joincap
             description: Merge pcap files
           - url: https://github.com/yanet-platform/xnetip
-            description: Fast IPv4/IPv6 set operations with arbitrary masks and no heap allocation.
+            description: "Fast IPv4/IPv6 set operations with arbitrary masks"
       - name: P2P & Torrent
         repos:
           - url: https://github.com/anacrolix/dht
@@ -1612,6 +1613,7 @@ categories:
           - url: https://github.com/xhd2015/xgo
             description: All-in-one Go testing library
           - url: https://github.com/balinomad/go-mockfs
+            description: "Filesystem mocks for Go tests, with errors and latency"
           - url: https://github.com/brianvoe/gofakeit
           - url: https://github.com/mocktools/go-smtp-mock
             description: SMTP mock server for testing
